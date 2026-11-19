@@ -7,10 +7,10 @@
 
   **Wallet security · Pre-execution decisions · Economic authority · Governed accounts · Forensic evidence**
 
-  [**Arquitectura**](#arquitectura--architecture) · [**Pruebas**](#pruebas-históricas-verificadas-en-su-alcance) · [**Mecanismos**](#índice-completo-de-mecanismos) · [**Imágenes**](#galería-real-del-atlas) · [**English**](#english-overview)
+  [**Arquitectura**](#arquitectura--architecture) · [**Pruebas**](#pruebas-históricas-verificadas-en-su-alcance) · [**Mecanismos**](#índice-completo-de-mecanismos) · [**Superficies públicas**](docs/en/public-surfaces.md) · [**English README**](README_EN.md)
 </div>
 
-> **Qué es este repositorio:** el atlas técnico y visual **nativo de GitHub** de KINEGuard/KINE OS. Se puede leer completo aquí; **no hace falta ejecutar localhost, instalar software ni abrir otro website**. Incluye capturas auténticas de la *documentación estática*, diagramas explicativos, inventario de mecanismos, pruebas históricas y límites explícitos. **No** es un despliegue del producto ni una certificación de beta.
+> **Qué es este repositorio:** el atlas técnico y visual **nativo de GitHub** de KINEGuard/KINE OS. Incluye capturas reales del producto local controlado, material histórico, observación pública y límites explícitos. **No** es el runtime privado, un despliegue del producto ni una certificación de beta.
 
 ![KINEGuard local product capture — customer spending limits](assets/screenshots/local-controlled/customer-spending-limits.png)
 

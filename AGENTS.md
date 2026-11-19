@@ -13,6 +13,8 @@ This repository is the public, documentation-only atlas for KINEGuard and KINE O
 5. [Security boundaries](docs/security-boundaries.md)
 6. [KINE AI roadmap](docs/en/kine-ai.md)
 7. [Structured capability catalog](docs/capability-catalog.json)
+8. [Public surface map](docs/en/public-surfaces.md)
+9. [Researcher and AI-agent briefing](docs/agent-knowledge-base.md)
 
 ## Evidence rules
 
