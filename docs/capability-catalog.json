@@ -395,6 +395,60 @@
       "limitations": [
         "There is no operational hosted immutable audit archive in this beta."
       ]
+    },
+    {
+      "id": "extension.browser-observation",
+      "name": "KINE Guard Browser Observation",
+      "documentation_es": "docs/es/chrome-extension/index.md",
+      "documentation_en": "docs/en/chrome-extension/index.md",
+      "coverage_es": "docs/es/chrome-extension/wallet-coverage.md",
+      "coverage_en": "docs/en/chrome-extension/wallet-coverage.md",
+      "evidence_class": "PUBLIC_UI_OBSERVED",
+      "current_production_enforcement": "NOT_CERTIFIED",
+      "limitations": [
+        "Public website Layer 2 is read-only beta warning/observation; no universal blocking"
+      ],
+      "reference": [
+        "https://app.notion.com/p/41bd5f4fa5e3814e948bf911dddef7ef",
+        "https://app.notion.com/p/379d5f4fa5e38136967dfd04e030195b",
+        "https://kineguard.com/kine"
+      ]
+    },
+    {
+      "id": "extension.gp1a-pre-forward",
+      "name": "GP1A pre-provider request decision",
+      "documentation_es": "docs/es/chrome-extension/index.md",
+      "documentation_en": "docs/en/chrome-extension/index.md",
+      "coverage_es": "docs/es/chrome-extension/wallet-coverage.md",
+      "coverage_en": "docs/en/chrome-extension/wallet-coverage.md",
+      "evidence_class": "HISTORICAL_TESTNET_VERIFIED",
+      "current_production_enforcement": "NOT_CERTIFIED",
+      "limitations": [
+        "Chrome + MetaMask + Sepolia, supported EIP-1193 requests only; documented GP1A T1–T4"
+      ],
+      "reference": [
+        "https://app.notion.com/p/41bd5f4fa5e3814e948bf911dddef7ef",
+        "https://app.notion.com/p/379d5f4fa5e38136967dfd04e030195b",
+        "https://kineguard.com/kine"
+      ]
+    },
+    {
+      "id": "extension.multi-wallet-adapters",
+      "name": "Wallet Adapter Expansion",
+      "documentation_es": "docs/es/chrome-extension/index.md",
+      "documentation_en": "docs/en/chrome-extension/index.md",
+      "coverage_es": "docs/es/chrome-extension/wallet-coverage.md",
+      "coverage_en": "docs/en/chrome-extension/wallet-coverage.md",
+      "evidence_class": "DESIGN_ROADMAP",
+      "current_production_enforcement": "NOT_CERTIFIED",
+      "limitations": [
+        "No Solana, Bitcoin, Rabby, Coinbase or WalletConnect equivalent interception certification"
+      ],
+      "reference": [
+        "https://app.notion.com/p/41bd5f4fa5e3814e948bf911dddef7ef",
+        "https://app.notion.com/p/379d5f4fa5e38136967dfd04e030195b",
+        "https://kineguard.com/kine"
+      ]
     }
   ]
 }

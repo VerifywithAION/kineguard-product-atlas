@@ -12,3 +12,13 @@
 - Capabilities: docs/capability-catalog.json
 
 Images are exactly shared between language versions. Do not claim universal EOA enforcement or current complete beta certification.
+
+
+## Chrome extension technical reference
+
+- Spanish: docs/es/chrome-extension/index.md
+- English: docs/en/chrome-extension/index.md
+- Wallet matrix Spanish: docs/es/chrome-extension/wallet-coverage.md
+- Wallet matrix English: docs/en/chrome-extension/wallet-coverage.md
+- Screenshot evidence Spanish: docs/es/chrome-extension/proofs-and-screenshots.md
+- Screenshot evidence English: docs/en/chrome-extension/proofs-and-screenshots.md

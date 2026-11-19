@@ -153,3 +153,12 @@ La documentación permite explorar una conexión conceptual pre-sign entre agent
 UI observada, pruebas CI, imágenes locales, prueba Sepolia y roadmap deben clasificarse por separado. KINEGuard no ofrece bloqueo universal EOA, protección mainnet certificada ni archivo inmutable hospedado en la beta.
 
 [https://kineguard.com](https://kineguard.com) · [Manual completo](docs/es/index.md)
+
+
+## 13. Chrome Extension — Protección antes del proveedor
+
+La extensión MV3 dispone de un manual específico sobre avisos, solicitudes exactas, ALLOW/WARN/DENY, Continue/Cancel, errores de observabilidad, trazas y pruebas históricas GP1A en Chrome/MetaMask/Sepolia. Incluye una matriz de expansión prevista a Rabby, Coinbase, Solana, Bitcoin, hardware, Safe y WalletConnect, **sin atribuirles una certificación de bloqueo que aún no existe**.
+
+- [Manual completo de la extensión (ES)](docs/es/chrome-extension/index.md)
+- [Compatibilidad y estatus por wallet (ES)](docs/es/chrome-extension/wallet-coverage.md)
+- [Pruebas, capturas y límites (ES)](docs/es/chrome-extension/proofs-and-screenshots.md)

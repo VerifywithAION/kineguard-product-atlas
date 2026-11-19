@@ -38,3 +38,10 @@
 - [Architecture and boundaries](architecture.md)
 - [Nine controls](controls.md)
 - [Historical proofs](historical-proofs.md)
+
+
+## Chrome Extension / Pre-execution
+
+- [Technical and user manual](chrome-extension/index.md)
+- [Wallet and ecosystem matrix](chrome-extension/wallet-coverage.md)
+- [Proofs and screenshots](chrome-extension/proofs-and-screenshots.md)

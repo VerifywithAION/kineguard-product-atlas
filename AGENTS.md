@@ -10,3 +10,12 @@ The menus use exact routes and anchors. Protection contains six distinct routes.
 Do not conflate UI visibility with execution. OBSERVED, PRE-EXECUTION COVERED and KINE GOVERNED are separate. Browser DENY is not Safety Authority on-chain veto. Current nine-control customer acceptance is not established. Local screenshots are not current Hostinger screenshots.
 
 See [structured catalog](docs/capability-catalog.json), [ES architecture](docs/es/architecture.md), [EN architecture](docs/en/architecture.md), [ES proofs](docs/es/historical-proofs.md), [EN proofs](docs/en/historical-proofs.md).
+
+
+## Chrome Extension and multi-wallet truth boundary
+
+- [ES full Chrome extension manual](docs/es/chrome-extension/index.md) / [EN](docs/en/chrome-extension/index.md).
+- [ES wallet compatibility](docs/es/chrome-extension/wallet-coverage.md) / [EN](docs/en/chrome-extension/wallet-coverage.md).
+- GP1A proofs apply to exact historically supported Chrome + MetaMask + Sepolia browser requests, not every provider or attack.
+- Public website currently classifies the extension beta as read-only observation and signing-context warnings. Do not silently promote historical pre-forward lab tests into universal production enforcement.
+- Connection availability for Rabby, Coinbase, Solana, Bitcoin, WalletConnect or hardware does not certify equivalent interception.
