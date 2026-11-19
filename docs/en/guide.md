@@ -1,33 +1,33 @@
-# How to read this GitHub Atlas
+# Complete KINEGuard guide
 
-This repository is self-contained for readers. No localhost or separate website is required. Open the [public homepage](../../README.md), [real screenshots](../../README.md#galería-real-del-atlas), [architecture](../architecture.md), [historical proofs](../evidence-and-proofs.md), [Economic Exposure](../economic-exposure-model.md), [governance timing](../deep-dives/06-recursive-governance.md), [agent/Guardian boundaries](../deep-dives/07-agents-guardian-evidence.md) and [KINE AI roadmap](kine-ai.md).
+[Español](../es/guide.md) · [English](../en/guide.md) · [Manual](index.md)
 
-# KINEGuard Guide
+![KINEGuard](../../assets/screenshots/local-controlled/customer-spending-limits.png)
 
-## What KINEGuard protects
+## 1. Before connecting
 
-KINEGuard helps a user inspect wallet posture and apply policy at supported execution boundaries. It is not a universal replacement for wallet security, custody, signing, or chain confirmation.
+KINEGuard explains risk and context before signing. This read-only journey never asks for seed phrases or private keys. Connecting an EOA does not automatically grant contractual protection.
 
-## A truthful journey
+## 2. Protection walkthrough
 
-1. Connect a wallet and verify identity and chain context.
-2. Review Wallet Health, approvals, policy scope, and evidence.
-3. Open an owned wallet record and inspect the available mechanisms.
-4. Change only controls backed by an account-owned policy API.
-5. Treat observations, policy-change receipts, provider outcomes, and chain confirmations as different evidence classes.
+Visit [Connect](menus/protection/connect.md) to select a provider; [Wallet Posture](menus/protection/wallet-posture.md) for address/chain and source; [Approval Intelligence](menus/protection/approval-intelligence.md) for spender/allowance inspection without revocation; [Action Review](menus/protection/action-review.md) for consequence previews; and [Guardian](menus/protection/guardian.md) for alerts and evidence.
 
-## Evidence vocabulary
+## 3. Governed execution
 
-**LIVE** means produced by the current runtime. **VERIFIED** means independently checked against an authority. **HISTORICAL** means preserved evidence from an earlier run. **SYNTHETIC** means laboratory data. **OBSERVATION_ONLY** does not prove forwarding, blocking, or finality. **UNAVAILABLE** means the product refuses to infer protection.
+[Governed Protection](menus/protection/governed-protection.md) separates read-only web, extension, SDK Alpha and governed-contract accounts. Historical GP1A/V3 Sepolia is not universal deployment.
 
-## Browser Protection scope
+![Execution boundaries](../../assets/diagrams/execution-boundaries.svg)
 
-The historical extension acceptance covered a bounded wrapper and supported request families. It does not establish universal EOA protection. A request must remain bound to the expected provider, origin, chain, wallet, session, policy revision, and request identity before any forwarding decision.
+## 4. Agents and model consumption
 
-## KINE AI status
+Under [Agents](menus/agents/index.md), inspect Identity, Permissions, Requests, Decisions and History; Proposal-only cannot sign. Under [Token Economy](menus/token-economy/index.md), separate Reasoning Needed, Reuse, Provider Calls and Measurements; estimated is not billed usage.
 
-[KINE AI Intelligence](kine-ai.md) is a **DESIGN / ROADMAP** capability, not a released feature. Its intended read-only foundation would ground explanations in canonical KINE state while KINE OS keeps governance and execution authority. KAI-01 requires productization, reliable reads, isolation, and human acceptance first.
+![Agent Arena](../../assets/screenshots/local-controlled/agent-arena.png)
 
-## Limitations
+## 5. History, sessions and audit
 
-Do not interpret a saved spending policy as proof that a transaction was sent or blocked. Do not interpret a UI selector as an enforcement authority. Unsupported controls remain unavailable or read-only until a canonical backend and runtime test exist.
+[Evidence](menus/evidence/index.md) covers History, Structured Records, Sessions and Audit; policy-change does not mean chain finality. The Audit route explicitly states that a hosted immutable archive is not available in this beta.
+
+## 6. Proofs and limitations
+
+The nine screenshots belong to controlled-local product builds; they do not represent the current Hostinger build. Read [historical proofs](historical-proofs.md) and [nine controls](controls.md) for exact boundaries.

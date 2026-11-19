@@ -1,30 +1,50 @@
-# Public Surface Map
+# Complete public surface map
 
-This page describes the visible public navigation families. A menu label is not, by itself, proof of a distinct route or operational enforcement.
+[Español](../es/public-surfaces.md) · [English](../en/public-surfaces.md) · [Manual](index.md)
+
+All options in the four public menus are listed. A menu option may be a separate route or an anchor; this is not in itself proof of enforcement.
 
 ## Protection
 
-| Surface | User intent | Evidence class | Do not assume |
-|---|---|---|---|
-| Connect | Begin wallet connection and inspection | UI / READ-ONLY | Connection alone protects an EOA |
-| Wallet Posture | Understand wallet identity, chain, and protection state | UI / READ-ONLY | Observed value is governed value |
-| Approval Intelligence | Inspect approval-related risk | UI / READ-ONLY | Inspection revokes approvals |
-| Action Review | Review a supported request before provider forwarding | TESTNET VERIFIED, bounded | Every RPC or provider is covered |
-| Guardian | View emergency/evidence concepts and account posture | UI / READ-ONLY | A visible Guardian is an active universal veto |
-| Governed Protection | Understand the governed execution path | TESTNET VERIFIED, exact historical scope | Connected-wallet status creates governance |
+| Option | Actual route | User guide |
+|---|---|---|
+| Connect | [/connect](https://kineguard.com/connect) | [Instructions](menus/protection/connect.md) |
+| Wallet Posture | [/wallet-health](https://kineguard.com/wallet-health) | [Instructions](menus/protection/wallet-posture.md) |
+| Approval Intelligence | [/approvals](https://kineguard.com/approvals) | [Instructions](menus/protection/approval-intelligence.md) |
+| Action Review | [/preview](https://kineguard.com/preview) | [Instructions](menus/protection/action-review.md) |
+| Guardian | [/guardian](https://kineguard.com/guardian) | [Instructions](menus/protection/guardian.md) |
+| Governed Protection | [/kine](https://kineguard.com/kine) | [Instructions](menus/protection/governed-protection.md) |
 
 ## Agents
 
-Identity identifies an agent or proposal context. Permissions describes intended authority. Requests are proposed actions. Decisions are governance outcomes. History is an evidence-oriented view of prior events. Agent governance is not wallet ownership: a proposal or agent label is not a signing key and does not grant spend authority.
+| Option | Actual route | User guide |
+|---|---|---|
+| Identity | [/agent-arena#identity](https://kineguard.com/agent-arena#identity) | [Instructions](menus/agents/identity.md) |
+| Permissions | [/agent-arena#permissions](https://kineguard.com/agent-arena#permissions) | [Instructions](menus/agents/permissions.md) |
+| Requests | [/agent-arena#requests](https://kineguard.com/agent-arena#requests) | [Instructions](menus/agents/requests.md) |
+| Decisions | [/agent-arena#decisions](https://kineguard.com/agent-arena#decisions) | [Instructions](menus/agents/decisions.md) |
+| History | [/receipts#history](https://kineguard.com/receipts#history) | [Instructions](menus/agents/history.md) |
 
 ## Token Economy
 
-Reasoning Needed? describes explanatory or decision-support context. Reuse concerns reusable work or measured resources. Provider Calls records or discusses external model/provider interactions. Measurements are telemetry or estimates, not wallet policy. None of these labels alone proves an economic limit, a chain effect, or a customer balance.
+| Option | Actual route | User guide |
+|---|---|---|
+| Reasoning Needed? | [/token-economy#reasoning-needed](https://kineguard.com/token-economy#reasoning-needed) | [Instructions](menus/token-economy/reasoning-needed.md) |
+| Reuse | [/token-economy#reuse](https://kineguard.com/token-economy#reuse) | [Instructions](menus/token-economy/reuse.md) |
+| Provider Calls | [/token-economy#provider-calls](https://kineguard.com/token-economy#provider-calls) | [Instructions](menus/token-economy/provider-calls.md) |
+| Measurements | [/token-economy#measurements](https://kineguard.com/token-economy#measurements) | [Instructions](menus/token-economy/measurements.md) |
 
 ## Evidence
 
-History is a chronological view. Structured Records are normalized evidence objects. Sessions describe authenticated or browser context. Audit is an accountability view. Visible logs, policy-change records, provider decisions, transaction receipts, and cryptographic/on-chain proof are different evidence types.
+| Option | Actual route | User guide |
+|---|---|---|
+| History | [/receipts#history](https://kineguard.com/receipts#history) | [Instructions](menus/evidence/history.md) |
+| Structured Records | [/receipts#structured-records](https://kineguard.com/receipts#structured-records) | [Instructions](menus/evidence/structured-records.md) |
+| Sessions | [/session-intelligence](https://kineguard.com/session-intelligence) | [Instructions](menus/evidence/sessions.md) |
+| Audit | [/audit](https://kineguard.com/audit) | [Instructions](menus/evidence/audit.md) |
 
-## Environment boundary
+## Verifiable boundaries
 
-The public site is observed separately from local controlled screenshots, CI, historical Sepolia experiments, and roadmap material. Current production status is `LIVE VERIFIED` only when the exact deployed build and functional behavior are identified; this atlas does not make that claim for these surfaces.
+Connect is inspection. Approval Intelligence does not revoke. Action Review is preview. Guardian is not Safety Authority. Token Economy data may be estimated. Evidence Audit currently has no hosted immutable archive.
+
+![KINEGuard context](../../assets/screenshots/local-controlled/kine-lite-wallet-posture.png)

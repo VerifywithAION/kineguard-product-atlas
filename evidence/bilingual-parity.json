@@ -6,7 +6,7 @@
   ],
   "relative_paths_identical": true,
   "relative_image_paths_identical": true,
-  "localized_files_per_language": 27,
+  "localized_files_per_language": 31,
   "menu_entries": 19,
   "es_files": [
     "architecture.md",
@@ -65,5 +65,6 @@
     "menus/token-economy/provider-calls.md",
     "menus/token-economy/reasoning-needed.md",
     "menus/token-economy/reuse.md"
-  ]
+  ],
+  "inherited_locale_files_mirrored": true
 }
