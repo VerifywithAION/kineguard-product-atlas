@@ -1,0 +1,24 @@
+# Security Decisions
+
+> **Public evidence class: LAB / CI VERIFIED — BOUNDED.** A visible control or illustrative UI cannot certify an operating protection mechanism.
+
+## Mechanism and customer meaning
+
+Connect exact request ID, owner, wallet, provider, chain, origin, decoded method, policy revision/hash, deterministic verdict, human choice, provider handoff and a typed receipt.
+
+## Evidence actually available
+
+Historical browser decisions + synthetic R1A/R1B policy-change receipts; E2E05 runtime integration was not fully certified.
+
+## Limits and release gate
+
+Do not represent policy edits as denials, decision receipts as mined transactions, or sessionStorage-only traces as durable evidence.
+
+## Forensic acceptance questions
+
+- Is the action scoped to the **same account, wallet, chain, provider and policy revision**?
+- Does the visible result distinguish observation, policy change, blocked provider handoff and chain execution?
+- Does an expired request or a mismatched owner fail closed?
+- Is the result supported by a reproducible runtime proof, rather than an interface label?
+
+**Read more:** [architecture](../docs/architecture.md) · [evidence and proofs](../docs/evidence-and-proofs.md) · [capability matrix](../docs/capability-matrix.md) · [main README](../README.md).
