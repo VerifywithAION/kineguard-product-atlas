@@ -12,7 +12,25 @@
 
 > **Qué es este repositorio:** el atlas técnico y visual **nativo de GitHub** de KINEGuard/KINE OS. Se puede leer completo aquí; **no hace falta ejecutar localhost, instalar software ni abrir otro website**. Incluye capturas auténticas de la *documentación estática*, diagramas explicativos, inventario de mecanismos, pruebas históricas y límites explícitos. **No** es un despliegue del producto ni una certificación de beta.
 
-![KINEGuard Product Atlas — captura real del preview estático, no del runtime protegido](assets/screenshots/atlas/landing-desktop.png)
+![KINEGuard local product capture — customer spending limits](assets/screenshots/local-controlled/customer-spending-limits.png)
+
+## Capturas reales del producto local
+
+Estas nueve imágenes son capturas del KINEGuard local controlado, no del despliegue Hostinger. Sus estados, cifras y límites se conservan; los identificadores de wallet visibles fueron redactados para publicación. No prueban producción, enforcement universal ni transacciones on-chain.
+
+| Superficie | Captura |
+|---|---|
+| Customer Spending Limits | ![Customer Spending Limits](assets/screenshots/local-controlled/customer-spending-limits.png) |
+| Admin MetaMask / Sepolia | ![Admin MetaMask Sepolia](assets/screenshots/local-controlled/admin-metamask-sepolia.png) |
+| Wallet Portfolio | ![Portfolio wallets](assets/screenshots/local-controlled/admin-portfolio-wallets.png) |
+| Tokenized assets | ![Tokenized assets](assets/screenshots/local-controlled/admin-portfolio-assets.png) |
+| Treasury Agent | ![Treasury Agent](assets/screenshots/local-controlled/treasury-agent.png) |
+| Agent Arena | ![Agent Arena](assets/screenshots/local-controlled/agent-arena.png) |
+| Token Economy | ![Token Economy](assets/screenshots/local-controlled/token-economy.png) |
+| KINE Lite wallet posture | ![KINE Lite](assets/screenshots/local-controlled/kine-lite-wallet-posture.png) |
+| Treasury reserve asset | ![Treasury reserve](assets/screenshots/local-controlled/asset-treasury-reserve.png) |
+
+Source, redaction and classification are recorded in [the screenshot manifest](evidence/screenshot-manifest.md). The older Atlas screenshots remain historical documentation only and are not product proof.
 
 ## La tesis
 

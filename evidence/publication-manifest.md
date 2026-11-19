@@ -8,6 +8,8 @@
 - Architecture, evidence ledger, seven detailed technical deep dives, nine consumer-mechanism pages, product/Guardian/AI descriptions.
 - Original authentic brand PNG plus a cropped derivative preserving original pixels.
 - Genuine user-uploaded static Atlas screenshots with immutable SHA-256 record.
+- Nine owner-provided local-controlled product screenshots with public-safe redactions and a separate private intake backup.
+- `AGENTS.md`, `llms.txt`, and `docs/capability-catalog.json` for researcher and agent-readable navigation.
 - Editable conceptual SVG diagrams, clearly distinguished from screenshots or execution traces.
 - Original R2/R3 public static preview under `demo/` solely as historical screenshot context. **Readers are not required to execute it or use any local website**.
 

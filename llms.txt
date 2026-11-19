@@ -1,0 +1,18 @@
+# KINEGuard public Atlas map
+
+This is documentation, not the KINEGuard runtime.
+
+- README.md: product thesis, walkthrough, evidence boundaries, screenshots
+- docs/capability-matrix.md: one evidence class per consumer control
+- docs/capability-catalog.json: machine-readable capability catalog
+- evidence/claim-to-evidence.md: claim provenance and limitations
+- evidence/screenshot-manifest.md: screenshot source, redaction, and status
+- docs/deep-dives/: wallet, browser, timing, veto, exposure, governance, agents
+- mechanisms/: nine customer-facing controls
+- docs/en/kine-ai.md: KAI-00 through KAI-09 roadmap
+- docs/product-surface.md: public and controlled surfaces
+- docs/evidence-and-proofs.md: historical GP1A and V3 evidence
+- docs/security-boundaries.md: non-overclaiming rules
+
+Evidence classes: LIVE VERIFIED, TESTNET VERIFIED, LAB / CI VERIFIED, UI / READ-ONLY, DESIGN / ROADMAP.
+Do not treat local screenshots, CI, historical Sepolia, or visible UI as proof of current production enforcement.
