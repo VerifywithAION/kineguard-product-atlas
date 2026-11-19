@@ -96,7 +96,36 @@ The architectural objective is to reuse the same governance invariants (identity
 Do not publish extensions with private user identifiers, session data, full wallet addresses linked to a person, full request traces, cookies or secrets. November 10 screenshots were precisely cropped to exclude Chrome/Google UI; one trace also has part of address/payload redacted. They are genuine local visual evidence, not the full experiment and not a production-user installed extension. Approved-build distribution should be documented separately when available.
 
 <!-- KINE_EXTENSION_GALLERY_START -->
-**Gallery:** five reviewed cropped images are prepared for binary incorporation into the repository. Until GitHub contains the PNGs, this section does not claim published images.
+### popup-no-active-request.png
+
+![Authentic KINE Guard controlled-local extension screenshot](../../../assets/screenshots/chrome-extension/popup-no-active-request.png)
+
+**CONTROLLED_LOCAL, 2026-11-10** — UI local: sin solicitud activa; observación, no enforcement. Not a production Hostinger capture or proof of universal enforcement.
+
+### popup-content-scope-not-ready.png
+
+![Authentic KINE Guard controlled-local extension screenshot](../../../assets/screenshots/chrome-extension/popup-content-scope-not-ready.png)
+
+**CONTROLLED_LOCAL, 2026-11-10** — UI local: diagnóstico content script sin respuesta. Not a production Hostinger capture or proof of universal enforcement.
+
+### popup-provider-bridge-ready.png
+
+![Authentic KINE Guard controlled-local extension screenshot](../../../assets/screenshots/chrome-extension/popup-provider-bridge-ready.png)
+
+**CONTROLLED_LOCAL, 2026-11-10** — UI local: bridge listo en origen de laboratorio. Not a production Hostinger capture or proof of universal enforcement.
+
+### popup-denied-before-forwarding.png
+
+![Authentic KINE Guard controlled-local extension screenshot](../../../assets/screenshots/chrome-extension/popup-denied-before-forwarding.png)
+
+**CONTROLLED_LOCAL, 2026-11-10** — UI local: solicitud sospechosa DENY antes del proveedor; status observation-only. Not a production Hostinger capture or proof of universal enforcement.
+
+### popup-preexecution-trace.png
+
+![Authentic KINE Guard controlled-local extension screenshot](../../../assets/screenshots/chrome-extension/popup-preexecution-trace.png)
+
+**CONTROLLED_LOCAL, 2026-11-10** — UI local: traza mostrada sin dirección completa. Not a production Hostinger capture or proof of universal enforcement.
+
 <!-- KINE_EXTENSION_GALLERY_END -->
 
 ## 12. Sources and claim levels

@@ -13,7 +13,7 @@
 
 ## 2. Galería del 10 de noviembre: cinco recortes auténticos
 
-Los PNG siguientes se prepararon a partir de las capturas del propietario sin regenerar la interfaz. Se recortó la UI de Chrome y se redactó un fragmento con dirección/payload. El paquete visual está preparado; los archivos binarios todavía no forman parte de este commit de documentación.
+Los PNG siguientes se prepararon a partir de las capturas del propietario sin regenerar la interfaz. Se recortó la UI de Chrome y se redactó un fragmento con dirección/payload. Los cinco recortes originales y sus hashes ya forman parte del repositorio público.
 
 | Archivo preparado | Qué muestra | Estado verificable |
 |---|---|---|
@@ -24,7 +24,36 @@ Los PNG siguientes se prepararon a partir de las capturas del propietario sin re
 | popup-preexecution-trace.png | Traza decision=deny con provider outcome=pending; dirección/payload redactados | CONTROLLED_LOCAL / 2026-11-10 |
 
 <!-- KINE_EXTENSION_EVIDENCE_GALLERY_START -->
-Imágenes recortadas pendientes de carga binaria en GitHub; no se añaden enlaces a archivos inexistentes.
+### popup-no-active-request.png
+
+![Authentic KINE Guard controlled-local extension screenshot](../../../assets/screenshots/chrome-extension/popup-no-active-request.png)
+
+**CONTROLLED_LOCAL, 2026-11-10** — UI local: sin solicitud activa; observación, no enforcement. Not a production Hostinger capture or proof of universal enforcement.
+
+### popup-content-scope-not-ready.png
+
+![Authentic KINE Guard controlled-local extension screenshot](../../../assets/screenshots/chrome-extension/popup-content-scope-not-ready.png)
+
+**CONTROLLED_LOCAL, 2026-11-10** — UI local: diagnóstico content script sin respuesta. Not a production Hostinger capture or proof of universal enforcement.
+
+### popup-provider-bridge-ready.png
+
+![Authentic KINE Guard controlled-local extension screenshot](../../../assets/screenshots/chrome-extension/popup-provider-bridge-ready.png)
+
+**CONTROLLED_LOCAL, 2026-11-10** — UI local: bridge listo en origen de laboratorio. Not a production Hostinger capture or proof of universal enforcement.
+
+### popup-denied-before-forwarding.png
+
+![Authentic KINE Guard controlled-local extension screenshot](../../../assets/screenshots/chrome-extension/popup-denied-before-forwarding.png)
+
+**CONTROLLED_LOCAL, 2026-11-10** — UI local: solicitud sospechosa DENY antes del proveedor; status observation-only. Not a production Hostinger capture or proof of universal enforcement.
+
+### popup-preexecution-trace.png
+
+![Authentic KINE Guard controlled-local extension screenshot](../../../assets/screenshots/chrome-extension/popup-preexecution-trace.png)
+
+**CONTROLLED_LOCAL, 2026-11-10** — UI local: traza mostrada sin dirección completa. Not a production Hostinger capture or proof of universal enforcement.
+
 <!-- KINE_EXTENSION_EVIDENCE_GALLERY_END -->
 
 ## 3. Cómo interpretar fallos de observabilidad

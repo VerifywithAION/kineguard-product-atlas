@@ -1,0 +1,69 @@
+{
+    "scope":  "KINEGuard Chrome extension cropped owner screenshots",
+    "source_date":  "2026-11-10",
+    "classification":  "CONTROLLED_LOCAL",
+    "public_site_capture":  false,
+    "no_hostinger_proof":  true,
+    "assets":  [
+                   {
+                       "name":  "popup-no-active-request.png",
+                       "sha256":  "0205CB29D9ED006B15E7731FFA06833BD30B2C53E8F0B8A711966297A76409D8",
+                       "bytes":  92720,
+                       "source_date":  "2026-11-10",
+                       "source_class":  "CONTROLLED_LOCAL",
+                       "source_original":  "Screenshot 2026-11-10 120518.png",
+                       "crop":  "131,102,599,714",
+                       "redaction":  "none",
+                       "description":  "UI local: sin solicitud activa; observación, no enforcement",
+                       "hostinger_capture":  false
+                   },
+                   {
+                       "name":  "popup-content-scope-not-ready.png",
+                       "sha256":  "F4C10DF4C88D7A2BE316E16C411A9BEE40F1B83E3ACF627B2F5A1166D4D0EF40",
+                       "bytes":  45342,
+                       "source_date":  "2026-11-10",
+                       "source_class":  "CONTROLLED_LOCAL",
+                       "source_original":  "Screenshot 2026-11-10 120512.png",
+                       "crop":  "174,100,648,756",
+                       "redaction":  "none",
+                       "description":  "UI local: diagnóstico content script sin respuesta",
+                       "hostinger_capture":  false
+                   },
+                   {
+                       "name":  "popup-provider-bridge-ready.png",
+                       "sha256":  "9065B2AE11BB3CB3B62982641ACE8F10EDE8D2807A2FAF127C26A3DBCA606D40",
+                       "bytes":  76716,
+                       "source_date":  "2026-11-10",
+                       "source_class":  "CONTROLLED_LOCAL",
+                       "source_original":  "Screenshot 2026-11-10 121358(1).png",
+                       "crop":  "162,102,636,853",
+                       "redaction":  "none",
+                       "description":  "UI local: bridge listo en origen de laboratorio",
+                       "hostinger_capture":  false
+                   },
+                   {
+                       "name":  "popup-denied-before-forwarding.png",
+                       "sha256":  "FE18DB0811E853D0552D3B5C84BEFF45455EDCB047697418EEBFE93C74F3C21E",
+                       "bytes":  103705,
+                       "source_date":  "2026-11-10",
+                       "source_class":  "CONTROLLED_LOCAL",
+                       "source_original":  "Screenshot 2026-11-10 201806(1).png",
+                       "crop":  "1126,0,1595,740",
+                       "redaction":  "none",
+                       "description":  "UI local: solicitud sospechosa DENY antes del proveedor; status observation-only",
+                       "hostinger_capture":  false
+                   },
+                   {
+                       "name":  "popup-preexecution-trace.png",
+                       "sha256":  "BB5C239FAEC9830C41A3553B543AE71DDF53472921AFEF63C7A33C12F4CB8616",
+                       "bytes":  56303,
+                       "source_date":  "2026-11-10",
+                       "source_class":  "CONTROLLED_LOCAL",
+                       "source_original":  "Screenshot 2026-11-10 201823(1).png",
+                       "crop":  "31,9,500,758",
+                       "redaction":  "20,608,434,748",
+                       "description":  "UI local: traza mostrada sin dirección completa",
+                       "hostinger_capture":  false
+                   }
+               ]
+}

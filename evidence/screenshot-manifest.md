@@ -46,3 +46,15 @@ These are the hashes of the public copies after the limited redaction described 
 | `assets/screenshots/local-controlled/kine-lite-wallet-posture.png` | `50D35ECF5B254DD9D9FD1A0EDA6E72A5FEB3B1BBBB1C5A03BDF94A4CD9454BE2` |
 | `assets/screenshots/local-controlled/token-economy.png` | `8FD12E39C7ED1172A6EBBE55FA2634EDF27B3E6F534FFCFB5EFE3CE8E32098AA` |
 | `assets/screenshots/local-controlled/treasury-agent.png` | `B6A72922331451E665EC2D6550BE84B390780AEE56993F21780D920AB169503D` |
+
+## Chrome extension cropped evidence (2026-11-10)
+
+These five screenshots are exact privacy-cropped pixels from controlled-local KINEGuard extension captures. They are not current Hostinger or all-wallet enforcement proof. Chrome menus were excluded, with an address/payload segment additionally redacted in one trace.
+
+| Image | SHA-256 | Provenance |
+|---|---|---|
+| [ popup-no-active-request.png ](../assets/screenshots/chrome-extension/popup-no-active-request.png) | 0205CB29D9ED006B15E7731FFA06833BD30B2C53E8F0B8A711966297A76409D8 | LOCAL_CONTROLLED / 2026-11-10 |
+| [ popup-content-scope-not-ready.png ](../assets/screenshots/chrome-extension/popup-content-scope-not-ready.png) | F4C10DF4C88D7A2BE316E16C411A9BEE40F1B83E3ACF627B2F5A1166D4D0EF40 | LOCAL_CONTROLLED / 2026-11-10 |
+| [ popup-provider-bridge-ready.png ](../assets/screenshots/chrome-extension/popup-provider-bridge-ready.png) | 9065B2AE11BB3CB3B62982641ACE8F10EDE8D2807A2FAF127C26A3DBCA606D40 | LOCAL_CONTROLLED / 2026-11-10 |
+| [ popup-denied-before-forwarding.png ](../assets/screenshots/chrome-extension/popup-denied-before-forwarding.png) | FE18DB0811E853D0552D3B5C84BEFF45455EDCB047697418EEBFE93C74F3C21E | LOCAL_CONTROLLED / 2026-11-10 |
+| [ popup-preexecution-trace.png ](../assets/screenshots/chrome-extension/popup-preexecution-trace.png) | BB5C239FAEC9830C41A3553B543AE71DDF53472921AFEF63C7A33C12F4CB8616 | LOCAL_CONTROLLED / 2026-11-10 |
