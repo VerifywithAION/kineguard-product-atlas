@@ -1,0 +1,41 @@
+# Agentes / Permissions
+
+[ES](../../../../docs/es/menus/agents/permissions.md) · [EN](../../../../docs/en/menus/agents/permissions.md) · [Index](../../index.md)
+
+**Ruta:** [/agent-arena#permissions](https://kineguard.com/agent-arena#permissions) · **Tipo:** sección interna
+
+## 1. Propósito
+
+Describe permisos, presupuestos, acciones, activos y plazos de un agente.
+
+## 2. Cómo lo usa el usuario
+
+1. Entra en Permissions y selecciona el mismo agente y objeto económico que estás investigando.
+2. Distingue Proposal-only, observación, simulación y delegación verificada.
+3. Comprueba máximo por acción, destinos, activos y budget solo cuando haya fuente de política.
+4. Sigue el request correspondiente a Decisions para comprobar resultado y recibo.
+
+## 3. Qué mecanismo representa
+
+La ruta pertenece a la familia Agentes y debe relacionarse con identidad, política, request exacto y fuente de evidencia.
+
+## 4. Evidencia y límites
+
+Un límite de 500 dólares en una tarjeta local puede ser descriptivo, no presupuesto aplicado contractualmente.
+
+La visibilidad de una pantalla pública no equivale a aceptación humana de runtime ni a protección universal de fondos.
+
+## 5. Imagen relacionada
+
+![KINEGuard related controlled-local screenshot](../../../../assets/screenshots/local-controlled/treasury-agent.png)
+
+*Captura auténtica del KINEGuard local relacionada con el tema; no es una captura certificada de esta URL en Hostinger.*
+
+## 6. Fuentes
+
+- [Public UI](https://kineguard.com/agent-arena#permissions)
+- [KINEGuard master protocol](https://app.notion.com/p/41bd5f4fa5e3814e948bf911dddef7ef)
+- [Arquitectura](../../architecture.md)
+- [Pruebas históricas](../../historical-proofs.md)
+
+[← Volver al menú](index.md)

@@ -1,21 +1,14 @@
-# KINEGuard public Atlas map
+# KINEGuard — complete bilingual user manuals
 
-This is documentation, not the KINEGuard runtime.
+- Español: README.md and docs/es/index.md
+- English: README_EN.md and docs/en/index.md
+- Protection: docs/es/menus/protection/index.md and docs/en/menus/protection/index.md
+- Agents: docs/es/menus/agents/index.md and docs/en/menus/agents/index.md
+- Token Economy: docs/es/menus/token-economy/index.md and docs/en/menus/token-economy/index.md
+- Evidence: docs/es/menus/evidence/index.md and docs/en/menus/evidence/index.md
+- Architecture: docs/es/architecture.md and docs/en/architecture.md
+- Nine controls: docs/es/controls.md and docs/en/controls.md
+- Historical proofs: docs/es/historical-proofs.md and docs/en/historical-proofs.md
+- Capabilities: docs/capability-catalog.json
 
-- README.md: product thesis, walkthrough, evidence boundaries, screenshots
-- docs/capability-matrix.md: one evidence class per consumer control
-- docs/capability-catalog.json: machine-readable capability catalog
-- evidence/claim-to-evidence.md: claim provenance and limitations
-- evidence/screenshot-manifest.md: screenshot source, redaction, and status
-- docs/deep-dives/: wallet, browser, timing, veto, exposure, governance, agents
-- mechanisms/: nine customer-facing controls
-- docs/en/kine-ai.md: KAI-00 through KAI-09 roadmap
-- docs/product-surface.md: public and controlled surfaces
-- docs/evidence-and-proofs.md: historical GP1A and V3 evidence
-- docs/security-boundaries.md: non-overclaiming rules
-- README_EN.md: complete English repository entry point
-- docs/en/public-surfaces.md: Protection, Agents, Token Economy, and Evidence navigation families
-- docs/agent-knowledge-base.md: source hierarchy and bounded Claude/VAIOS interpretation
-
-Evidence classes: LIVE VERIFIED, TESTNET VERIFIED, LAB / CI VERIFIED, UI / READ-ONLY, DESIGN / ROADMAP.
-Do not treat local screenshots, CI, historical Sepolia, or visible UI as proof of current production enforcement.
+Images are exactly shared between language versions. Do not claim universal EOA enforcement or current complete beta certification.

@@ -1,152 +1,155 @@
 <div align="center">
-  <img src="assets/brand/wallet-guard-mark.png" alt="KINEGuard official shield" width="112" />
+<img src="assets/brand/wallet-guard-mark.png" width="110" alt="Original KINEGuard logo"/>
 
-  # KINEGuard · KINE OS
+# KINEGuard · KINE OS
 
-  **KEY IS NOT ENOUGH**
+**KEY IS NOT ENOUGH**
 
-  **Wallet security · Pre-execution decisions · Economic authority · Governed accounts · Forensic evidence**
-
-  [**Arquitectura**](#arquitectura--architecture) · [**Pruebas**](#pruebas-históricas-verificadas-en-su-alcance) · [**Mecanismos**](#índice-completo-de-mecanismos) · [**Superficies públicas**](docs/en/public-surfaces.md) · [**English README**](README_EN.md)
+[Español](README.md) · [English](README_EN.md) · [Manual completo](docs/es/index.md)
 </div>
 
-> **Qué es este repositorio:** el atlas técnico y visual **nativo de GitHub** de KINEGuard/KINE OS. Incluye capturas reales del producto local controlado, material histórico, observación pública y límites explícitos. **No** es el runtime privado, un despliegue del producto ni una certificación de beta.
+## 1. Producto y promesa
 
-![KINEGuard local product capture — customer spending limits](assets/screenshots/local-controlled/customer-spending-limits.png)
+KINEGuard permite inspeccionar wallets, entender approvals, revisar consecuencias antes de firmar y seguir agentes, decisiones y evidencia. KINE OS es el plano de política y gobernanza, con protección efectiva solo en rutas verificadas. Conectar una EOA no la convierte en cuenta gobernada.
 
-## Capturas reales del producto local
+![KINEGuard screenshot](assets/screenshots/local-controlled/customer-spending-limits.png)
 
-Estas nueve imágenes son capturas del KINEGuard local controlado, no del despliegue Hostinger. Sus estados, cifras y límites se conservan; los identificadores de wallet visibles fueron redactados para publicación. No prueban producción, enforcement universal ni transacciones on-chain.
+## 2. Recorrido práctico del usuario
 
-| Superficie | Captura |
+1. Conectar una wallet con acceso público en Connect.
+2. Confirmar dirección, red y estado en Wallet Posture.
+3. Revisar allowances y spenders en Approval Intelligence.
+4. Explorar Action Review antes de comprometer una transacción.
+5. Consultar Guardian, Evidence y receipts con sus fuentes.
+6. Examinar Governed Protection y su evidencia histórica como ruta distinta.
+
+## 3. Todas las páginas y secciones de los dropdowns
+
+### Protección
+
+| Opción | Manual detallado | Ruta real |
+|---|---|---|
+| Connect | [Abrir](docs/es/menus/protection/connect.md) | [/connect](https://kineguard.com/connect) |
+| Wallet Posture | [Abrir](docs/es/menus/protection/wallet-posture.md) | [/wallet-health](https://kineguard.com/wallet-health) |
+| Approval Intelligence | [Abrir](docs/es/menus/protection/approval-intelligence.md) | [/approvals](https://kineguard.com/approvals) |
+| Action Review | [Abrir](docs/es/menus/protection/action-review.md) | [/preview](https://kineguard.com/preview) |
+| Guardian | [Abrir](docs/es/menus/protection/guardian.md) | [/guardian](https://kineguard.com/guardian) |
+| Governed Protection | [Abrir](docs/es/menus/protection/governed-protection.md) | [/kine](https://kineguard.com/kine) |
+
+![KINEGuard Protection](assets/screenshots/local-controlled/customer-spending-limits.png)
+
+### Agentes
+
+| Opción | Manual detallado | Ruta real |
+|---|---|---|
+| Identity | [Abrir](docs/es/menus/agents/identity.md) | [/agent-arena#identity](https://kineguard.com/agent-arena#identity) |
+| Permissions | [Abrir](docs/es/menus/agents/permissions.md) | [/agent-arena#permissions](https://kineguard.com/agent-arena#permissions) |
+| Requests | [Abrir](docs/es/menus/agents/requests.md) | [/agent-arena#requests](https://kineguard.com/agent-arena#requests) |
+| Decisions | [Abrir](docs/es/menus/agents/decisions.md) | [/agent-arena#decisions](https://kineguard.com/agent-arena#decisions) |
+| History | [Abrir](docs/es/menus/agents/history.md) | [/receipts#history](https://kineguard.com/receipts#history) |
+
+![KINEGuard Agents](assets/screenshots/local-controlled/agent-arena.png)
+
+### Economía de tokens
+
+| Opción | Manual detallado | Ruta real |
+|---|---|---|
+| Reasoning Needed? | [Abrir](docs/es/menus/token-economy/reasoning-needed.md) | [/token-economy#reasoning-needed](https://kineguard.com/token-economy#reasoning-needed) |
+| Reuse | [Abrir](docs/es/menus/token-economy/reuse.md) | [/token-economy#reuse](https://kineguard.com/token-economy#reuse) |
+| Provider Calls | [Abrir](docs/es/menus/token-economy/provider-calls.md) | [/token-economy#provider-calls](https://kineguard.com/token-economy#provider-calls) |
+| Measurements | [Abrir](docs/es/menus/token-economy/measurements.md) | [/token-economy#measurements](https://kineguard.com/token-economy#measurements) |
+
+![KINEGuard Token Economy](assets/screenshots/local-controlled/token-economy.png)
+
+### Evidencia
+
+| Opción | Manual detallado | Ruta real |
+|---|---|---|
+| History | [Abrir](docs/es/menus/evidence/history.md) | [/receipts#history](https://kineguard.com/receipts#history) |
+| Structured Records | [Abrir](docs/es/menus/evidence/structured-records.md) | [/receipts#structured-records](https://kineguard.com/receipts#structured-records) |
+| Sessions | [Abrir](docs/es/menus/evidence/sessions.md) | [/session-intelligence](https://kineguard.com/session-intelligence) |
+| Audit | [Abrir](docs/es/menus/evidence/audit.md) | [/audit](https://kineguard.com/audit) |
+
+![KINEGuard Evidence](assets/screenshots/local-controlled/admin-metamask-sepolia.png)
+
+## 4. Galería auténtica: mismas imágenes en ES y EN
+
+| Superficie | Captura del producto local |
 |---|---|
-| Customer Spending Limits | ![Customer Spending Limits](assets/screenshots/local-controlled/customer-spending-limits.png) |
-| Admin MetaMask / Sepolia | ![Admin MetaMask Sepolia](assets/screenshots/local-controlled/admin-metamask-sepolia.png) |
-| Wallet Portfolio | ![Portfolio wallets](assets/screenshots/local-controlled/admin-portfolio-wallets.png) |
-| Tokenized assets | ![Tokenized assets](assets/screenshots/local-controlled/admin-portfolio-assets.png) |
+| Spending Limits | ![Spending Limits](assets/screenshots/local-controlled/customer-spending-limits.png) |
+| Admin Sepolia | ![Admin Sepolia](assets/screenshots/local-controlled/admin-metamask-sepolia.png) |
+| Wallet Portfolio | ![Wallet Portfolio](assets/screenshots/local-controlled/admin-portfolio-wallets.png) |
+| Tokenized Assets | ![Tokenized Assets](assets/screenshots/local-controlled/admin-portfolio-assets.png) |
 | Treasury Agent | ![Treasury Agent](assets/screenshots/local-controlled/treasury-agent.png) |
 | Agent Arena | ![Agent Arena](assets/screenshots/local-controlled/agent-arena.png) |
 | Token Economy | ![Token Economy](assets/screenshots/local-controlled/token-economy.png) |
-| KINE Lite wallet posture | ![KINE Lite](assets/screenshots/local-controlled/kine-lite-wallet-posture.png) |
-| Treasury reserve asset | ![Treasury reserve](assets/screenshots/local-controlled/asset-treasury-reserve.png) |
+| Wallet Posture | ![Wallet Posture](assets/screenshots/local-controlled/kine-lite-wallet-posture.png) |
+| Treasury Reserve | ![Treasury Reserve](assets/screenshots/local-controlled/asset-treasury-reserve.png) |
 
-Source, redaction and classification are recorded in [the screenshot manifest](evidence/screenshot-manifest.md). The older Atlas screenshots remain historical documentation only and are not product proof.
+Las capturas son del KINEGuard local controlado, no una certificación del deployment de Hostinger. [Screenshot manifest](evidence/screenshot-manifest.md).
 
-## La tesis
+## 5. Arquitectura y estados de protección
 
-Tener la llave privada o poder producir una firma válida **no equivale a autorización económica ilimitada**. KINE OS estudia cómo situar reglas deterministas entre una autoridad y las acciones que intenta ejecutar. La cobertura depende del tipo de wallet, la ruta de ejecución, el contrato gobernado, la política aplicable y la evidencia disponible.
-
-- **KINEGuard** es la experiencia de cuenta, cartera, controles, Guardian, decisiones y evidencia.
-- **KINE OS** es el plano de gobierno: autoridad, política, Economic Exposure, cambio de reglas, ejecución y recibos.
-- **Browser Protection** puede retener solicitudes **soportadas** antes del proveedor. Una EOA puede operar por fuera de esa ruta.
-- **KINE V2/V3** estudia cuentas cuyos fondos y acciones están sujetos a políticas contractuales. Las pruebas físicas históricas V3 fueron de **ETH nativo en Sepolia**.
-- **KINE AI Intelligence** es una interfaz de inteligencia **propuesta para etapas posteriores**. La IA no firma, veta ni sustituye el motor determinista.
-
-**Leitmotiv:** *AI understands. KINE governs. Humans retain control.*
-
-## Arquitectura / Architecture
+OBSERVED, PRE-EXECUTION COVERED y KINE GOVERNED son estados diferentes. La firma, la decisión, el forwarding, la ejecución y la confirmación también son eventos distintos.
 
 ![Execution boundaries](assets/diagrams/execution-boundaries.svg)
 
-**Tres estados que no se pueden confundir:**
+[Arquitectura](docs/es/architecture.md)
 
-| Estado de cartera | Significado | No demuestra |
-|---|---|---|
-| **OBSERVED** | Hay identidad/saldo/observaciones leíbles | Que la EOA esté protegida o se pueda vetar toda firma |
-| **PRE-EXECUTION COVERED** | Una solicitud específica entra en una ruta de navegador soportada y evaluada | Que las rutas alternativas de la EOA estén bloqueadas |
-| **KINE GOVERNED** | Una cuenta/acción reside en una ruta de gobernanza contractual verificada para ese alcance | Cobertura global de tokens, cadenas o contratos no ensayados |
+## 6. Veto, tiempo y gobernanza híbrida
 
-Más: [límites de cobertura](docs/deep-dives/01-wallet-and-sovereignty.md) · [arquitectura de ejecución](docs/architecture.md).
+Browser Cancel/DENY antes de MetaMask no es el veto contractual de Safety Authority. HARDEN puede endurecer protección sin debilitarla; WEAKEN exige delay/revisión cuando la política lo requiere. Los ensayos GP1A y V3 son históricos y acotados a Sepolia.
 
-## Pruebas históricas verificadas en su alcance
+![Veto architecture](assets/diagrams/veto-architecture.svg)
 
-| Serie | Experimento | Resultado preservado | Límite |
-|---|---|---|---|
-| **GP1A T1** | Safe zero-value held → Continue | MetaMask se abrió | No se confirmó transacción on-chain |
-| **GP1A T2** | Held → Cancel | MetaMask no se abrió | Solo ruta soportada Chrome/MetaMask/Sepolia |
-| **GP1A T3** | Unknown calldata → WARN → Cancel | MetaMask no se abrió | No abarca todos los calldata/proveedores |
-| **GP1A T4** | Suspicious approval → BLOCK | MetaMask no se abrió | No es veto universal de la EOA |
-| **V3 3B-1** | Transferencia pequeña bajo política | Se permitió la transferencia gobernada | ETH nativo Sepolia |
-| **V3 3B-2** | Acción de mayor valor | Entró en pending; owner key no ejecutó anticipadamente | Acción gobernada exacta |
-| **V3 3B-3** | Safety Authority independiente | Vetó la acción pendiente exacta | Veto on-chain, no browser Cancel |
-| **V3 3B-4** | Acción legítima después del plazo | Maduró y se ejecutó en el experimento | No equivale a despliegue productivo |
+![Governance timing](assets/diagrams/governance-timing.svg)
 
-El cierre de esas series es histórico; este repositorio **no repite transacciones, no mueve fondos y no transfiere automáticamente los resultados a mainnet, ERC-20 u otras rutas**. [Libro de pruebas, alcance y trazabilidad](docs/evidence-and-proofs.md).
+[Guía técnica](docs/es/architecture.md)
 
-## Veto, timing y autoridad separada
+## 7. Economic Exposure
 
-![Three veto boundaries](assets/diagrams/veto-architecture.svg)
+Más que un límite por transferencia: capacidad acumulada, ventanas, realized, reserved, delegated, remaining, anti-fragmentación y concurrencia. El cálculo conceptual no demuestra un BOUND en producción.
 
-1. **Browser DENY:** para una solicitud cubierta y retenida, el evaluador evita el forwarding al proveedor.
-2. **Human Cancel:** el usuario cancela la solicitud exacta retenida, también antes del proveedor.
-3. **Safety Authority veto:** una autoridad distinta al owner veta una **acción ya pendiente dentro de la cuenta KINE gobernada**.
+![Economic exposure](assets/diagrams/economic-exposure.svg)
 
-El tiempo importa: *pending*, ventanas de revisión, madurez, expiración, revisiones y controles anti-replay son parte del modelo. Una acción prohibida no debe convertirse en permitida por esperar o reutilizar una solicitud antigua. [Veto](docs/deep-dives/02-browser-decision-and-veto.md) · [Timing](docs/deep-dives/03-governed-execution-and-timing.md) · [Safety Authority](docs/deep-dives/04-safety-authority-and-replay.md).
+[Capítulo de mecanismos](docs/es/architecture.md)
 
-## Economic Exposure: más que un límite por transacción
+## 8. Los nueve controles y sus límites
 
-![Economic Exposure conceptual diagram](assets/diagrams/economic-exposure.svg)
+1. Spending Limits
+2. Protected Funds
+3. Browser Protection
+4. Emergency Controls
+5. Recipient Rules
+6. App Approvals
+7. Agent Access
+8. Transaction History
+9. Security Decisions
 
-Una política que solo limita cada transferencia puede fallar ante fraccionamiento repetido. Economic Exposure analiza límites por acción, capacidad acumulada dentro de una ventana, valores ya realizados, reservas pendientes, capacidad delegada y capacidad restante. Las cantidades que aparecen en el preview son **ilustrativas y no datos de un cliente**. La formalización de reserva/realización/revocación requiere reglas explícitas de concurrencia e integración, no simples tarjetas en UI.
+[Manual de controles](docs/es/controls.md)
 
-[Explicación técnica completa](docs/deep-dives/05-economic-exposure.md) · [Ejemplos matemáticos y estados](docs/economic-exposure-model.md).
+## 9. Agentes, Token Economy y KINE AI
 
-## Recursive / Hybrid Governance
+Una identidad de agente, un permiso proposal-only o una clave BYOK no conceden firma de wallet. Token Economy mide o estima trabajo de inferencia, no límites de fondos. KINE AI es una hoja de ruta: AI understands; KINE governs; humans retain control.
 
-![Governance timeline](assets/diagrams/governance-timing.svg)
+![AI boundary](assets/diagrams/ai-boundary.svg)
 
-**HARDEN** puede fortalecer una regla; **WEAKEN** pretende flexibilizarla y, dentro del modelo histórico, debe estar sujeto a demora, revisión, cancelación o veto según autoridad y contexto. La regla que gobierna una operación también tiene que gobernar el acto de cambiar esa regla. [Mecanismos y estado de prueba](docs/deep-dives/06-recursive-governance.md).
+[Agentes](docs/es/menus/agents/index.md) · [Token Economy](docs/es/menus/token-economy/index.md)
 
-## Índice completo de mecanismos
+## 10. Pruebas históricas y fuente de verdad
 
-Los **nueve controles visibles** son solo la capa consumidora; no equivalen a nueve motores de enforcement certificados.
+GP1A T1–T4 cubre Chrome/MetaMask/Sepolia en solicitudes soportadas. V3 3B-1 a 3B-4 prueba acciones permitidas, pending, veto y maturity sobre ETH nativo de una cuenta gobernada Sepolia. No equivale a certificación del despliegue actual.
 
-| Control del cliente | Estado público conservador | Explicación |
-|---|---|---|
-| 01 Spending Limits | LAB / CI | [Política, límites y cambios](mechanisms/01-spending-limits.md) |
-| 02 Protected Funds | UI / READ-ONLY | [Fondos y alcance de protección](mechanisms/02-protected-funds.md) |
-| 03 Browser Protection | TESTNET HISTÓRICO | [Pre-forward y alcance](mechanisms/03-browser-protection.md) |
-| 04 Emergency Controls | DESIGN / GAP | [Intervenciones y límites](mechanisms/04-emergency-controls.md) |
-| 05 Recipient Rules | LAB / CI HISTÓRICO | [Destinatarios y ruta gobernada](mechanisms/05-recipient-rules.md) |
-| 06 App Approvals | UI / READ-ONLY | [Scanner ≠ revocación](mechanisms/06-app-approvals.md) |
-| 07 Agent Access | UI / READ-ONLY | [Agentes, presupuestos y permisos](mechanisms/07-agent-access.md) |
-| 08 Transaction History | UI / READ-ONLY | [Observación ≠ finality](mechanisms/08-transaction-history.md) |
-| 09 Security Decisions | LAB / CI | [Decisiones y trazabilidad](mechanisms/09-security-decisions.md) |
+[Pruebas](docs/es/historical-proofs.md)
 
-**Otras capacidades esenciales:** [Wallets/EOAs](docs/deep-dives/01-wallet-and-sovereignty.md) · [V3](docs/deep-dives/03-governed-execution-and-timing.md) · [Timing](docs/deep-dives/03-governed-execution-and-timing.md) · [Safety Authority](docs/deep-dives/04-safety-authority-and-replay.md) · [Economic Exposure](docs/deep-dives/05-economic-exposure.md) · [Hybrid Governance](docs/deep-dives/06-recursive-governance.md) · [Agent Governance/Guardian](docs/deep-dives/07-agents-guardian-evidence.md) · [Evidence](docs/evidence-and-proofs.md) · [Portfolio/Account](docs/product-surface.md) · [Token Economy](docs/token-economy.md) · [KINE AI](docs/en/kine-ai.md) · [Cryptographic Agility](docs/cryptographic-agility.md) · [Public beta truth](docs/beta-status.md).
+## 11. Investigación e integración VAIOS/Claude
 
-## Galería real del Atlas
+La documentación permite explorar una conexión conceptual pre-sign entre agente, identidad, política auténtica, decisión, veto y recibo, sin afirmar asociación ni integración publicada.
 
-Estas imágenes proceden de **páginas de documentación renderizadas localmente** y recibidas en el ZIP del propietario. **No** son capturas del KINEGuard SaaS desplegado ni pruebas de una transacción real. Se preservan sus hashes y procedencia en [screenshot-manifest](evidence/screenshot-manifest.md).
+[AGENTS.md](AGENTS.md) · [llms.txt](llms.txt) · [Capability Catalog](docs/capability-catalog.json)
 
-| Desktop · índice de mecanismos | Mobile · índice de mecanismos |
-|---|---|
-| [![Deep dives desktop](assets/screenshots/atlas/deep-dives-desktop.png)](assets/screenshots/atlas/deep-dives-desktop.png) | [![Deep dives mobile](assets/screenshots/atlas/deep-dives-mobile.png)](assets/screenshots/atlas/deep-dives-mobile.png) |
+## 12. Límites y referencias
 
-<details><summary>Ver captura vertical móvil de la portada</summary>
+UI observada, pruebas CI, imágenes locales, prueba Sepolia y roadmap deben clasificarse por separado. KINEGuard no ofrece bloqueo universal EOA, protección mainnet certificada ni archivo inmutable hospedado en la beta.
 
-[![Portada móvil original](assets/screenshots/atlas/landing-mobile.png)](assets/screenshots/atlas/landing-mobile.png)
-
-</details>
-
-> El ZIP contenía una imagen llamada `kine-ai-markdown-gap.png` que corresponde visualmente a la página de deep dives, **no a una pantalla de KINE AI**. Se conserva como [diagnóstico no promocional](assets/screenshots/diagnostics/kine-ai-page-not-present.png), sin presentarla como funcionalidad de IA.
-
-## Evidencia y criterios de verdad
-
-- **TESTNET VERIFIED** implica una prueba física acotada a su red, acción, wallet, versión y harness.
-- **LAB / CI VERIFIED** implica ejecución controlada sintética, no aceptación en MetaMask real.
-- **UI / READ-ONLY** indica una vista de inspección sin prueba de enforcement.
-- **DESIGN / ROADMAP** indica investigación o función aún no publicada.
-- **LIVE VERIFIED** no se asigna a ninguno de los nueve controles basándose solo en el material de este paquete.
-
-La integración cliente → policy → extension → proveedor → receipt duradero → Account UI requiere cerrar evidencias adicionales. Las recepciones de **POLICY_CHANGE** son distintas de recibos de **TRANSACTION_EXECUTION** y de finality en cadena. [Matriz completa](docs/capability-matrix.md) · [Claim-to-evidence](evidence/claim-to-evidence.md) · [Alcance y riesgos](docs/security-boundaries.md).
-
-## English overview
-
-KINEGuard is an account-first wallet intelligence and economic governance product. This GitHub repository is its **readable visual and technical atlas**, not the product runtime. The central research thesis is **“Key Is Not Enough”**: possession of a valid signing key does not automatically permit every action *inside a verified governed execution path*. Historical GP1A browser trials demonstrated bounded pre-provider request handling; historical V3 trials demonstrated a distinct, contract-governed pending-action path on Sepolia native ETH. Economic Exposure, policy hardening/weakening, independent Safety Authority, evidence correlation, agents, and KINE AI are described with explicit implementation and verification boundaries. Not all consumer controls are operational. **No mainnet, universal EOA, current deployment or production certification is implied.**
-
-Read the [English guide](docs/en/guide.md), [Spanish guide](docs/es/guia.md), [deep-dive index](docs/deep-dives/index.md), [technical proofs](docs/evidence-and-proofs.md) and [source index](docs/source-authorities.md).
-
-## Alcance del repositorio
-
-Publicación documental únicamente. Sin aplicación privada, DB, extensión, backend, wallets, claves, secretos, fixtures privados ni recetas para manipular transacciones. Las capturas incluidas son de la documentación estática. Las referencias de Notion y GitHub pueden requerir permisos para ver los reportes íntegros. No se autoriza inferir certificación o despliegue de páginas de documentación. Sin licencia de código asignada; no se presupone una licencia de reutilización.
+[https://kineguard.com](https://kineguard.com) · [Manual completo](docs/es/index.md)

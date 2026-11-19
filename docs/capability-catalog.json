@@ -1,18 +1,400 @@
 {
-  "catalog_version": "r4b",
+  "catalog_version": "R5-mirrored-user-manual",
   "repository_scope": "public documentation only",
-  "evidence_classes": ["LIVE VERIFIED", "TESTNET VERIFIED", "LAB / CI VERIFIED", "UI / READ-ONLY", "DESIGN / ROADMAP"],
+  "evidence_classes": [
+    "LIVE VERIFIED",
+    "TESTNET VERIFIED",
+    "LAB / CI VERIFIED",
+    "UI / READ-ONLY",
+    "DESIGN / ROADMAP"
+  ],
   "capabilities": [
-    {"id":"kine.spending-limits","name":"Spending Limits","kind":"mechanism","evidence_class":"LAB / CI VERIFIED","environment":"disposable PostgreSQL CI","current_deployment_evidence":"unverified","references":["mechanisms/01-spending-limits.md"]},
-    {"id":"kine.browser-protection","name":"Browser Protection","kind":"mechanism","evidence_class":"TESTNET VERIFIED","environment":"historical Chrome/MetaMask/Sepolia","current_deployment_evidence":"unverified","references":["mechanisms/03-browser-protection.md"]},
-    {"id":"kine.safety-authority","name":"Safety Authority veto","kind":"mechanism","evidence_class":"TESTNET VERIFIED","environment":"historical governed native ETH Sepolia scope","current_deployment_evidence":"unverified","references":["docs/deep-dives/04-safety-authority-and-replay.md"]},
-    {"id":"kine.economic-exposure","name":"Economic Exposure","kind":"mechanism","evidence_class":"DESIGN / ROADMAP","environment":"documented model and bounded research","current_deployment_evidence":"unverified","references":["docs/deep-dives/05-economic-exposure.md"]},
-    {"id":"kine.hybrid-governance","name":"Recursive / Hybrid Governance","kind":"mechanism","evidence_class":"TESTNET VERIFIED","environment":"historical governed test scope","current_deployment_evidence":"unverified","references":["docs/deep-dives/06-recursive-governance.md"]},
-    {"id":"kine.agents-guardian","name":"Agents and Guardian","kind":"mechanism","evidence_class":"UI / READ-ONLY","environment":"local controlled UI and documentation","current_deployment_evidence":"unverified","references":["docs/deep-dives/07-agents-guardian-evidence.md"]},
-    {"id":"kine.ai","name":"KINE AI Intelligence","kind":"roadmap","evidence_class":"DESIGN / ROADMAP","environment":"canonical roadmap documentation","current_deployment_evidence":"unverified","references":["docs/en/kine-ai.md"]},
-    {"id":"surface.protection","name":"Protection navigation family","kind":"product-surface","evidence_class":"UI / READ-ONLY","environment":"public-site observation and local controlled captures","current_deployment_evidence":"unverified","references":["docs/en/public-surfaces.md"]},
-    {"id":"surface.agents","name":"Agents navigation family","kind":"product-surface","evidence_class":"UI / READ-ONLY","environment":"public-site observation and documentation","current_deployment_evidence":"unverified","references":["docs/en/public-surfaces.md"]},
-    {"id":"surface.token-economy","name":"Token Economy navigation family","kind":"product-surface","evidence_class":"UI / READ-ONLY","environment":"public-site observation and local controlled captures","current_deployment_evidence":"unverified","references":["docs/en/public-surfaces.md"]},
-    {"id":"surface.evidence","name":"Evidence navigation family","kind":"product-surface","evidence_class":"UI / READ-ONLY","environment":"public-site observation and documentation","current_deployment_evidence":"unverified","references":["docs/en/public-surfaces.md"]}
+    {
+      "id": "kine.spending-limits",
+      "name": "Spending Limits",
+      "kind": "mechanism",
+      "evidence_class": "LAB / CI VERIFIED",
+      "environment": "disposable PostgreSQL CI",
+      "current_deployment_evidence": "unverified",
+      "references": [
+        "mechanisms/01-spending-limits.md"
+      ]
+    },
+    {
+      "id": "kine.browser-protection",
+      "name": "Browser Protection",
+      "kind": "mechanism",
+      "evidence_class": "TESTNET VERIFIED",
+      "environment": "historical Chrome/MetaMask/Sepolia",
+      "current_deployment_evidence": "unverified",
+      "references": [
+        "mechanisms/03-browser-protection.md"
+      ]
+    },
+    {
+      "id": "kine.safety-authority",
+      "name": "Safety Authority veto",
+      "kind": "mechanism",
+      "evidence_class": "TESTNET VERIFIED",
+      "environment": "historical governed native ETH Sepolia scope",
+      "current_deployment_evidence": "unverified",
+      "references": [
+        "docs/deep-dives/04-safety-authority-and-replay.md"
+      ]
+    },
+    {
+      "id": "kine.economic-exposure",
+      "name": "Economic Exposure",
+      "kind": "mechanism",
+      "evidence_class": "DESIGN / ROADMAP",
+      "environment": "documented model and bounded research",
+      "current_deployment_evidence": "unverified",
+      "references": [
+        "docs/deep-dives/05-economic-exposure.md"
+      ]
+    },
+    {
+      "id": "kine.hybrid-governance",
+      "name": "Recursive / Hybrid Governance",
+      "kind": "mechanism",
+      "evidence_class": "TESTNET VERIFIED",
+      "environment": "historical governed test scope",
+      "current_deployment_evidence": "unverified",
+      "references": [
+        "docs/deep-dives/06-recursive-governance.md"
+      ]
+    },
+    {
+      "id": "kine.agents-guardian",
+      "name": "Agents and Guardian",
+      "kind": "mechanism",
+      "evidence_class": "UI / READ-ONLY",
+      "environment": "local controlled UI and documentation",
+      "current_deployment_evidence": "unverified",
+      "references": [
+        "docs/deep-dives/07-agents-guardian-evidence.md"
+      ]
+    },
+    {
+      "id": "kine.ai",
+      "name": "KINE AI Intelligence",
+      "kind": "roadmap",
+      "evidence_class": "DESIGN / ROADMAP",
+      "environment": "canonical roadmap documentation",
+      "current_deployment_evidence": "unverified",
+      "references": [
+        "docs/en/kine-ai.md"
+      ]
+    },
+    {
+      "id": "surface.protection",
+      "name": "Protection navigation family",
+      "kind": "product-surface",
+      "evidence_class": "UI / READ-ONLY",
+      "environment": "public-site observation and local controlled captures",
+      "current_deployment_evidence": "unverified",
+      "references": [
+        "docs/en/public-surfaces.md"
+      ]
+    },
+    {
+      "id": "surface.agents",
+      "name": "Agents navigation family",
+      "kind": "product-surface",
+      "evidence_class": "UI / READ-ONLY",
+      "environment": "public-site observation and documentation",
+      "current_deployment_evidence": "unverified",
+      "references": [
+        "docs/en/public-surfaces.md"
+      ]
+    },
+    {
+      "id": "surface.token-economy",
+      "name": "Token Economy navigation family",
+      "kind": "product-surface",
+      "evidence_class": "UI / READ-ONLY",
+      "environment": "public-site observation and local controlled captures",
+      "current_deployment_evidence": "unverified",
+      "references": [
+        "docs/en/public-surfaces.md"
+      ]
+    },
+    {
+      "id": "surface.evidence",
+      "name": "Evidence navigation family",
+      "kind": "product-surface",
+      "evidence_class": "UI / READ-ONLY",
+      "environment": "public-site observation and documentation",
+      "current_deployment_evidence": "unverified",
+      "references": [
+        "docs/en/public-surfaces.md"
+      ]
+    },
+    {
+      "id": "menu.protection.connect",
+      "name": "Connect",
+      "public_route": "https://kineguard.com/connect",
+      "navigation_kind": "route",
+      "evidence_class": "UI / READ-ONLY",
+      "current_production_enforcement": "CURRENTLY_UNVERIFIED",
+      "documentation_es": "docs/es/menus/protection/connect.md",
+      "documentation_en": "docs/en/menus/protection/connect.md",
+      "screenshot_context": "assets/screenshots/local-controlled/kine-lite-wallet-posture.png",
+      "limitations": [
+        "Connecting provides no custody, signing or global veto. Browser pre-execution or smart-account functions require separately verified paths."
+      ]
+    },
+    {
+      "id": "menu.protection.wallet-posture",
+      "name": "Wallet Posture",
+      "public_route": "https://kineguard.com/wallet-health",
+      "navigation_kind": "route",
+      "evidence_class": "UI / READ-ONLY",
+      "current_production_enforcement": "CURRENTLY_UNVERIFIED",
+      "documentation_es": "docs/es/menus/protection/wallet-posture.md",
+      "documentation_en": "docs/en/menus/protection/wallet-posture.md",
+      "screenshot_context": "assets/screenshots/local-controlled/kine-lite-wallet-posture.png",
+      "limitations": [
+        "OBSERVED is not KINE GOVERNED. A healthy score does not prove that an EOA is protected against a drainer."
+      ]
+    },
+    {
+      "id": "menu.protection.approval-intelligence",
+      "name": "Approval Intelligence",
+      "public_route": "https://kineguard.com/approvals",
+      "navigation_kind": "route",
+      "evidence_class": "UI / READ-ONLY",
+      "current_production_enforcement": "CURRENTLY_UNVERIFIED",
+      "documentation_es": "docs/es/menus/protection/approval-intelligence.md",
+      "documentation_en": "docs/en/menus/protection/approval-intelligence.md",
+      "screenshot_context": "assets/screenshots/local-controlled/admin-metamask-sepolia.png",
+      "limitations": [
+        "This page does not auto-revoke, sign, broadcast transactions or move funds."
+      ]
+    },
+    {
+      "id": "menu.protection.action-review",
+      "name": "Action Review",
+      "public_route": "https://kineguard.com/preview",
+      "navigation_kind": "route",
+      "evidence_class": "UI / READ-ONLY",
+      "current_production_enforcement": "CURRENTLY_UNVERIFIED",
+      "documentation_es": "docs/es/menus/protection/action-review.md",
+      "documentation_en": "docs/en/menus/protection/action-review.md",
+      "screenshot_context": "assets/screenshots/local-controlled/customer-spending-limits.png",
+      "limitations": [
+        "Preview does not request signing, broadcast transactions or prove that provider or chain executed an action."
+      ]
+    },
+    {
+      "id": "menu.protection.guardian",
+      "name": "Guardian",
+      "public_route": "https://kineguard.com/guardian",
+      "navigation_kind": "route",
+      "evidence_class": "UI / READ-ONLY",
+      "current_production_enforcement": "CURRENTLY_UNVERIFIED",
+      "documentation_es": "docs/es/menus/protection/guardian.md",
+      "documentation_en": "docs/en/menus/protection/guardian.md",
+      "screenshot_context": "assets/screenshots/local-controlled/admin-portfolio-wallets.png",
+      "limitations": [
+        "Guardian as a product/tier is not Safety Authority and grants no on-chain veto or funds insurance."
+      ]
+    },
+    {
+      "id": "menu.protection.governed-protection",
+      "name": "Governed Protection",
+      "public_route": "https://kineguard.com/kine",
+      "navigation_kind": "route",
+      "evidence_class": "UI / READ-ONLY",
+      "current_production_enforcement": "CURRENTLY_UNVERIFIED",
+      "documentation_es": "docs/es/menus/protection/governed-protection.md",
+      "documentation_en": "docs/en/menus/protection/governed-protection.md",
+      "screenshot_context": "assets/screenshots/local-controlled/admin-metamask-sepolia.png",
+      "limitations": [
+        "Historical native ETH Sepolia V3 tests do not certify ERC-20, every chain or mainnet."
+      ]
+    },
+    {
+      "id": "menu.agents.identity",
+      "name": "Identity",
+      "public_route": "https://kineguard.com/agent-arena#identity",
+      "navigation_kind": "anchor",
+      "evidence_class": "UI / READ-ONLY",
+      "current_production_enforcement": "CURRENTLY_UNVERIFIED",
+      "documentation_es": "docs/es/menus/agents/identity.md",
+      "documentation_en": "docs/en/menus/agents/identity.md",
+      "screenshot_context": "assets/screenshots/local-controlled/agent-arena.png",
+      "limitations": [
+        "Registering an agent or supplying BYOK does not confer spending authority."
+      ]
+    },
+    {
+      "id": "menu.agents.permissions",
+      "name": "Permissions",
+      "public_route": "https://kineguard.com/agent-arena#permissions",
+      "navigation_kind": "anchor",
+      "evidence_class": "UI / READ-ONLY",
+      "current_production_enforcement": "CURRENTLY_UNVERIFIED",
+      "documentation_es": "docs/es/menus/agents/permissions.md",
+      "documentation_en": "docs/en/menus/agents/permissions.md",
+      "screenshot_context": "assets/screenshots/local-controlled/treasury-agent.png",
+      "limitations": [
+        "A $500 limit on a local card can be descriptive rather than an enforced contract budget."
+      ]
+    },
+    {
+      "id": "menu.agents.requests",
+      "name": "Requests",
+      "public_route": "https://kineguard.com/agent-arena#requests",
+      "navigation_kind": "anchor",
+      "evidence_class": "UI / READ-ONLY",
+      "current_production_enforcement": "CURRENTLY_UNVERIFIED",
+      "documentation_es": "docs/es/menus/agents/requests.md",
+      "documentation_en": "docs/en/menus/agents/requests.md",
+      "screenshot_context": "assets/screenshots/local-controlled/agent-arena.png",
+      "limitations": [
+        "Requesting does not imply approval, forwarding or transfer execution."
+      ]
+    },
+    {
+      "id": "menu.agents.decisions",
+      "name": "Decisions",
+      "public_route": "https://kineguard.com/agent-arena#decisions",
+      "navigation_kind": "anchor",
+      "evidence_class": "UI / READ-ONLY",
+      "current_production_enforcement": "CURRENTLY_UNVERIFIED",
+      "documentation_es": "docs/es/menus/agents/decisions.md",
+      "documentation_en": "docs/en/menus/agents/decisions.md",
+      "screenshot_context": "assets/screenshots/local-controlled/agent-arena.png",
+      "limitations": [
+        "Blocking an inference call is not vetoing a blockchain transaction."
+      ]
+    },
+    {
+      "id": "menu.agents.history",
+      "name": "History",
+      "public_route": "https://kineguard.com/receipts#history",
+      "navigation_kind": "anchor",
+      "evidence_class": "UI / READ-ONLY",
+      "current_production_enforcement": "CURRENTLY_UNVERIFIED",
+      "documentation_es": "docs/es/menus/agents/history.md",
+      "documentation_en": "docs/en/menus/agents/history.md",
+      "screenshot_context": "assets/screenshots/local-controlled/agent-arena.png",
+      "limitations": [
+        "Do not reassign another account's receipts or confuse local history with complete on-chain history."
+      ]
+    },
+    {
+      "id": "menu.token-economy.reasoning-needed",
+      "name": "Reasoning Needed?",
+      "public_route": "https://kineguard.com/token-economy#reasoning-needed",
+      "navigation_kind": "anchor",
+      "evidence_class": "UI / READ-ONLY",
+      "current_production_enforcement": "CURRENTLY_UNVERIFIED",
+      "documentation_es": "docs/es/menus/token-economy/reasoning-needed.md",
+      "documentation_en": "docs/en/menus/token-economy/reasoning-needed.md",
+      "screenshot_context": "assets/screenshots/local-controlled/token-economy.png",
+      "limitations": [
+        "A decision not to call a provider is not proof of billed savings."
+      ]
+    },
+    {
+      "id": "menu.token-economy.reuse",
+      "name": "Reuse",
+      "public_route": "https://kineguard.com/token-economy#reuse",
+      "navigation_kind": "anchor",
+      "evidence_class": "UI / READ-ONLY",
+      "current_production_enforcement": "CURRENTLY_UNVERIFIED",
+      "documentation_es": "docs/es/menus/token-economy/reuse.md",
+      "documentation_en": "docs/en/menus/token-economy/reuse.md",
+      "screenshot_context": "assets/screenshots/local-controlled/token-economy.png",
+      "limitations": [
+        "Fewer characters or a deduplication demo do not prove measured savings or distributed reuse."
+      ]
+    },
+    {
+      "id": "menu.token-economy.provider-calls",
+      "name": "Provider Calls",
+      "public_route": "https://kineguard.com/token-economy#provider-calls",
+      "navigation_kind": "anchor",
+      "evidence_class": "UI / READ-ONLY",
+      "current_production_enforcement": "CURRENTLY_UNVERIFIED",
+      "documentation_es": "docs/es/menus/token-economy/provider-calls.md",
+      "documentation_en": "docs/en/menus/token-economy/provider-calls.md",
+      "screenshot_context": "assets/screenshots/local-controlled/token-economy.png",
+      "limitations": [
+        "The documented beta relay is OpenAI server-side; it proves neither wallet signing nor every provider."
+      ]
+    },
+    {
+      "id": "menu.token-economy.measurements",
+      "name": "Measurements",
+      "public_route": "https://kineguard.com/token-economy#measurements",
+      "navigation_kind": "anchor",
+      "evidence_class": "UI / READ-ONLY",
+      "current_production_enforcement": "CURRENTLY_UNVERIFIED",
+      "documentation_es": "docs/es/menus/token-economy/measurements.md",
+      "documentation_en": "docs/en/menus/token-economy/measurements.md",
+      "screenshot_context": "assets/screenshots/local-controlled/token-economy.png",
+      "limitations": [
+        "Token Economy is not Economic Exposure: one measures inference and the other asset authority."
+      ]
+    },
+    {
+      "id": "menu.evidence.history",
+      "name": "History",
+      "public_route": "https://kineguard.com/receipts#history",
+      "navigation_kind": "anchor",
+      "evidence_class": "UI / READ-ONLY",
+      "current_production_enforcement": "CURRENTLY_UNVERIFIED",
+      "documentation_es": "docs/es/menus/evidence/history.md",
+      "documentation_en": "docs/en/menus/evidence/history.md",
+      "screenshot_context": "assets/screenshots/local-controlled/admin-metamask-sepolia.png",
+      "limitations": [
+        "The browser-local bus is not durable cross-user history or an on-chain explorer."
+      ]
+    },
+    {
+      "id": "menu.evidence.structured-records",
+      "name": "Structured Records",
+      "public_route": "https://kineguard.com/receipts#structured-records",
+      "navigation_kind": "anchor",
+      "evidence_class": "UI / READ-ONLY",
+      "current_production_enforcement": "CURRENTLY_UNVERIFIED",
+      "documentation_es": "docs/es/menus/evidence/structured-records.md",
+      "documentation_en": "docs/en/menus/evidence/structured-records.md",
+      "screenshot_context": "assets/screenshots/local-controlled/admin-metamask-sepolia.png",
+      "limitations": [
+        "A POLICY_CHANGE receipt is not a blockchain receipt or on-chain finality."
+      ]
+    },
+    {
+      "id": "menu.evidence.sessions",
+      "name": "Sessions",
+      "public_route": "https://kineguard.com/session-intelligence",
+      "navigation_kind": "route",
+      "evidence_class": "UI / READ-ONLY",
+      "current_production_enforcement": "CURRENTLY_UNVERIFIED",
+      "documentation_es": "docs/es/menus/evidence/sessions.md",
+      "documentation_en": "docs/en/menus/evidence/sessions.md",
+      "screenshot_context": "assets/screenshots/local-controlled/kine-lite-wallet-posture.png",
+      "limitations": [
+        "An observed session does not guarantee security or create a durable receipt by itself."
+      ]
+    },
+    {
+      "id": "menu.evidence.audit",
+      "name": "Audit",
+      "public_route": "https://kineguard.com/audit",
+      "navigation_kind": "route",
+      "evidence_class": "UI / READ-ONLY",
+      "current_production_enforcement": "CURRENTLY_UNVERIFIED",
+      "documentation_es": "docs/es/menus/evidence/audit.md",
+      "documentation_en": "docs/en/menus/evidence/audit.md",
+      "screenshot_context": "assets/screenshots/local-controlled/admin-metamask-sepolia.png",
+      "limitations": [
+        "There is no operational hosted immutable audit archive in this beta."
+      ]
+    }
   ]
 }
