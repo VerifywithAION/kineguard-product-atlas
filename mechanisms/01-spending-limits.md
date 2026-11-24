@@ -22,3 +22,7 @@ Current beta still needs exact wallet policy → extension pre-forward decision 
 - Is the result supported by a reproducible runtime proof, rather than an interface label?
 
 **Read more:** [architecture](../docs/architecture.md) · [evidence and proofs](../docs/evidence-and-proofs.md) · [capability matrix](../docs/capability-matrix.md) · [main README](../README.md).
+
+## Integration progress — November 24, 2026
+
+Integrated synthetic CI now confirms exact reviewed-state binding for policy edits and pending changes, in addition to bounded per-transfer browser decisions and durable account-owned receipts. Single-use durable admission is implemented in the next candidate, with CI pending. This strengthens the basis for cumulative accounting without treating a pre-forward decision as a completed transfer. Editable cumulative limits, independent settlement and physical acceptance remain unfinished; this is not a production deployment claim. See [beta status](../docs/beta-status.md).

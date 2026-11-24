@@ -20,7 +20,8 @@
 | Saved per-transfer limit can block a covered request | LAB / CI VERIFIED | Integrated synthetic browser and disposable database: stale binding and over-limit requests zero forwards; durable account-owned pre-forward decision |
 | V3 historical runtime matches frozen artifact | Historical testnet readback | Original compiler artifact and two reported historical RPC runtimes match all 8,254 bytes after immutable reconstruction; policy identity independently recomputed; no independent finality or current amount certification |
 | Current protected funds | NOT CERTIFIED | Fresh common finalized state unavailable under required freshness control |
-| Exact reviewed-state policy mutation binding | IMPLEMENTED / CI PENDING | Candidate source change; no completed test claim at this cutoff |
+| Exact reviewed-state policy mutation binding | LAB / CI VERIFIED | Integrated synthetic tests: stale reviews, replacement proposals and early activation rejected; active limit preserved |
+| Single-use durable admission | IMPLEMENTED / CI PENDING | Candidate change to prevent repeated authorization of the same request across capability renewal; new tests pending |
 
 Public-safe summaries of internally reviewed evidence; raw private source, customer records and verification receipts are not published. See [beta status](../docs/beta-status.md).
 
