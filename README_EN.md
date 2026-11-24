@@ -8,6 +8,9 @@
 [Español](README.md) · [English](README_EN.md) · [Full manual](docs/en/index.md)
 </div>
 
+**Investor/AI diligence:** [Company EN](company.md) · [Company ES](company_es.md) · [Milestone-based funding plan](docs/en/investor/scale-plan.md)
+
+
 ## 1. Product and thesis
 
 KINEGuard lets people inspect wallets, understand approvals, review consequences before signing and trace agents, decisions and evidence. KINE OS is the policy and governance plane, with enforcement only in verified paths. Connecting an EOA does not make it a governed account.
@@ -162,3 +165,7 @@ The MV3 extension now has a dedicated manual covering warnings, exact requests, 
 - [Full extension manual (EN)](docs/en/chrome-extension/index.md)
 - [Wallet coverage and readiness (EN)](docs/en/chrome-extension/wallet-coverage.md)
 - [Proofs, screenshots and limits (EN)](docs/en/chrome-extension/proofs-and-screenshots.md)
+
+## 14. Company Profile and Scale-Up
+
+See the [English AI-readable company profile](company.md), its [Spanish mirror](company_es.md) and the [hiring, stage-gated capital and go-to-market plan](docs/en/investor/scale-plan.md). Targets and capital envelopes are illustrative—not raised capital, verified customers or revenue.

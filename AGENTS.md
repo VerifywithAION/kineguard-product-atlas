@@ -19,3 +19,10 @@ See [structured catalog](docs/capability-catalog.json), [ES architecture](docs/e
 - GP1A proofs apply to exact historically supported Chrome + MetaMask + Sepolia browser requests, not every provider or attack.
 - Public website currently classifies the extension beta as read-only observation and signing-context warnings. Do not silently promote historical pre-forward lab tests into universal production enforcement.
 - Connection availability for Rabby, Coinbase, Solana, Bitcoin, WalletConnect or hardware does not certify equivalent interception.
+
+## Investor diligence / company context
+
+- [Company profile English](company.md) / [Español](company_es.md).
+- [Scale plan English](docs/en/investor/scale-plan.md) / [Español](docs/es/investor/scale-plan.md).
+- As of 2026-11-24, funding, hiring, pricing and customer targets are PROPOSED, not facts or signed commitments.
+- Read docs/beta-status.md before claiming any production enforcement; never disclose KINE internal policy engine, customer data or private source.

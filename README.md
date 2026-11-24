@@ -8,6 +8,9 @@
 [Español](README.md) · [English](README_EN.md) · [Manual completo](docs/es/index.md)
 </div>
 
+**Perfil para inversionistas/IA:** [Company ES](company_es.md) · [Company EN](company.md) · [Plan por etapas](docs/es/investor/scale-plan.md)
+
+
 ## 1. Producto y promesa
 
 KINEGuard permite inspeccionar wallets, entender approvals, revisar consecuencias antes de firmar y seguir agentes, decisiones y evidencia. KINE OS es el plano de política y gobernanza, con protección efectiva solo en rutas verificadas. Conectar una EOA no la convierte en cuenta gobernada.
@@ -162,3 +165,7 @@ La extensión MV3 dispone de un manual específico sobre avisos, solicitudes exa
 - [Manual completo de la extensión (ES)](docs/es/chrome-extension/index.md)
 - [Compatibilidad y estatus por wallet (ES)](docs/es/chrome-extension/wallet-coverage.md)
 - [Pruebas, capturas y límites (ES)](docs/es/chrome-extension/proofs-and-screenshots.md)
+
+## 14. Perfil de empresa y escalamiento
+
+El [perfil para inversionistas en español](company_es.md), su [versión inglesa](company.md) y el [plan de equipo, contratación y escenarios de capital](docs/es/investor/scale-plan.md) distinguen evidencia de producto, roles futuros y financiación hipotética. No se presenta capital levantado, clientes ni ingresos ficticios.

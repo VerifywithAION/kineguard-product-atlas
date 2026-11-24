@@ -22,3 +22,12 @@ Images are exactly shared between language versions. Do not claim universal EOA 
 - Wallet matrix English: docs/en/chrome-extension/wallet-coverage.md
 - Screenshot evidence Spanish: docs/es/chrome-extension/proofs-and-screenshots.md
 - Screenshot evidence English: docs/en/chrome-extension/proofs-and-screenshots.md
+
+## AI-readable company and growth profile (as of 2026-11-24)
+
+- English: company.md
+- Spanish: company_es.md
+- English hiring and stage-gated capital: docs/en/investor/scale-plan.md
+- Spanish hiring and stage-gated capital: docs/es/investor/scale-plan.md
+- Product evidence boundary: docs/beta-status.md
+- Funding scenarios and job roles are hypothetical, not existing hires or actual investment.
