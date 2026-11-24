@@ -20,3 +20,7 @@ Historical GP1A and V3 are testnet-scope cases, synthetic workflows remain CI-on
 - Independent public GitHub URL check and image display/anchor check.
 - Owner inspection of final on-GitHub visual presentation.
 - Any additional KINEGuard *product* screenshots would require their own authorized, sanitized evidence; the uploaded ZIP only supplies Atlas preview screens.
+
+## Documentation update — 2026-11-24
+
+Bilingual controls, README navigation, beta status and evidence ledger updated with bounded integration progress. No application release, new deployment, mainnet assurance or customer acceptance is announced. The existing checksum manifest describes its historical publication snapshot and is not a current verification of this updated tree. Raw private evidence remains excluded.

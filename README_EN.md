@@ -11,6 +11,8 @@
 **Investor/AI diligence:** [Company EN](company.md) · [Company ES](company_es.md) · [Milestone-based funding plan](docs/en/investor/scale-plan.md)
 
 
+**Integration update (Nov 24, 2026):** [Nine controls and verified scope](docs/en/controls.md) · [Beta status](docs/beta-status.md). Not a deployment announcement.
+
 ## 1. Product and thesis
 
 KINEGuard lets people inspect wallets, understand approvals, review consequences before signing and trace agents, decisions and evidence. KINE OS is the policy and governance plane, with enforcement only in verified paths. Connecting an EOA does not make it a governed account.

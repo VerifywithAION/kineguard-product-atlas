@@ -2,6 +2,15 @@
 
 **This repository is complete only as a publication artifact, not as a certified consumer product release.** The public GitHub Atlas may be published independently from the customer beta. It is not proof of a Hostinger deployment, real customer wallet activation or integrated runtime.
 
+## November 24, 2026 — integrated candidate update
+
+- Bounded synthetic integration coverage: per-transfer Sepolia policy, covered browser allow/deny, recipient denial, emergency browser pause/recovery, read-only agent delegation, exact transaction hash lookup and account-owned pre-forward decisions. No new production release is established.
+- Historical V3 identity reconciliation matched the complete 8,254-byte runtime from two provider responses and independently recomputed the constructor policy identity. Fresh economic readback remains unavailable under the required freshness control; protected amount remains uncertified. This is not independent finality or a security audit.
+- Exact reviewed-policy mutation binding is implemented in the candidate; CI pending at this cutoff. It is intended to reject stale confirmation of a replacement policy or pending proposal. Cumulative spending limits are not implemented in the customer route.
+- The customer target remains nine functional mechanisms, same-account acceptance, 115 human acceptance cases, safe authorized Sepolia operations and controlled release. Human acceptance is incomplete; current deployment and mainnet coverage are not certified.
+
+See [ES controls](es/controls.md) / [EN controls](en/controls.md). Earlier evidence tables are historical baselines where superseded by this dated update. Private implementation and customer evidence remain private.
+
 ## What already exists as evidence
 
 - Historical Chrome/MetaMask/Sepolia GP1A request-timing observations.

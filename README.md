@@ -11,6 +11,8 @@
 **Perfil para inversionistas/IA:** [Company ES](company_es.md) · [Company EN](company.md) · [Plan por etapas](docs/es/investor/scale-plan.md)
 
 
+**Avance de integración (24 nov 2026):** [Los nueve controles y su alcance comprobado](docs/es/controls.md) · [Estado de beta](docs/beta-status.md). No es un anuncio de despliegue.
+
 ## 1. Producto y promesa
 
 KINEGuard permite inspeccionar wallets, entender approvals, revisar consecuencias antes de firmar y seguir agentes, decisiones y evidencia. KINE OS es el plano de política y gobernanza, con protección efectiva solo en rutas verificadas. Conectar una EOA no la convierte en cuenta gobernada.

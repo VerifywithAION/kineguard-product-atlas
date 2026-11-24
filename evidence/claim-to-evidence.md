@@ -13,6 +13,17 @@
 | Complete decision-to-forward receipt correlation is not certified | `mechanisms/09-security-decisions.md` | A15, Master Protocol v2.0 | E2E-05 runtime not certified; R1A/R1B are policy-change only | `30efced` E2E-05 branch failure context | CI/test branches | No deployed integrated join | LAB / CI VERIFIED | Boundary claim |
 | KINE AI Intelligence | `docs/en/kine-ai.md`, `docs/es/kine-ai.md` | A01, A07 roadmap authorities | No production implementation; KAI-01 remains a future read-only target | Not applicable | Documentation only | No execution authority | DESIGN / ROADMAP | Documented roadmap, not released |
 
+## Dated evidence supplement — November 24, 2026
+
+| Claim | Evidence class | Scope and result |
+|---|---|---|
+| Saved per-transfer limit can block a covered request | LAB / CI VERIFIED | Integrated synthetic browser and disposable database: stale binding and over-limit requests zero forwards; durable account-owned pre-forward decision |
+| V3 historical runtime matches frozen artifact | Historical testnet readback | Original compiler artifact and two reported historical RPC runtimes match all 8,254 bytes after immutable reconstruction; policy identity independently recomputed; no independent finality or current amount certification |
+| Current protected funds | NOT CERTIFIED | Fresh common finalized state unavailable under required freshness control |
+| Exact reviewed-state policy mutation binding | IMPLEMENTED / CI PENDING | Candidate source change; no completed test claim at this cutoff |
+
+Public-safe summaries of internally reviewed evidence; raw private source, customer records and verification receipts are not published. See [beta status](../docs/beta-status.md).
+
 ## Deployment rule
 
 The latest documented Hostinger Current baseline is `c557df35a4a4e2551d621f6a7920063b7a76a19a`. No current functional evidence was available for a newer deployed integration, so no claim in this atlas is classified LIVE VERIFIED.

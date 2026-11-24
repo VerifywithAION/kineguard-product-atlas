@@ -1,5 +1,27 @@
 # The nine controls
 
+## Integration update — November 24, 2026
+
+KINEGuard 1.0 aims to make all nine controls usable through **My Account → Portfolio → View Details**, with KINE OS evaluating requests before covered execution. This table describes candidate evidence, not current availability on kineguard.com.
+
+| Control | Verified progress and scope |
+|---|---|
+| Spending Limits | CI: persistent Sepolia per-transfer limit, immediate tightening, delayed increase and pre-provider block. Editable cumulative cap and window remain pending. Exact reviewed-state validation implemented, CI pending. |
+| Protected Funds | Historical native-ETH V3 contract identity matched byte for byte; current economic readback not certified. Observed EOA balance is not governed funds. |
+| Browser Protection | Historical physical Chrome/MetaMask/Sepolia proof and integrated CI of bounded forwarding; physical candidate acceptance pending. |
+| Emergency Controls | CI for covered browser pause and recovery; historical V3 pending-action veto. No universal freeze. |
+| Recipient Rules | CI for recipient denial on covered native Sepolia transfers; no global rule. |
+| App Approvals | Inspection of known token/spender pairs; effective revocation not certified. |
+| Agent Access | CI for origin restrictions and scoped read delegation; no delegated monetary authority. |
+| Transaction History | CI for exact Sepolia hash and receipt lookup via one RPC; no complete indexing or independent finality. |
+| Security Decisions | CI for persistent pre-provider receipts and account-scoped readback; not proof of signing, broadcast or on-chain finality. |
+
+**Illustrative example:** a 0.001 ETH limit could reject a covered 0.002 ETH request before MetaMask. This is not a new transaction. A configuration changed in another tab must be reviewed again before confirming a change; software does not acquire signing authority.
+
+**V3 evidence:** recovery of the Solidity 0.8.20 artifact, reproduction of the compilation template, two historical RPC responses and immutable reconstruction matching all 8,254 bytes; policy identity independently recomputed. The examined contract constrains native ETH through immediate/delayed execution, window exposure, reservations and pending-action veto. Its parameters are immutable; it offers no global freeze or ERC-20/NFT coverage. Fresh economic readback remains blocked by insufficient freshness. This is not an audit or independent finality proof.
+
+[Beta status](../beta-status.md) · [Historical proofs](historical-proofs.md)
+
 ## 1. Spending Limits
 
 Per-action/window limit and HARDEN/WEAKEN changes; saving is not executing.
