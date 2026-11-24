@@ -6,7 +6,7 @@ KINEGuard 1.0 busca que los nueve controles operen desde **My Account → Portfo
 
 | Control | Avance comprobado y alcance |
 |---|---|
-| Spending Limits | CI: límite por transferencia Sepolia persistente, endurecimiento inmediato, aumento diferido y bloqueo previo al proveedor. Límite acumulado y ventana editables pendientes. Validación del estado exacto revisado: CI PASS. Admisión durable de un solo uso implementada, CI pendiente. |
+| Spending Limits | CI: límite por transferencia Sepolia persistente, endurecimiento inmediato, aumento diferido y bloqueo previo al proveedor. Validación del estado exacto revisado y admisión durable de un solo uso: CI PASS. Techo acumulativo conservador optativo implementado en candidato, CI pendiente; ventana móvil y liquidación independiente aún pendientes. |
 | Protected Funds | Identidad histórica del contrato V3 de ETH nativo contrastada byte a byte; lectura económica actual no certificada. Saldo EOA observado no equivale a fondos gobernados. |
 | Browser Protection | Prueba física histórica Chrome/MetaMask/Sepolia y CI integrada de forwarding acotado; aceptación física del candidato pendiente. |
 | Emergency Controls | CI de pausa y recuperación de ruta browser; veto histórico V3 sobre pendientes. No congelamiento universal. |
