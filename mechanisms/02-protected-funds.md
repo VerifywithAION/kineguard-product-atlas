@@ -10,6 +10,12 @@ Show observed wallet balances separately from assets held inside a governed smar
 
 Wallet-posture and account display source review; historical V3 native ETH governed-account proof is an independent scoped experiment.
 
+## Historical V3 identity — November 24, 2026
+
+The original compilation template was reproduced with Solidity 0.8.20. Two RPC responses for the same historical Sepolia block matched all 8,254 bytes of reconstructed runtime, including ten immutable variables. The policy identity was independently recomputed.
+
+This establishes historical code correspondence, not a currently protected balance or independent cryptographic finality. Fresh economic readback was blocked by the age of the common block. No new funds were moved. V3 veto applies to pending actions within that governed account, not every operation of an EOA.
+
 ## Limits and release gate
 
 No automatic protection of external EOA assets, token approvals, other chains or unverified contracts. Do not convert "Unavailable" into a protective claim.
