@@ -41,3 +41,5 @@ Bounded read delegation has synthetic CI evidence. The separate native monetary 
 - [Historical proofs](../../historical-proofs.md)
 
 [← Back to menu](index.md)
+
+**Account candidate:** repaired contract passed local EVM stage; integrated regression pending. Native-budget form evaluates saved policy, recipient, pause and admission capacity. Favorable evaluation is NOT AUTHORIZED; no signature, reservation, durable receipt or execution. Form CI pending. [Mechanism](../../../../mechanisms/07-agent-access.md).

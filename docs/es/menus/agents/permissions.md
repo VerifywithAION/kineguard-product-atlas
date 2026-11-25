@@ -41,3 +41,5 @@ La delegación de lectura acotada se ha probado en CI sintético. La autorizaci�
 - [Pruebas históricas](../../historical-proofs.md)
 
 [← Volver al menú](index.md)
+
+**Candidato de cuenta:** la reparación contractual aprobó la etapa EVM local; regresión integrada pendiente. Nuevo formulario de presupuesto nativo evalúa política guardada, destinatario, pausa y capacidad de admisión. Resultado favorable NO AUTORIZADO; sin firma, reserva, recibo duradero o ejecución. CI del formulario pendiente. [Mecanismo](../../../../mechanisms/07-agent-access.md).
