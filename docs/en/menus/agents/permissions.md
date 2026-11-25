@@ -57,3 +57,5 @@ Bounded read delegation has synthetic CI evidence. The separate native monetary 
 **Update:** laboratory account-bound contract observation PASS, 17/17 EVM, 22/22 RPC and 284/284 integrated. Agent-signed decision, durable receipt and atomic synthetic reservation candidate awaits CI; no spending authority or operation outside laboratory. Configured shared cap blocks reservation until cross-path accounting is integrated. [Mechanism](../../../../mechanisms/07-agent-access.md).
 
 **Adjudication:** durable decision CI failed at TypeScript (two untyped numeric conversions); E2E skipped. Strict PostgreSQL input validation repair `fd357af` published, CI 45690781711 pending. No durable decision PASS. Last qualified integration `aa2a836`. [Mechanism](../../../../mechanisms/07-agent-access.md).
+
+**Update:** durable decision repair passes TypeScript and build; E2E pending. Persistent invalidation candidate for pending dual-key challenges after successful association or explicit revocation, migration 036 and CI 45691992645 pending. Not on-chain revocation or spending authority. [Mechanism](../../../../mechanisms/07-agent-access.md).
