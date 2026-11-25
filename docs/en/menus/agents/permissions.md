@@ -51,3 +51,5 @@ Bounded read delegation has synthetic CI evidence. The separate native monetary 
 **CI closure:** dual EOA key association runtime PASS, integrated 284/284 and local EVM 16/16. No monetary authority or software identity; migration 034 synthetic only, not a production upgrade.
 
 **Update:** synthetic RPC contract observation 22/22 PASS, 16/16 EVM and 284/284 integrated. New compiled-runtime reconstruction candidate with nine immutables and local EVM comparison awaits CI. Not live contract registration or spending authority. [Mechanism](../../../../mechanisms/07-agent-access.md).
+
+**Update:** compiled provenance 18/18 controls within 17/17 EVM, 22/22 synthetic RPC and 284/284 integrated PASS. New account contract observation in View Details uses a sealed local fixture, current dual-key proof and policy binding; CI pending. No live registry or monetary authority outside the lab. [Mechanism](../../../../mechanisms/07-agent-access.md).

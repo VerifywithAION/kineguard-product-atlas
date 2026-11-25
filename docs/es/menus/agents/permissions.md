@@ -51,3 +51,5 @@ La delegación de lectura acotada se ha probado en CI sintético. La autorizaci�
 **Cierre de CI:** asociación doble de claves EOA PASS de runtime y regresión integrada 284/284; 16/16 EVM. Sin autoridad monetaria ni identidad del software. Migración 034 solo en entorno sintético, no upgrade de producción.
 
 **Actualización:** verificación contractual RPC sintética 22/22 PASS, 16/16 EVM y 284/284 integración. Nuevo candidato de reconstrucción de bytecode compilado con nueve inmutables y comparación con EVM local, CI pendiente. No es registro contractual real ni autorización de gasto. [Mecanismo](../../../../mechanisms/07-agent-access.md).
+
+**Actualización:** procedencia compilada 18/18 controles dentro de 17/17 EVM, 22/22 RPC sintético y 284/284 integración PASS. Nuevo candidato de lectura contractual de cuenta en View Details, fixture local sellado, doble firma vigente y política vinculada; CI pendiente. Fuera del laboratorio no hay registro real habilitado ni autoridad monetaria. [Mecanismo](../../../../mechanisms/07-agent-access.md).
