@@ -49,4 +49,6 @@ The latest documented Hostinger Current baseline is `c557df35a4a4e2551d621f6a792
 
 | Composed V3 owner return through customer UI and MV3 | LAB / CI VERIFIED (synthetic) | Real authenticated server and database with synthetic RPC/provider; cancel creates no intent, exact one forward after durable receipt, consumed-intent replay no additional forward; no actual withdrawal or settlement |
 
-| V3 exact transaction call / admission receipt association | IMPLEMENTED / CI PENDING | Unique reported hash, exact contract target, outer zero and canonical calldata; two-RPC comparison and customer history link; requested amount only, no causal proof or reservation release |
+| V3 exact transaction call / admission receipt association | LAB / CI VERIFIED (synthetic) | Unique reported hash, exact contract target, outer zero and canonical calldata; two-RPC comparison and customer history link; requested amount only, no causal proof or reservation release |
+
+| V3 matching immediate execution event | IMPLEMENTED / CI PENDING | Exact registered code, policy identity, mined event and reconstructed action ID from both configured RPCs; reported outflow only, no causal proof or settlement |

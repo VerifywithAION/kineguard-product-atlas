@@ -35,4 +35,6 @@ The next candidate preserves the exact contract call target, economic beneficiar
 
 The V3 owner-return durable context passed synthetic HTTP readback checks. The composed UI/MV3 test passed, checking durable admission before the synthetic provider is called. No mined action or chain completion inferred.
 
-The next candidate reuses the validated V3 receipt context for exact transaction call association; CI pending. The receipt remains distinct from on-chain execution evidence.
+The next candidate reuses the validated V3 receipt context for exact transaction call association; synthetic CI PASS. The receipt remains distinct from on-chain execution evidence.
+
+The new candidate reports matching V3 execution-event evidence separately from the pre-forward receipt and simulated action ID. CI pending. No causal admission proof or automatic economic release.

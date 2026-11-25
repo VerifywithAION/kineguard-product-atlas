@@ -35,4 +35,8 @@ Explicit reviewed nonce comparison passed integrated synthetic match/mismatch te
 
 ## Exact V3 return association
 
-The next candidate compares an observed zero-value V3 transaction's target and exact calldata against a unique saved ALLOW receipt and its extension-reported hash. The same two-RPC comparison is reused. The displayed internal amount is the requested return, not a verified contract outflow or mined action ID. CI pending; no causal execution or reservation release.
+The next candidate compares an observed zero-value V3 transaction's target and exact calldata against a unique saved ALLOW receipt and its extension-reported hash. The same two-RPC comparison is reused. The displayed internal amount is the requested return, not a verified contract outflow or mined action ID. Synthetic CI PASS; no causal execution or reservation release.
+
+## V3 execution-event evidence
+
+The candidate checks the exact registered code and policy at the transaction block, decodes the unique immediate execution event, and reconstructs its action identifier from the mined contract nonce and timestamp. Both configured RPCs must report the same matching event. Missing, duplicated, removed or inconsistent event evidence leaves outflow unestablished. CI pending; not a proof of independent finality or settlement.

@@ -80,4 +80,6 @@ Flow: select wallet/record, verify source, read state, explore control, compare 
 
 [Architecture](architecture.md)
 
-V3 return hash lookup now includes a candidate association with exact call fields and the admission receipt (CI pending); the requested internal amount is not verified contract outflow. No settlement or reservation release.
+V3 return hash lookup now includes a candidate association with exact call fields and the admission receipt (synthetic CI PASS); the requested internal amount is not verified contract outflow. No settlement or reservation release.
+
+The new V3 contractual event check reconstructs the mined action identity using its execution nonce and timestamp and requires two configured RPCs to agree with the registered code (CI pending). No causal or settlement claim.

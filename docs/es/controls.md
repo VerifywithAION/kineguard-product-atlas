@@ -80,4 +80,6 @@ Flujo: seleccionar wallet/registro, verificar fuente, leer estado, explorar cont
 
 [Arquitectura](architecture.md)
 
-La consulta del retorno V3 por hash ahora incluye una asociación candidata con los campos exactos de la llamada y el recibo de admisión (CI pendiente); el importe interno solicitado no equivale a una salida contractual verificada. Sin liquidación ni liberación de reservas.
+La consulta del retorno V3 por hash ahora incluye una asociación candidata con los campos exactos de la llamada y el recibo de admisión (CI PASS sintético); el importe interno solicitado no equivale a una salida contractual verificada. Sin liquidación ni liberación de reservas.
+
+La nueva comprobación del evento contractual V3 reconstruye el identificador de la acción minada con su nonce y tiempo de ejecución, y exige coincidencia entre dos RPC y el código registrado (CI pendiente). No acredita causalidad ni liquidación.
