@@ -25,7 +25,7 @@ Un límite de 500 dólares en una tarjeta local puede ser descriptivo, no presup
 
 La visibilidad de una pantalla pública no equivale a aceptación humana de runtime ni a protección universal de fondos.
 
-La delegación de lectura acotada se ha probado en CI sintético. La autorización monetaria nativa separada permanece como candidato contractual sin desplegar: 11 pruebas EVM aprobadas y una fallida por el matcher del test; corrección en validación. No equivale a permisos efectivos de gasto desde esta pantalla.
+La delegación de lectura acotada se ha probado en CI sintético. La autorización monetaria nativa separada permanece como candidato contractual sin desplegar: la versión contractual inicial obtuvo 12/12 PASS en EVM local; la revisión que exige una decisión individual firmada está pendiente de CI e integración con la política del cliente. No equivale a permisos efectivos de gasto desde esta pantalla.
 
 ## 5. Imagen relacionada
 

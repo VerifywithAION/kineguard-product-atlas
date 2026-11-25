@@ -28,3 +28,5 @@ Bilingual controls, README navigation, beta status and evidence ledger updated w
 ## Documentation update — 2026-11-25
 
 Updated the mechanism matrix, evidence ledger and bilingual agent permissions to reflect synthetic WETH revocation/readback evidence and the incomplete local-EVM agent grant qualification. No new customer-facing release, physical revocation, deployment or monetary delegation is claimed.
+
+The original bounded agent contract subsequently passed 12/12 local EVM tests and 284/284 integrated checks. The next candidate adds an independently signed per-operation governance decision; its new CI and live signer/policy integration are not certified. No customer-facing release or live authority is announced.

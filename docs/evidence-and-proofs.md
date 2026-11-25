@@ -50,5 +50,5 @@ No unqualified use of the term *receipt* should conflate these. Session-local ev
 ## Integrated candidate — 2026-11-25
 
 - Exact WETH revoke admission and separate Approval event/current allowance readback passed synthetic integration. The associated CI emitted `KINE_WETH_EXACT_REVOKE_COMPOSED=PASS` and `KINE_WETH_REVOKE_READBACK=PASS`; integrated checks reported 284/284. No physical revocation or causal proof is claimed.
-- Bounded native agent grant: 11 local EVM tests passed; one failed on a deprecated assertion matcher. A two-assertion and provenance-only correction is undergoing CI. No contract deployment, customer integration, or live monetary authority is certified.
+- Bounded native agent grant: 11 local EVM tests passed; one failed on a deprecated assertion matcher. The matcher-only correction subsequently passed 12/12 local EVM tests and 284/284 integrated checks. A successor candidate requiring an exact short-lived signed decision per operation is awaiting CI; the earlier PASS does not certify this new revision. No contract deployment, customer integration, or live monetary authority is certified.
 - Existing read-only agent grants are not signing or spending permissions. Human Acceptance and production qualification remain pending.
