@@ -12,7 +12,7 @@ Historical GP1A T1–T4 Chrome/MetaMask/Sepolia cases; read detailed results in 
 
 ## Limits and release gate
 
-This is not universal RPC interception. The merged customer-policy binding, provider-forward receipts and current deployment must be accepted separately.
+This is not universal RPC interception. The unmerged candidate passed synthetic customer-policy binding, zero-forward denials, one-forward consented requests and separate reported provider dispositions. Current hosted and physical acceptance remain separate.
 
 ## Forensic acceptance questions
 

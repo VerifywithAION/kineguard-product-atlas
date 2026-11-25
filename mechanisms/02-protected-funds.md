@@ -1,6 +1,6 @@
 # Protected Funds
 
-> **Public evidence class: UI / READ-ONLY.** A visible control or illustrative UI cannot certify an operating protection mechanism.
+> **Public evidence class: LAB / CI VERIFIED (bounded observation and composed admission).** A visible control or illustrative UI cannot certify an operating protection mechanism.
 
 ## Mechanism and customer meaning
 
@@ -8,7 +8,7 @@ Show observed wallet balances separately from assets held inside a governed smar
 
 ## Evidence actually available
 
-Wallet-posture and account display source review; historical V3 native ETH governed-account proof is an independent scoped experiment.
+Account-owned EOA readback, code-pinned V2 read association, V3 custody and dual-RPC observation passed scoped synthetic CI. Historical V3 governed-account proof remains a separate physical experiment.
 
 ## Historical V3 identity — November 24, 2026
 

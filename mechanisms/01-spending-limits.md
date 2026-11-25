@@ -12,7 +12,7 @@ E2E-04 synthetic save/harden/pending/cancel (14 runtime PASS, five product gaps,
 
 ## Limits and release gate
 
-Current beta still needs exact wallet policy → extension pre-forward decision → provider result → durable linked receipt, same revision and identity. No universal EOA veto.
+The integrated candidate has synthetic exact-policy pre-forward admission, reported provider disposition and linked durable decision evidence. Hosted customer acceptance and independent settlement remain open. No universal EOA veto.
 
 ## Forensic acceptance questions
 

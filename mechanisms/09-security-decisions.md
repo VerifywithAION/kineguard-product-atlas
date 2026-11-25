@@ -8,7 +8,7 @@ Connect exact request ID, owner, wallet, provider, chain, origin, decoded method
 
 ## Evidence actually available
 
-Historical browser decisions + synthetic R1A/R1B policy-change receipts; E2E05 runtime integration was not fully certified.
+Historical browser decisions plus R1A/R1B policy-change receipts and integrated E2E-05 synthetic runtime PASS for bounded pre-forward receipts and reported provider disposition. R1I confirms the same emergency decision in four customer views; hosted acceptance remains open.
 
 ## Limits and release gate
 

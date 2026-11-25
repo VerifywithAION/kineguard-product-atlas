@@ -1,6 +1,6 @@
 # Agent Access
 
-> **Public evidence class: UI / READ-ONLY.** A visible control or illustrative UI cannot certify an operating protection mechanism.
+> **Public evidence class: LAB / CI VERIFIED (read scope and original local contract revision).** A visible control or illustrative UI cannot certify an operating protection mechanism.
 
 ## Mechanism and customer meaning
 
@@ -30,4 +30,4 @@ The next candidate binds an explicit read count (1–10) and duration (1–30 mi
 
 ## Bounded native monetary grant contract candidate
 
-The new undeployed contract isolates explicitly funded native ETH principal from existing EOA and V3 funds. Immutable owner, distinct guardian and agent, fixed recipient, nonrenewable budget (maximum 0.001 ETH), per-action cap and expiry (maximum 30 minutes). Owner or guardian may permanently revoke; only owner may recover after expiry or revocation. No arbitrary calldata, renewal or upgrade. The policy hash is a label until account and policy integration is verified. Original bounded contract passed 12/12 local EVM tests after the assertion-matcher correction; integrated regression reported 284/284. A successor candidate requires an independently signed exact per-operation decision with a short lifetime and a decision hash in its execution evidence. The successor's CI, policy-service integration and signer custody remain unqualified. No deployment, funding, live authority or customer integration. Existing read grants do not grant spending authority.
+The new undeployed contract isolates explicitly funded native ETH principal from existing EOA and V3 funds. Immutable owner, distinct guardian and agent, fixed recipient, nonrenewable budget (maximum 0.001 ETH), per-action cap and expiry (maximum 30 minutes). Owner or guardian may permanently revoke; only owner may recover after expiry or revocation. No arbitrary calldata, renewal or upgrade. The policy hash is a label until account and policy integration is verified. Original bounded contract passed 12/12 local EVM tests after the assertion-matcher correction; integrated regression reported 284/284. A successor candidate requires an independently signed exact per-operation decision with a short lifetime and a decision hash in its execution evidence. The successor CI failed at Solidity compilation (stack too deep); no new EVM tests ran. Policy-service integration and signer custody remain unqualified. No deployment, funding, live authority or customer integration. Existing read grants do not grant spending authority.

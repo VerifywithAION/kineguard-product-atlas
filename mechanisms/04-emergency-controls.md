@@ -1,6 +1,6 @@
 # Emergency Controls
 
-> **Public evidence class: DESIGN / PRODUCT GAP.** A visible control or illustrative UI cannot certify an operating protection mechanism.
+> **Public evidence class: LAB / CI VERIFIED — COVERED BROWSER.** A visible control or illustrative UI cannot certify an operating protection mechanism.
 
 ## Mechanism and customer meaning
 
@@ -8,7 +8,7 @@ An independently governed account may define pause, cancellation or Safety Autho
 
 ## Evidence actually available
 
-Historical V3 3B-3 exact Safety Authority veto is distinct from an Emergency Controls button in customer UI.
+R1G/J integrated synthetic CI: saved wallet-scoped browser pause blocks covered requests (zero forwards), rejects foreign-account changes, supports wallet-signed recovery, rejects old capabilities and accepts a new binding. The same durable pause decision appeared in Wallet Details, Activity, Receipts and Guardian. Historical V3 3B-3 Safety Authority veto is separate.
 
 ## Limits and release gate
 

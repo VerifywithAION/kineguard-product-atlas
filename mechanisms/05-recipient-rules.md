@@ -1,6 +1,6 @@
 # Recipient Rules
 
-> **Public evidence class: LAB / CI VERIFIED — HISTORICAL LIMITED.** A visible control or illustrative UI cannot certify an operating protection mechanism.
+> **Public evidence class: LAB / CI VERIFIED — COVERED BROWSER.** A visible control or illustrative UI cannot certify an operating protection mechanism.
 
 ## Mechanism and customer meaning
 
@@ -8,7 +8,7 @@ A destination allow/deny rule only matters when the policy is bound to the walle
 
 ## Evidence actually available
 
-Historical governed rejection evidence in a controlled path; no current durable customer-recipient editor certification.
+R1E integrated synthetic CI confirms account-owned saved recipient deny rules, cross-account read/write rejection and zero forwards for denied covered native Sepolia transfers. Historical governed rejection is separate; hosted customer acceptance remains pending.
 
 ## Limits and release gate
 

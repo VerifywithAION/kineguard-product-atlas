@@ -1,6 +1,6 @@
 # App Approvals
 
-> **Public evidence class: UI / READ-ONLY.** A visible control or illustrative UI cannot certify an operating protection mechanism.
+> **Public evidence class: LAB / CI VERIFIED (bounded candidate).** A visible control or illustrative UI cannot certify an operating protection mechanism.
 
 ## Mechanism and customer meaning
 
@@ -8,7 +8,7 @@ Inspect spender, token, chain, approval allowances and provenance when available
 
 ## Evidence actually available
 
-Scanner/approval-inspection surface is reported as read-only.
+The public scanner remains read-only. The integrated customer candidate has exact-pair readback, fail-closed unsupported calls, and a default-disabled exact WETH zero-approval path with synthetic admission/event/readback evidence.
 
 ## Limits and release gate
 

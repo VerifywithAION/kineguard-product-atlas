@@ -1,6 +1,6 @@
 # Transaction History
 
-> **Public evidence class: UI / READ-ONLY.** A visible control or illustrative UI cannot certify an operating protection mechanism.
+> **Public evidence class: LAB / CI VERIFIED (bounded observation).** A visible control or illustrative UI cannot certify an operating protection mechanism.
 
 ## Mechanism and customer meaning
 
@@ -8,7 +8,7 @@ Report source of each event: browser observation, account-owned record, provider
 
 ## Evidence actually available
 
-Customer Activity observation-only read model; historic KINE receipts and CI receipt work are different evidence sources.
+Customer Activity and transaction history have synthetic owner-scoped exact hash lookup, candidate decision association and separate V3/WETH event and state observations. Historical KINE receipts remain distinct evidence sources.
 
 ## Limits and release gate
 
