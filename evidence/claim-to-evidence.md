@@ -56,3 +56,5 @@ The latest documented Hostinger Current baseline is `c557df35a4a4e2551d621f6a792
 | Populated 028–032 delta migration compatibility | LAB / CI VERIFIED (synthetic PG16) | Existing rows preserved, legacy defaults and negative constraints verified; not production backup or upgrade |
 
 | Admin customer-governance counts and navigation | LAB / CI VERIFIED (synthetic PG16 and browser) | Authenticated aggregate database counts, distinct operator session, no raw customer identities, explicit unavailable state; hosted acceptance pending |
+
+| WETH candidate source reproduction | PARTIAL IDENTITY EVIDENCE / LIVE RPC BLOCKED | Executable section matches two explorer records after recompilation; full runtime differs in metadata; current canonical RPC code agreement not established; no revoke authorization |

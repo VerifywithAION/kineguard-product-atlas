@@ -85,3 +85,5 @@ V3 return hash lookup now includes a candidate association with exact call field
 The new V3 contractual event check reconstructs the mined action identity using its execution nonce and timestamp and requires two configured RPCs to agree with the registered code (synthetic CI PASS). No causal or settlement claim.
 
 The candidate adds aggregate account, valid-session, saved wallet/agent record, policy, pause and durable decision counts to Admin, restricted to administrator sessions; synthetic CI PASS. These are not protected-funds or on-chain execution totals.
+
+For future Sepolia ERC-20 revocation, the candidate WETH public source was reproduced using its original compiler: 1,733 executable bytes match both explorer records, out of 1,786 total runtime bytes. Metadata differs. Current two-RPC fresh finalized-block agreement was not established; revocation remains disabled.

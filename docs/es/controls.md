@@ -85,3 +85,5 @@ La consulta del retorno V3 por hash ahora incluye una asociación candidata con 
 La nueva comprobación del evento contractual V3 reconstruye el identificador de la acción minada con su nonce y tiempo de ejecución, y exige coincidencia entre dos RPC y el código registrado (CI PASS sintético). No acredita causalidad ni liquidación.
 
 El candidato incorpora indicadores agregados de cuentas, sesiones vigentes, registros de wallets y agentes, políticas, pausas y decisiones persistentes en Admin, exclusivamente mediante sesión administrativa; CI PASS en entorno sintético. No son cifras de fondos protegidos ni de ejecución on-chain.
+
+Para la futura revocación ERC-20 en Sepolia, la fuente pública del WETH candidato fue reproducida con su compilador original: 1,733 bytes ejecutables coinciden con los dos registros de explorador, de 1,786 bytes de runtime total. Los metadatos difieren. No se estableció coincidencia actual mediante dos RPC en un bloque finalizado fresco; la revocación sigue sin habilitarse.
