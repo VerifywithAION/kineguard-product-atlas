@@ -29,3 +29,5 @@ Agent Access update: 22/22 registered-grant synthetic observation PASS at `cc70c
 Agent Access update: compiled-runtime provenance 18/18 controls within 17/17 local EVM, 22/22 RPC and 284/284 integrated PASS at `08a57db`. Account-bound local grant observation candidate `aa2a836` pending CI; no live registry or monetary authority. See [mechanism](../mechanisms/07-agent-access.md).
 
 Agent Access update: account-bound laboratory grant observation PASS at `aa2a836`. Durable agent-signed laboratory decision candidate `869b325` pending CI; no live capacity or spending authority. See [mechanism](../mechanisms/07-agent-access.md).
+
+Agent Access update: durable lab decision candidate `869b325` failed TypeScript; E2E skipped. Strict stored-value repair `fd357af` pending CI 45690781711. Last qualified account observation remains `aa2a836`; no live authority.

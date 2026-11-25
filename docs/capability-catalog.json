@@ -574,6 +574,9 @@
     "account_observation_status": "SUCCESS_SYNTHETIC_ACCOUNT_OBSERVATION_17_EVM_22_RPC_284_INTEGRATED",
     "lab_decision_commit": "869b325c1e960768c55dfacbe8243a27bb062344",
     "lab_decision_ci": "45682962700",
-    "lab_decision_status": "IN_PROGRESS_AT_PUBLICATION"
+    "lab_decision_status": "FAILED_TYPESCRIPT_E2E_NOT_RUN",
+    "lab_decision_repair_commit": "fd357af0dca01cc29c2b9b93966e745698e63e93",
+    "lab_decision_repair_ci": "45690781711",
+    "lab_decision_repair_status": "IN_PROGRESS_AT_PUBLICATION"
   }
 }
