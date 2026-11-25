@@ -6,7 +6,7 @@ KINEGuard 1.0 aims to make all nine controls usable through **My Account → Por
 
 | Control | Verified progress and scope |
 |---|---|
-| Spending Limits | CI: persistent Sepolia per-transfer limit, immediate tightening, delayed increase and pre-provider block. Exact reviewed-state validation and single-use durable admission: CI PASS. Opt-in conservative cumulative admission cap: CI PASS. Counted amount, remaining admission capacity and cap-change receipt readback implemented, CI pending. Rolling window and independent settlement remain pending. |
+| Spending Limits | CI: persistent Sepolia per-transfer limit, immediate tightening, delayed increase and pre-provider block. Exact reviewed-state validation and single-use durable admission: CI PASS. Opt-in conservative cumulative admission cap: CI PASS. Counted amount, remaining admission capacity and cap-change receipt readback implemented; initial CI stopped at React lint, repair committed and validation pending. Rolling window and independent settlement remain pending. |
 | Protected Funds | Historical native-ETH V3 contract identity matched byte for byte; current economic readback not certified. Observed EOA balance is not governed funds. |
 | Browser Protection | Historical physical Chrome/MetaMask/Sepolia proof and integrated CI of bounded forwarding; physical candidate acceptance pending. |
 | Emergency Controls | CI for covered browser pause and recovery; historical V3 pending-action veto. No universal freeze. |
