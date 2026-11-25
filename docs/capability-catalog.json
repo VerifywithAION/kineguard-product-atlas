@@ -583,6 +583,9 @@
     "key_challenge_invalidation_status": "SUCCESS_2_STALE_DUAL_PROOFS_17_EVM_22_RPC_284_INTEGRATED",
     "cross_mechanism_denial_commit": "c1e3b33113a35587404c73c9a464029ad5ad114f",
     "cross_mechanism_denial_ci": "45693990497",
-    "cross_mechanism_denial_status": "QUEUED_AT_PUBLICATION"
+    "cross_mechanism_denial_status": "QUEUED_AT_PUBLICATION",
+    "shared_admission_commit": "a78207d85089833df167d1c39d1397620af869e8",
+    "shared_admission_ci": "45694513194",
+    "shared_admission_status": "IN_PROGRESS_LAB_BROWSER_AND_READBACK_ONLY"
   }
 }

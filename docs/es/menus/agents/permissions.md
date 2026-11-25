@@ -63,3 +63,5 @@ La delegación de lectura acotada se ha probado en CI sintético. La autorizaci�
 **Resultado confirmado:** CI 45690781711 SUCCESS, decisión durable y reserva sintética concurrente PASS, 17/17 EVM, 22/22 RPC y 284/284 integración. Sin firma ejecutable ni capacidad real. Sucesor de invalidación de desafíos pendiente.
 
 **Actualización:** invalidación de dos desafíos pendientes PASS, 17/17 EVM, 22/22 RPC y 284/284 integración. Nuevas pruebas de bloqueo de solicitudes firmadas tras pausa, deny de destinatario/origen y cambio de cap pendientes de CI; sin contabilidad compartida ni autoridad real. [Mecanismo](../../../../mechanisms/07-agent-access.md).
+
+**Actualización:** candidato de contabilidad conservadora compartida de laboratorio: reservas sintéticas del agente cuentan para cap navegador y readback/propuesta, con desglose explícito. Fuera del laboratorio se conserva cálculo navegador-only. Admisión del agente bajo cap sigue bloqueada hasta nueva calificación; CI pendiente. Sin firma ejecutable ni fondos reales.
