@@ -61,3 +61,5 @@ Bounded read delegation has synthetic CI evidence. The separate native monetary 
 **Update:** durable decision repair passes TypeScript and build; E2E pending. Persistent invalidation candidate for pending dual-key challenges after successful association or explicit revocation, migration 036 and CI 45691992645 pending. Not on-chain revocation or spending authority. [Mechanism](../../../../mechanisms/07-agent-access.md).
 
 **Confirmed result:** CI 45690781711 SUCCESS, durable laboratory decision and concurrent synthetic reservation PASS, 17/17 EVM, 22/22 RPC and 284/284 integrated. No executable signature or live capacity. Challenge invalidation successor pending.
+
+**Update:** two pending challenge invalidations PASS, 17/17 EVM, 22/22 RPC and 284/284 integrated. New signed-request denial tests after pause, recipient/origin deny and cap change await CI; no shared accounting or live authority. [Mechanism](../../../../mechanisms/07-agent-access.md).

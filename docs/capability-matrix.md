@@ -35,3 +35,5 @@ Agent Access update: durable lab decision candidate `869b325` failed TypeScript;
 Agent Access update: durable lab decision repair TypeScript/build PASS, E2E pending. Pending key-challenge invalidation candidate `9581471` / CI 45691992645 pending; no live authority.
 
 Agent Access qualification: durable laboratory decision and concurrent synthetic reservation PASS at `fd357af` / CI 45690781711; no executable signature or live capacity. Challenge invalidation successor pending.
+
+Agent Access update: pending challenge invalidation PASS at `9581471` / CI 45691992645. Cross-mechanism denial candidate `c1e3b33` / CI 45693990497 pending; no live authority or shared cap qualification.
