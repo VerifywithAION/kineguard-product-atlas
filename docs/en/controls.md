@@ -84,4 +84,4 @@ V3 return hash lookup now includes a candidate association with exact call field
 
 The new V3 contractual event check reconstructs the mined action identity using its execution nonce and timestamp and requires two configured RPCs to agree with the registered code (synthetic CI PASS). No causal or settlement claim.
 
-The candidate adds aggregate account, valid-session, saved wallet/agent record, policy, pause and durable decision counts to Admin, restricted to administrator sessions; CI pending. These are not protected-funds or on-chain execution totals.
+The candidate adds aggregate account, valid-session, saved wallet/agent record, policy, pause and durable decision counts to Admin, restricted to administrator sessions; synthetic CI PASS. These are not protected-funds or on-chain execution totals.
