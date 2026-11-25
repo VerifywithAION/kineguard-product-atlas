@@ -32,3 +32,5 @@ The subsequent candidate preserves an optional explicitly requested nonce in the
 ## V3 owner return decision context
 
 The next candidate preserves the exact contract call target, economic beneficiary, zero external value, internal amount and simulation context on the durable pre-forward receipt. The short-lived one-use intent is consumed with the admission. A simulation identifier is not a mined action ID; the receipt still does not verify signing, forwarding, chain completion or protected funds. CI pending.
+
+The V3 owner-return durable context passed synthetic HTTP readback checks. A composed UI/MV3 test now checks durable admission before the synthetic provider is called; CI pending. No mined action or chain completion inferred.
