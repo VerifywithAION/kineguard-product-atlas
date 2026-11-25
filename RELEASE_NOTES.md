@@ -24,3 +24,7 @@ Historical GP1A and V3 are testnet-scope cases, synthetic workflows remain CI-on
 ## Documentation update — 2026-11-24
 
 Bilingual controls, README navigation, beta status and evidence ledger updated with bounded integration progress. No application release, new deployment, mainnet assurance or customer acceptance is announced. The existing checksum manifest describes its historical publication snapshot and is not a current verification of this updated tree. Raw private evidence remains excluded.
+
+## Documentation update — 2026-11-25
+
+Updated the mechanism matrix, evidence ledger and bilingual agent permissions to reflect synthetic WETH revocation/readback evidence and the incomplete local-EVM agent grant qualification. No new customer-facing release, physical revocation, deployment or monetary delegation is claimed.

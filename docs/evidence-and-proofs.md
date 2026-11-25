@@ -46,3 +46,9 @@ No unqualified use of the term *receipt* should conflate these. Session-local ev
 ## Evidentiary anchors
 
 [Sepolia Key Is Not Enough Evidence](https://app.notion.com/p/2bc692056e8f44ed9ab5dea58240e677) · [Master Customer Protocol](https://app.notion.com/p/41bd5f4fa5e3814e948bf911dddef7ef) · [Detailed claim-to-evidence table](../evidence/claim-to-evidence.md).
+
+## Integrated candidate — 2026-11-25
+
+- Exact WETH revoke admission and separate Approval event/current allowance readback passed synthetic integration. The associated CI emitted `KINE_WETH_EXACT_REVOKE_COMPOSED=PASS` and `KINE_WETH_REVOKE_READBACK=PASS`; integrated checks reported 284/284. No physical revocation or causal proof is claimed.
+- Bounded native agent grant: 11 local EVM tests passed; one failed on a deprecated assertion matcher. A two-assertion and provenance-only correction is undergoing CI. No contract deployment, customer integration, or live monetary authority is certified.
+- Existing read-only agent grants are not signing or spending permissions. Human Acceptance and production qualification remain pending.

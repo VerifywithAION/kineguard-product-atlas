@@ -9,9 +9,9 @@ Each mechanism has exactly one public evidence class. A class describes the stro
 | Browser Protection | TESTNET VERIFIED | Historical bounded extension path was accepted for supported wrapped requests | GP1A Chrome/MetaMask/Sepolia acceptance; bounded scope, not current deployment proof | Not universal EOA enforcement |
 | Emergency Controls | DESIGN / ROADMAP | No public operational control is claimed | Canonical protocol marks wallet-scoped authority unavailable | Unavailable |
 | Recipient Rules | LAB / CI VERIFIED | Historical governed rejection exists in a controlled path | Historical governed recipient rejection evidence; no current customer-editable policy | No current editable enforcement claim |
-| App Approvals | UI / READ-ONLY | Approval inspection is available as an inspection surface | Wallet approval scanner/read-only surface | Effective revocation not certified |
-| Agent Access | UI / READ-ONLY | Agent/BYOK governance surfaces can be inspected | Agent Arena/BYOK boundary; no wallet-spend authority | No wallet delegation claim |
-| Transaction History | UI / READ-ONLY | Account-owned observations can be shown | Activity observation source; not chain finality | Not chain-confirmed transaction history |
+| App Approvals | LAB / CI VERIFIED | Exact governed WETH revocation admission and separate event/current allowance readback | Integrated synthetic browser and two-provider evidence tests; no physical transaction | Real revocation and current contract qualification pending |
+| Agent Access | LAB / CI VERIFIED (read scope) | Wallet-signed, bounded metadata read grants | Synthetic read grant budget, expiry, exhaustion and revocation; separate native ETH grant candidate has partial local EVM evidence, final CI pending | No deployed monetary authority or customer spend integration |
+| Transaction History | LAB / CI VERIFIED | Account-owned synthetic V3 and WETH observation/readback evidence | Synthetic two-provider evidence; WETH Approval event and current allowance separately checked | No live chain finality or complete history claim |
 | Security Decisions | LAB / CI VERIFIED | Policy-change evidence and bounded decision evidence exist | R1A/R1B receipts plus historical decision evidence; no complete forwarding join | Execution receipt not certified |
 | KINE AI Intelligence | DESIGN / ROADMAP | Planned grounded natural-language interface to canonical KINE state | A01/A07 roadmap authorities; no released KAI implementation or production evidence | KAI-01 is not released; AI has no governance or execution authority |
 

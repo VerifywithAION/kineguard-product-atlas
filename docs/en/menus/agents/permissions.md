@@ -25,6 +25,8 @@ A $500 limit on a local card can be descriptive rather than an enforced contract
 
 A visible public screen does not equal human runtime acceptance or universal funds protection.
 
+Bounded read delegation has synthetic CI evidence. The separate native monetary grant remains an undeployed contract candidate: 11 EVM tests passed, one failed due to a test matcher; correction under validation. This screen does not confer effective spending authority.
+
 ## 5. Related image
 
 ![KINEGuard related controlled-local screenshot](../../../../assets/screenshots/local-controlled/treasury-agent.png)

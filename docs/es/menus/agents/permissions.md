@@ -25,6 +25,8 @@ Un límite de 500 dólares en una tarjeta local puede ser descriptivo, no presup
 
 La visibilidad de una pantalla pública no equivale a aceptación humana de runtime ni a protección universal de fondos.
 
+La delegación de lectura acotada se ha probado en CI sintético. La autorización monetaria nativa separada permanece como candidato contractual sin desplegar: 11 pruebas EVM aprobadas y una fallida por el matcher del test; corrección en validación. No equivale a permisos efectivos de gasto desde esta pantalla.
+
 ## 5. Imagen relacionada
 
 ![KINEGuard related controlled-local screenshot](../../../../assets/screenshots/local-controlled/treasury-agent.png)
