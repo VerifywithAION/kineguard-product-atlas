@@ -23,10 +23,12 @@
 | Exact reviewed-state policy mutation binding | LAB / CI VERIFIED | Integrated synthetic tests: stale reviews, replacement proposals and early activation rejected; active limit preserved |
 | Single-use durable admission | LAB / CI VERIFIED | Concurrent identical requests: one admission and one rejection; renewal replay rejected; fresh request admitted |
 | Conservative cumulative admission cap | LAB / CI VERIFIED | Opt-in covered native cap; distinct concurrent requests compete for remaining capacity, rebinding retains history, increases delayed; no independent settlement |
-| Owner economic readback and cap-change receipts | IMPLEMENTED / CI REVALIDATION PENDING | Timestamped counted admissions and remaining capacity; historical, active and requested cap fields; no chain-completion or release claim |
+| Owner economic readback and cap-change receipts | LAB / CI VERIFIED | Timestamped counted admissions and remaining capacity; historical, active and requested cap fields; no chain-completion or release claim |
 
 Public-safe summaries of internally reviewed evidence; raw private source, customer records and verification receipts are not published. See [beta status](../docs/beta-status.md).
 
 ## Deployment rule
 
 The latest documented Hostinger Current baseline is `c557df35a4a4e2551d621f6a7920063b7a76a19a`. No current functional evidence was available for a newer deployed integration, so no claim in this atlas is classified LIVE VERIFIED.
+
+| Reported transaction hash and native-field candidate association | IMPLEMENTED / CI PENDING | Exact capability-bound unverified result report; unique owner-scoped ALLOW and single-RPC native-field comparison only; no causal proof, finality or reservation release |

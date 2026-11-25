@@ -22,3 +22,7 @@ A policy-change entry is not an on-chain transfer; an observation is not finalit
 - Is the result supported by a reproducible runtime proof, rather than an interface label?
 
 **Read more:** [architecture](../docs/architecture.md) · [evidence and proofs](../docs/evidence-and-proofs.md) · [capability matrix](../docs/capability-matrix.md) · [main README](../README.md).
+
+## Exact hash lookup and candidate association
+
+Single-RPC exact transaction lookup is verified in synthetic integrated CI. A subsequent candidate records the provider-reported hash on the originating disposition report and compares it against the saved wallet's native transaction fields. A unique matching receipt is presented as a candidate association only; missing or ambiguous evidence cannot establish causal execution. Candidate CI pending. No complete indexing, finality or reservation release is claimed.

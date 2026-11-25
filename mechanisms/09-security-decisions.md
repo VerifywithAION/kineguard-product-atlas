@@ -22,3 +22,7 @@ Do not represent policy edits as denials, decision receipts as mined transaction
 - Is the result supported by a reproducible runtime proof, rather than an interface label?
 
 **Read more:** [architecture](../docs/architecture.md) · [evidence and proofs](../docs/evidence-and-proofs.md) · [capability matrix](../docs/capability-matrix.md) · [main README](../README.md).
+
+## Provider-result hash evidence
+
+Integrated synthetic CI verifies owner-scoped durable decisions and conservative admission readback. A subsequent candidate adds the provider-reported transaction hash to the exact capability-bound result report and displays it as unverified evidence. The matching single-RPC observation may support a candidate association, not proof that KINE caused execution. CI pending. Existing policy and pre-forward receipt boundaries remain unchanged.
