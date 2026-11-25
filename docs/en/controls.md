@@ -13,8 +13,8 @@ KINEGuard 1.0 aims to make all nine controls usable through **My Account → Por
 | Recipient Rules | CI for recipient denial on covered native Sepolia transfers; no global rule. |
 | App Approvals | Inspection of known token/spender pairs; effective revocation not certified. |
 | Agent Access | CI for origin restrictions and scoped read delegation; no delegated monetary authority. |
-| Transaction History | CI for exact Sepolia hash and receipt lookup via one RPC. New candidate association between reported hash and durable decision compares sender, recipient, amount and native calldata; CI pending. No causal proof, complete indexing or independent finality. |
-| Security Decisions | CI for persistent pre-provider receipts and account-scoped readback. Provider-reported result hash capture implemented in candidate, CI pending; remains an unverified observation, not proof of signing, broadcast or on-chain finality. |
+| Transaction History | CI for exact Sepolia hash and receipt lookup via one RPC. Candidate association between reported hash and durable decision compares sender, recipient, amount and native calldata: CI PASS. Additional two-RPC agreement, block membership and fresh shared finalized anchor check implemented, CI pending. No causal proof, complete indexing or independent finality. |
+| Security Decisions | CI for persistent pre-provider receipts and account-scoped readback. Provider-reported result hash capture: CI PASS; remains an unverified observation, not proof of signing, broadcast or on-chain finality. |
 
 **Illustrative example:** a 0.001 ETH limit could reject a covered 0.002 ETH request before MetaMask. This is not a new transaction. A configuration changed in another tab must be reviewed again before confirming a change; software does not acquire signing authority.
 

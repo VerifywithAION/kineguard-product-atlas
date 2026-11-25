@@ -25,4 +25,8 @@ A policy-change entry is not an on-chain transfer; an observation is not finalit
 
 ## Exact hash lookup and candidate association
 
-Single-RPC exact transaction lookup is verified in synthetic integrated CI. A subsequent candidate records the provider-reported hash on the originating disposition report and compares it against the saved wallet's native transaction fields. A unique matching receipt is presented as a candidate association only; missing or ambiguous evidence cannot establish causal execution. Candidate CI pending. No complete indexing, finality or reservation release is claimed.
+Single-RPC exact transaction lookup is verified in synthetic integrated CI. A subsequent candidate records the provider-reported hash on the originating disposition report and compares it against the saved wallet's native transaction fields. A unique matching receipt is presented as a candidate association only; missing or ambiguous evidence cannot establish causal execution. Integrated synthetic CI passed the candidate association. No complete indexing, finality or reservation release is claimed.
+
+## Two-provider readback
+
+The next candidate checks the same native transaction and receipt through two distinct configured RPC endpoints, including nonce, transaction index, inclusion in the reported block and a shared finalized anchor no older than 15 minutes. Anchor agreement is rechecked at completion. A disagreement or unavailable endpoint leaves the original basic observation unqualified. Candidate CI pending; no cryptographic finality, causal attribution or automatic settlement is claimed.

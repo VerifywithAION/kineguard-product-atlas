@@ -31,4 +31,6 @@ Public-safe summaries of internally reviewed evidence; raw private source, custo
 
 The latest documented Hostinger Current baseline is `c557df35a4a4e2551d621f6a7920063b7a76a19a`. No current functional evidence was available for a newer deployed integration, so no claim in this atlas is classified LIVE VERIFIED.
 
-| Reported transaction hash and native-field candidate association | IMPLEMENTED / CI PENDING | Exact capability-bound unverified result report; unique owner-scoped ALLOW and single-RPC native-field comparison only; no causal proof, finality or reservation release |
+| Reported transaction hash and native-field candidate association | LAB / CI VERIFIED | Exact capability-bound unverified result report; unique owner-scoped ALLOW and single-RPC native-field comparison only; no causal proof, finality or reservation release |
+
+| Two-provider native transaction observation | IMPLEMENTED / CI PENDING | Exact fields, block membership, matching fresh finalized anchors and owner recheck; discrepancy leaves only unqualified basic observation; no release or independent finality |

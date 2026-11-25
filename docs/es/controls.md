@@ -13,8 +13,8 @@ KINEGuard 1.0 busca que los nueve controles operen desde **My Account → Portfo
 | Recipient Rules | CI de denegación de destinatario en transferencia nativa Sepolia cubierta; no regla global. |
 | App Approvals | Inspección de pares token/spender conocidos; revocación efectiva no certificada. |
 | Agent Access | CI de restricciones de origen y delegación de lectura acotada; no autoridad monetaria delegada. |
-| Transaction History | CI de consulta puntual de hash Sepolia y recibo por un RPC. Nueva asociación candidata entre hash reportado y decisión persistente, comparando remitente, destino, importe y calldata nativo; CI pendiente. No prueba causal, indexación completa ni finalidad independiente. |
-| Security Decisions | CI de recibos persistentes previos al proveedor y lectura por cuenta. Captura del hash reportado en el resultado del proveedor implementada en candidato, CI pendiente; sigue siendo observación no verificada, no prueba de firma, envío o finalización on-chain. |
+| Transaction History | CI de consulta puntual de hash Sepolia y recibo por un RPC. Asociación candidata entre hash reportado y decisión persistente, comparando remitente, destino, importe y calldata nativo: CI PASS. Comprobación adicional de coincidencia entre dos RPC, inclusión en bloque y ancla finalizada reciente compartida: implementada, CI pendiente. No prueba causal, indexación completa ni finalidad independiente. |
+| Security Decisions | CI de recibos persistentes previos al proveedor y lectura por cuenta. Captura del hash reportado en el resultado del proveedor: CI PASS; sigue siendo observación no verificada, no prueba de firma, envío o finalización on-chain. |
 
 **Ejemplo explicativo:** un límite de 0.001 ETH podría rechazar una solicitud cubierta de 0.002 ETH antes de MetaMask. No representa una transacción nueva. Una configuración modificada desde otra pestaña debe revisarse nuevamente antes de confirmar un cambio; el software no adquiere autoridad de firma.
 

@@ -39,4 +39,8 @@ Source: [Master Protocol](https://app.notion.com/p/41bd5f4fa5e3814e948bf911dddef
 
 ### Request-to-transaction candidate association
 
-The subsequent candidate persists a syntactically valid provider-result transaction hash on the exact capability-bound disposition report and compares it with a single-RPC native transaction lookup. A unique saved ALLOW with matching sender, recipient, amount and empty calldata produces a candidate association only. Missing, ambiguous or mismatching reports do not establish an association. CI pending. No causal execution, independently verified finality, reservation release or production deployment is claimed.
+The subsequent candidate persists a syntactically valid provider-result transaction hash on the exact capability-bound disposition report and compares it with a single-RPC native transaction lookup. A unique saved ALLOW with matching sender, recipient, amount and empty calldata produces a candidate association only. Missing, ambiguous or mismatching reports do not establish an association. Integrated synthetic CI passed the candidate association and wrong amount/calldata rejection cases. No causal execution, independently verified finality, reservation release or production deployment is claimed.
+
+### Two-provider transaction observation
+
+The next candidate adds two distinct configured RPC endpoints for a matched native-transfer candidate. It checks transaction/receipt fields, nonce and transaction index, block membership, and identical fresh finalized anchors before and after readback. If the stronger observation cannot be established, the basic single-RPC observation remains explicitly unqualified. Nine synthetic negative cases are included; CI pending. Agreement between providers is not independently verified cryptographic finality, causal execution proof or settlement authority. No reservation is released.
