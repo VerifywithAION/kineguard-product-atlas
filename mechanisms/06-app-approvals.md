@@ -30,3 +30,7 @@ The next candidate adds an authenticated exact token/spender lookup for the save
 ## Candidate revocation identity evidence
 
 The existing Sepolia WETH registry candidate has public source reproduced with Solidity 0.7.5. Both explorer runtime records match each other; their executable section matches the independent compilation, with different Solidity metadata. Fresh two-RPC canonical-block code agreement is not established. Revocation remains unavailable: no selector-only exception, no signature, no transmission, and no zero-allowance claim from this evidence.
+
+## Exact zero-approval request candidate
+
+The bounded candidate permits only a deliberate WETH Sepolia approve(spender, 0) request through the covered browser route after matching full runtime identity, fresh allowance and simulation on both configured RPCs. The short-lived intent binds the exact account, session, wallet, policy, capability, origin and spender. It is consumed with a persistent pre-forward decision. The wallet still approves independently. Positive approvals, other token calls, missing or consumed intentions and failed identity checks remain denied. Default-disabled; synthetic integrated CI pending; current live contract qualification remains blocked. A provider hash is not proof of a revoked permission. Inspect the exact pair again after confirmation; independent post-transaction revocation proof remains pending.
