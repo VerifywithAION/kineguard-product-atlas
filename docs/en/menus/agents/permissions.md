@@ -25,7 +25,7 @@ A $500 limit on a local card can be descriptive rather than an enforced contract
 
 A visible public screen does not equal human runtime acceptance or universal funds protection.
 
-Bounded read delegation has synthetic CI evidence. The separate native monetary grant remains an undeployed contract candidate: the original contract revision passed 12/12 local EVM tests; the successor requiring an individual signed decision is pending CI and customer policy integration. This screen does not confer effective spending authority.
+Bounded read delegation has synthetic CI evidence. The separate native monetary grant remains an undeployed contract candidate: the original contract revision passed 12/12 local EVM tests; the successor requiring an individual signed decision failed Solidity compilation; customer policy integration and signer custody pending. This screen does not confer effective spending authority.
 
 ## 5. Related image
 

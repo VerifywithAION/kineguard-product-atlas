@@ -131,7 +131,7 @@ Más que un límite por transferencia: capacidad acumulada, ventanas, realized, 
 8. Transaction History
 9. Security Decisions
 
-[Manual de controles](docs/es/controls.md)
+[Manual de controles](docs/es/controls.md) · [Estado comprobado de nueve mecanismos y Admin — 25 nov 2026](docs/integration-evidence-2026-11-25.md) · [Matriz de capacidades](docs/capability-matrix.md)
 
 ## 9. Agentes, Token Economy y KINE AI
 

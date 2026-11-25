@@ -39,3 +39,5 @@ A visible public screen does not equal human runtime acceptance or universal fun
 - [Historical proofs](../../historical-proofs.md)
 
 [← Back to menu](index.md)
+
+**Account candidate (not deployed):** App Approvals includes exact WETH zero-approval admission and synthetic event/separate current allowance checks. The public screen is not an automatic revoke route. [Mechanism](../../../../mechanisms/06-app-approvals.md).

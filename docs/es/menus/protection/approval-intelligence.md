@@ -39,3 +39,5 @@ La visibilidad de una pantalla pública no equivale a aceptación humana de runt
 - [Pruebas históricas](../../historical-proofs.md)
 
 [← Volver al menú](index.md)
+
+**Candidato de cuenta (no desplegado):** App Approvals incluye admisión WETH exacta a cero y comprobación sintética de evento y allowance actual separado. La pantalla pública no se convierte en revocación automática. [Mecanismo](../../../../mechanisms/06-app-approvals.md).

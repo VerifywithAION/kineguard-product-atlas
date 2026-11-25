@@ -1,6 +1,6 @@
 # Los nueve controles
 
-## Avance de integración — 24 de noviembre de 2026
+## Avance de integración — 25 de noviembre de 2026
 
 KINEGuard 1.0 busca que los nueve controles operen desde **My Account → Portfolio → View Details**, con KINE OS evaluando solicitudes antes de la ejecución cubierta. Esta tabla describe evidencia del candidato, no disponibilidad actual en kineguard.com.
 
@@ -11,10 +11,10 @@ KINEGuard 1.0 busca que los nueve controles operen desde **My Account → Portfo
 | Browser Protection | Prueba física histórica Chrome/MetaMask/Sepolia y CI integrada de forwarding acotado; aislamiento de argumentos durante la revisión: CI PASS. Aceptación física del candidato pendiente. |
 | Emergency Controls | CI de pausa y recuperación de ruta browser; veto histórico V3 sobre pendientes. No congelamiento universal. |
 | Recipient Rules | CI de denegación de destinatario en transferencia nativa Sepolia cubierta; no regla global. |
-| App Approvals | Inspección de pares token/spender conocidos; consulta autenticada de un par exacto en Sepolia con bloque finalizado fijado: CI PASS sintético. No verifica el estándar del contrato ni la seguridad del spender. Revocación efectiva no certificada. |
-| Agent Access | CI de restricciones de origen y delegación de lectura acotada; presupuesto de 1–10 lecturas y vigencia de 1–30 minutos seleccionables y firmados: CI PASS sintético. No autoridad monetaria delegada. |
-| Transaction History | CI de consulta puntual de hash Sepolia y recibo por un RPC. Asociación candidata entre hash reportado y decisión persistente, comparando remitente, destino, importe y calldata nativo: CI PASS. Comprobación adicional de coincidencia entre dos RPC, inclusión en bloque y ancla finalizada reciente compartida: CI PASS. Comparación adicional del nonce explícito revisado: CI PASS para coincidencia y discrepancia. No prueba causal, indexación completa ni finalidad independiente. |
-| Security Decisions | CI de recibos persistentes previos al proveedor y lectura por cuenta. Captura del hash reportado en el resultado del proveedor: CI PASS. Persistencia del nonce explícito de solicitud: CI PASS; sigue siendo observación no verificada, no prueba de firma, envío o finalización on-chain. |
+| App Approvals | Inspección de pares token/spender conocidos; consulta autenticada de un par exacto en Sepolia con bloque finalizado fijado: CI PASS sintético. No verifica el estándar del contrato ni la seguridad del spender. Revocación efectiva no certificada.  Admisión WETH exacta a cero y evento/allowance actual separado: CI PASS sintético, deshabilitada por defecto. |
+| Agent Access | CI de restricciones de origen y delegación de lectura acotada; presupuesto de 1–10 lecturas y vigencia de 1–30 minutos seleccionables y firmados: CI PASS sintético. No autoridad monetaria delegada.  Contrato nativo original 12/12 EVM local; revisión firmada posterior FAIL de compilación, no desplegada. |
+| Transaction History | CI de consulta puntual de hash Sepolia y recibo por un RPC. Asociación candidata entre hash reportado y decisión persistente, comparando remitente, destino, importe y calldata nativo: CI PASS. Comprobación adicional de coincidencia entre dos RPC, inclusión en bloque y ancla finalizada reciente compartida: CI PASS. Comparación adicional del nonce explícito revisado: CI PASS para coincidencia y discrepancia. No prueba causal, indexación completa ni finalidad independiente.  Eventos V3/WETH correlacionados sintéticamente, allowance actual separado. |
+| Security Decisions | CI de recibos persistentes previos al proveedor y lectura por cuenta. Captura del hash reportado en el resultado del proveedor: CI PASS. Persistencia del nonce explícito de solicitud: CI PASS; sigue siendo observación no verificada, no prueba de firma, envío o finalización on-chain.  Mismo recibo de emergencia en cuatro superficies; contextos V3/WETH sintéticos. |
 
 **Ejemplo explicativo:** un límite de 0.001 ETH podría rechazar una solicitud cubierta de 0.002 ETH antes de MetaMask. No representa una transacción nueva. Una configuración modificada desde otra pestaña debe revisarse nuevamente antes de confirmar un cambio; el software no adquiere autoridad de firma.
 
@@ -93,3 +93,5 @@ El candidato incorpora una solicitud de revocación WETH de Sepolia deliberada y
 El siguiente candidato conecta el hash reportado con el recibo exacto, comprueba el evento WETH Approval(owner, spender, 0) y observa por separado el allowance vigente mediante dos RPC y el código registrado. CI PASS sintético. Una aprobación posterior puede restaurar el permiso; no se acredita causalidad ni finalidad criptográfica independiente.
 
 Agent Access: candidato contractual separado para delegación monetaria nativa acotada, con agente y destinatario fijos, presupuesto no renovable, límite por operación, vigencia y revocación. Todavía no desplegado ni conectado a la cuenta del cliente; pruebas EVM pendientes. No amplía los grants de lectura ni la autoridad V3.
+
+Admin transversal: conteos agregados autenticados, aislamiento de operador y custodia/observación en CI sintético. Aceptación alojada pendiente. [Corte de evidencia](../integration-evidence-2026-11-25.md).

@@ -449,6 +449,109 @@
         "https://app.notion.com/p/379d5f4fa5e38136967dfd04e030195b",
         "https://kineguard.com/kine"
       ]
+    },
+    {
+      "id": "kine.protected-funds",
+      "name": "Protected Funds",
+      "kind": "mechanism",
+      "evidence_class": "LAB / CI VERIFIED",
+      "environment": "bounded synthetic integrated candidate",
+      "current_deployment_evidence": "unverified",
+      "references": [
+        "mechanisms/02-protected-funds.md",
+        "docs/integration-evidence-2026-11-25.md"
+      ]
+    },
+    {
+      "id": "kine.emergency-controls",
+      "name": "Emergency Controls",
+      "kind": "mechanism",
+      "evidence_class": "LAB / CI VERIFIED",
+      "environment": "bounded synthetic integrated candidate",
+      "current_deployment_evidence": "unverified",
+      "references": [
+        "mechanisms/04-emergency-controls.md",
+        "docs/integration-evidence-2026-11-25.md"
+      ]
+    },
+    {
+      "id": "kine.recipient-rules",
+      "name": "Recipient Rules",
+      "kind": "mechanism",
+      "evidence_class": "LAB / CI VERIFIED",
+      "environment": "bounded synthetic integrated candidate",
+      "current_deployment_evidence": "unverified",
+      "references": [
+        "mechanisms/05-recipient-rules.md",
+        "docs/integration-evidence-2026-11-25.md"
+      ]
+    },
+    {
+      "id": "kine.app-approvals",
+      "name": "App Approvals",
+      "kind": "mechanism",
+      "evidence_class": "LAB / CI VERIFIED",
+      "environment": "bounded synthetic integrated candidate",
+      "current_deployment_evidence": "unverified",
+      "references": [
+        "mechanisms/06-app-approvals.md",
+        "docs/integration-evidence-2026-11-25.md"
+      ]
+    },
+    {
+      "id": "kine.agent-access",
+      "name": "Agent Access",
+      "kind": "mechanism",
+      "evidence_class": "LAB / CI VERIFIED",
+      "environment": "bounded synthetic integrated candidate",
+      "current_deployment_evidence": "unverified",
+      "references": [
+        "mechanisms/07-agent-access.md",
+        "docs/integration-evidence-2026-11-25.md"
+      ]
+    },
+    {
+      "id": "kine.transaction-history",
+      "name": "Transaction History",
+      "kind": "mechanism",
+      "evidence_class": "LAB / CI VERIFIED",
+      "environment": "bounded synthetic integrated candidate",
+      "current_deployment_evidence": "unverified",
+      "references": [
+        "mechanisms/08-transaction-history.md",
+        "docs/integration-evidence-2026-11-25.md"
+      ]
+    },
+    {
+      "id": "kine.security-decisions",
+      "name": "Security Decisions",
+      "kind": "mechanism",
+      "evidence_class": "LAB / CI VERIFIED",
+      "environment": "bounded synthetic integrated candidate",
+      "current_deployment_evidence": "unverified",
+      "references": [
+        "mechanisms/09-security-decisions.md",
+        "docs/integration-evidence-2026-11-25.md"
+      ]
+    },
+    {
+      "id": "kine.admin",
+      "name": "Admin",
+      "kind": "cross-cutting",
+      "evidence_class": "LAB / CI VERIFIED",
+      "environment": "authenticated synthetic database and browser",
+      "current_deployment_evidence": "unverified",
+      "references": [
+        "docs/integration-evidence-2026-11-25.md"
+      ]
     }
-  ]
+  ],
+  "integration_checkpoint": "docs/integration-evidence-2026-11-25.md",
+  "integration_candidate": {
+    "date": "2026-11-25",
+    "last_qualified_ci": "45665413574",
+    "successor_ci": "45671320044",
+    "successor_status": "COMPILATION_FAILED",
+    "production_certified": false
+  }
 }

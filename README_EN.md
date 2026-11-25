@@ -131,7 +131,7 @@ More than one transfer cap: cumulative capacity, rolling windows, realized, rese
 8. Transaction History
 9. Security Decisions
 
-[Controls manual](docs/en/controls.md)
+[Controls manual](docs/en/controls.md) · [Verified nine-mechanism and Admin status — Nov 25, 2026](docs/integration-evidence-2026-11-25.md) · [Capability matrix](docs/capability-matrix.md)
 
 ## 9. Agents, Token Economy and KINE AI
 
