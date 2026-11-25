@@ -549,7 +549,7 @@
   "integration_checkpoint": "docs/integration-evidence-2026-11-25.md",
   "integration_candidate": {
     "date": "2026-11-25",
-    "last_qualified_ci": "45707353028",
+    "last_qualified_ci": "45708932605",
     "successor_ci": "45671320044",
     "successor_status": "COMPILATION_FAILED",
     "production_certified": false,
@@ -559,7 +559,7 @@
     "proposal_preview_commit": "bd1578940ac27fcd1d03dbaca61a0da428a81e9b",
     "proposal_preview_ci": "45675346255",
     "proposal_preview_status": "SUCCESS_HTTP_UI_16_EVM_284_INTEGRATED",
-    "last_qualified_commit": "90753b9c47e8d5e91da1d61cce9ad3ab8f839d3c",
+    "last_qualified_commit": "737f52a798996ba9d244a72dcc8b68f6d85486dc",
     "key_association_commit": "3346389b15193c42d06274564646abda5e47d0b9",
     "key_association_ci": "45676448439",
     "key_association_status": "SUCCESS_DUAL_PROOF_16_EVM_284_INTEGRATED",
@@ -601,9 +601,12 @@
     "direct_deployment_status": "SUCCESS_30_DIRECT_DEPLOYMENT_17_EVM_22_RPC_284_INTEGRATED",
     "operator_registry_commit": "737f52a798996ba9d244a72dcc8b68f6d85486dc",
     "operator_registry_ci": "45708932605",
-    "operator_registry_status": "IN_PROGRESS_QUARANTINE_ONLY",
+    "operator_registry_status": "SUCCESS_QUARANTINE_ONLY_30_DEPLOYMENT_17_EVM_22_RPC_284_INTEGRATED",
     "deployment_rpc_inspection_commit": "ea476bbde025b97bc50d7d9e1f88949cff2de5e4",
     "deployment_rpc_inspection_ci": "45709491820",
-    "deployment_rpc_inspection_status": "IN_PROGRESS_HTTP_ERROR_MAPPING_GAP"
+    "deployment_rpc_inspection_status": "FAILED_E2E_HTTP_400_EXPECTED_503",
+    "deployment_rpc_repair_commit": "2843072554693cce1d0719a73540105b46f52782",
+    "deployment_rpc_repair_ci": "45711379065",
+    "deployment_rpc_repair_status": "IN_PROGRESS_AT_PUBLICATION"
   }
 }

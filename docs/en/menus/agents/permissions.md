@@ -77,3 +77,5 @@ Bounded read delegation has synthetic CI evidence. The separate native monetary 
 **Update:** direct deployment provenance 30/30 PASS, CI 45707353028. Durable operator quarantine registry candidate with Admin intake/revocation and customer readback, migration 038 and CI 45708932605 pending. No live deployment certification, finality or production signature; registry revocation is not on-chain revocation.
 
 **Update:** candidate two-configured-RPC quarantine deployment inspection, without authority promotion or independent finality certification. CI 45709491820 pending; possible HTTP 400/503 mismatch for altered RPC evidence. Previous registry CI pending. No signing or live execution.
+
+**Update:** Admin quarantine registry and account readback PASS, CI 45708932605. RPC inspection CI 45709491820 FAIL due to HTTP 400 instead of 503; altered evidence rejected. Targeted repair `2843072`, CI 45711379065 pending. No live registry, authority or production signing.
