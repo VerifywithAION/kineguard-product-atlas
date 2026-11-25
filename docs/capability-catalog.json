@@ -549,7 +549,7 @@
   "integration_checkpoint": "docs/integration-evidence-2026-11-25.md",
   "integration_candidate": {
     "date": "2026-11-25",
-    "last_qualified_ci": "45675346255",
+    "last_qualified_ci": "45676448439",
     "successor_ci": "45671320044",
     "successor_status": "COMPILATION_FAILED",
     "production_certified": false,
@@ -559,10 +559,10 @@
     "proposal_preview_commit": "bd1578940ac27fcd1d03dbaca61a0da428a81e9b",
     "proposal_preview_ci": "45675346255",
     "proposal_preview_status": "SUCCESS_HTTP_UI_16_EVM_284_INTEGRATED",
-    "last_qualified_commit": "bd1578940ac27fcd1d03dbaca61a0da428a81e9b",
+    "last_qualified_commit": "3346389b15193c42d06274564646abda5e47d0b9",
     "key_association_commit": "3346389b15193c42d06274564646abda5e47d0b9",
     "key_association_ci": "45676448439",
-    "key_association_status": "E2E05_STAGE_PASS_FULL_RUN_PENDING_AT_PUBLICATION",
+    "key_association_status": "SUCCESS_DUAL_PROOF_16_EVM_284_INTEGRATED",
     "registered_observation_commit": "cc70c8ac4019b39da589c45f08ebc59689cb20e2",
     "registered_observation_ci": "45677522665",
     "registered_observation_status": "IN_PROGRESS_AT_PUBLICATION"

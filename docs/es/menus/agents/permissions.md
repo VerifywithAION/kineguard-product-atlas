@@ -47,3 +47,5 @@ La delegación de lectura acotada se ha probado en CI sintético. La autorizaci�
 **Actualización del candidato:** contrato con decisión firmada 16/16 EVM local y 284/284 integración sintética PASS. Nueva asociación de clave EOA del agente mediante consentimiento del propietario y firma del agente, persistencia, caducidad y revocación, pendiente de CI. No prueba identidad del software, no registra contrato ni concede gasto. [Mecanismo](../../../../mechanisms/07-agent-access.md).
 
 **Actualización:** evaluación de presupuesto con política guardada PASS de HTTP/UI en CI sintético (16/16 EVM, 284/284 integración). Asociación de clave doble: etapa E2E-05 aprobada, ejecución completa pendiente. Verificador interno de contrato registrado y lectura en dos RPC: candidato pendiente de CI, sin API de cliente ni autoridad. [Mecanismo](../../../../mechanisms/07-agent-access.md).
+
+**Cierre de CI:** asociación doble de claves EOA PASS de runtime y regresión integrada 284/284; 16/16 EVM. Sin autoridad monetaria ni identidad del software. Migración 034 solo en entorno sintético, no upgrade de producción.

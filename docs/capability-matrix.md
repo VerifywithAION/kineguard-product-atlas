@@ -20,3 +20,6 @@ Cross-cutting Admin: authenticated synthetic database counts, operator isolation
 No row is LIVE VERIFIED. [Consolidated checkpoint](integration-evidence-2026-11-25.md) · [Evidence ledger](evidence-and-proofs.md) · [Beta boundaries](beta-status.md).
 
 Agent Access update (2026-11-25): signed-decision contract 16/16 local EVM and account-owned proposal preview HTTP/UI PASS; combined 284/284 at qualified bd15789. Dual-key association E2E-05 stage PASS, full run pending. Internal registered-contract observation candidate pending CI; no live monetary authority. See [mechanism](../mechanisms/07-agent-access.md).
+
+
+**CI closure (same day):** [45676448439](https://github.com/VerifywithAION/aion-guard-ui/actions/runs/45676448439) on `3346389` completed SUCCESS. Final logs confirm `AGENT_KEY_DUAL_PROOF_ASSOCIATION` and `AGENT_NATIVE_POLICY_PROPOSAL_PREVIEW` RUNTIME_PASS, 16 local EVM tests and 284/284 combined integrated checks. Key control is verified within the synthetic account/session challenge flow, not software identity, actual funded contract authority or production acceptance. Migration 034 remains unqualified for populated production upgrades. The registered-observation successor is still pending.
