@@ -55,4 +55,4 @@ The latest documented Hostinger Current baseline is `c557df35a4a4e2551d621f6a792
 
 | Populated 028–032 delta migration compatibility | LAB / CI VERIFIED (synthetic PG16) | Existing rows preserved, legacy defaults and negative constraints verified; not production backup or upgrade |
 
-| Admin customer-governance counts and navigation | IMPLEMENTED / CI PENDING | Authenticated aggregate database counts, distinct operator session, no raw customer identities, explicit unavailable state; hosted acceptance pending |
+| Admin customer-governance counts and navigation | IMPLEMENTED / CI RETEST PENDING (UI locator timeout) | Authenticated aggregate database counts, distinct operator session, no raw customer identities, explicit unavailable state; hosted acceptance pending |
