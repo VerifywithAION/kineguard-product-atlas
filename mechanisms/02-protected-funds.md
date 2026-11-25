@@ -28,3 +28,7 @@ No automatic protection of external EOA assets, token approvals, other chains or
 - Is the result supported by a reproducible runtime proof, rather than an interface label?
 
 **Read more:** [architecture](../docs/architecture.md) · [evidence and proofs](../docs/evidence-and-proofs.md) · [capability matrix](../docs/capability-matrix.md) · [main README](../README.md).
+
+## Associated V3 native test funding
+
+The candidate offers a deliberate native Sepolia funding request to the exact observed V3 contract, gated in the customer UI by fresh revalidation of the matching owner read association, explicit amount-specific consent, live saved policy, extension binding and the selected MetaMask owner account. The existing native browser policy retains the admission decision. A read acknowledgement is not a spending grant. Test amount capped at 0.001 SepoliaETH; no automatic signing, arbitrary destination, withdrawal or nonempty calldata. Funds may remain locked. Candidate CI pending; the UI composition test uses V3 response fixtures and a synthetic wallet provider, not physical funding. No protected amount or current on-chain qualification is claimed.

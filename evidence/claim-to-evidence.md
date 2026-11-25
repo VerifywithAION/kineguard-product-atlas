@@ -39,4 +39,6 @@ The latest documented Hostinger Current baseline is `c557df35a4a4e2551d621f6a792
 
 | Exact-pair allowance observation | LAB / CI VERIFIED (bounded) | Owner-scoped native RPC read of token/spender allowance at pinned finalized block; exact raw amount and code hash; no standard or spender safety certification, no revoke |
 
-| Configurable wallet-signed agent read grant | IMPLEMENTED / CI PENDING | Owner selects signed bounded read count and lifetime, server enforces consumption and revocation, accurate status readback; no delegated spending or signing authority |
+| Configurable wallet-signed agent read grant | LAB / CI VERIFIED (bounded) | Owner selects signed bounded read count and lifetime, server enforces consumption and revocation, accurate status readback; no delegated spending or signing authority |
+
+| Associated V3 native test funding customer flow | IMPLEMENTED / CI PENDING | Explicit bounded Sepolia native transfer to fixed observed contract after matching fresh read association, existing policy enforcement and owner approval; UI fixture and synthetic provider test, no actual funding or withdrawal claim |
