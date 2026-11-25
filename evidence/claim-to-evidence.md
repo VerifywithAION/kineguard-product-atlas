@@ -22,7 +22,8 @@
 | Current protected funds | NOT CERTIFIED | Fresh common finalized state unavailable under required freshness control |
 | Exact reviewed-state policy mutation binding | LAB / CI VERIFIED | Integrated synthetic tests: stale reviews, replacement proposals and early activation rejected; active limit preserved |
 | Single-use durable admission | LAB / CI VERIFIED | Concurrent identical requests: one admission and one rejection; renewal replay rejected; fresh request admitted |
-| Conservative cumulative admission cap | IMPLEMENTED / CI PENDING | Opt-in covered native admission cap counts prior unresolved ALLOW amounts; no time reset or independent settlement; new tests pending |
+| Conservative cumulative admission cap | LAB / CI VERIFIED | Opt-in covered native cap; distinct concurrent requests compete for remaining capacity, rebinding retains history, increases delayed; no independent settlement |
+| Owner economic readback and cap-change receipts | IMPLEMENTED / CI PENDING | Timestamped counted admissions and remaining capacity; historical, active and requested cap fields; no chain-completion or release claim |
 
 Public-safe summaries of internally reviewed evidence; raw private source, customer records and verification receipts are not published. See [beta status](../docs/beta-status.md).
 
