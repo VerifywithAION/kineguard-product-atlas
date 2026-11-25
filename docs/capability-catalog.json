@@ -613,6 +613,6 @@
     "authorizer_key_proof_status": "FAILED_TYPESCRIPT_4_TS2769_E2E_SKIPPED",
     "authorizer_key_proof_repair_commit": "ba2e68f1d44bf833c4e725662fbc1b150267d53b",
     "authorizer_key_proof_repair_ci": "45716035102",
-    "authorizer_key_proof_repair_status": "QUEUED_AT_PUBLICATION"
+    "authorizer_key_proof_repair_status": "SUCCESS_CI_ONLY_IDENTITY_PROOF_NO_EXECUTABLE_AUTHORITY"
   }
 }

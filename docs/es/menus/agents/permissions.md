@@ -83,3 +83,6 @@ La delegación de lectura acotada se ha probado en CI sintético. La autorizaci�
 **Actualización:** inspección RPC de creación contractual en cuarentena PASS, CI 45711379065. Candidato de prueba de control de clave del firmante externo vinculada a registro, política y sesión de operador, migración 039, CI 45715112656 pendiente. No custodia productiva, permiso ejecutable ni registro live certificado.
 
 **Actualización:** CI 45715112656 FAIL por cuatro errores TypeScript TS2769 al tratar fechas PostgreSQL; E2E no ejecutado. Reparación estricta `ba2e68f`, CI 45716035102 pendiente. Sin prueba de identidad calificada, custodia productiva ni permiso ejecutable nuevo.
+
+
+**Actualización:** CI 45716035102 SUCCESS sobre `ba2e68f`; logs confirman `AGENT_EXTERNAL_AUTHORIZER_KEY_CONTROL` PASS, identidad sintética solamente, TypeScript y regresión integrada 284/284 PASS. Sin custodia protegida, permiso ejecutable, registro live ni ejecución Sepolia. Siguiente: custodia externa protegida y autorización ejecutable fail-closed en el mismo PR aislado; Human Acceptance y release pendientes.

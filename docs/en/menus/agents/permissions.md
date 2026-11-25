@@ -83,3 +83,8 @@ Bounded read delegation has synthetic CI evidence. The separate native monetary 
 **Update:** quarantined creation RPC inspection PASS, CI 45711379065. External authorizer key-control candidate bound to registry, policy and operator session, migration 039, CI 45715112656 pending. No production custody, executable permit or certified live registry.
 
 **Update:** CI 45715112656 FAIL on four PostgreSQL timestamp TypeScript TS2769 errors; E2E skipped. Strict timestamp repair `ba2e68f`, CI 45716035102 pending. No newly qualified authorizer identity, production custody or executable permit.
+
+
+## External authorizer key-control qualified — November 25, 2026
+
+[CI 45716035102](https://github.com/VerifywithAION/aion-guard-ui/actions/runs/45716035102) completed SUCCESS on exact integration commit `ba2e68f1d44bf833c4e725662fbc1b150267d53b`. Job 139562197536 logs confirm `RUNTIME_PASS AGENT_EXTERNAL_AUTHORIZER_KEY_CONTROL` (identity proof only), `AGENT_OPERATOR_DEPLOYMENT_TWO_RPC`, `AGENT_OPERATOR_REGISTRY_QUARANTINE`, and `AGENT_LAB_RECEIPT_TO_EVM_EXECUTION`; direct deployment 30/30, synthetic RPC 22/22 and integrated regression 284/284 PASS. TypeScript repair qualified. This is CI-only proof of control of a synthetic external signer key, not protected custody, current production key control, executable authorization, live registry, chain finality or Sepolia execution. Next: protected external signer and fail-closed executable decision authorization in the same isolated draft PR, before any separately authorized live test. Human Acceptance 115, production backup/restore, isolated preview and release remain open; no deployment or production changes in this intervention.
