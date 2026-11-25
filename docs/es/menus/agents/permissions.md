@@ -92,3 +92,6 @@ La delegación de lectura acotada se ha probado en CI sintético. La autorizaci�
 
 
 **Diseño propuesto, no implementación:** AWS KMS es el primer candidato de custodia protegida para `secp256k1`, clave generada por proveedor, identidad de carga dedicada y auditoría independiente. El firmante debe calcular su propio digest de identidad, verificar dirección/firma y no ofrecer firma de digest arbitrario ni permisos ejecutables. Contrato con autoridad inmutable y permiso máximo de 60 segundos. Rotación requiere nuevo grant y revocación/recuperación del anterior. CI 45718586693 aún no calificado. Sin recursos AWS, credenciales, cargos, despliegues ni nueva certificación.
+
+
+**Reparación TypeScript:** CI 45718586693 FAIL, siete TS2339 por unión de respuestas del desafío; E2E no ejecutado. [5fe5c2a](https://github.com/VerifywithAION/aion-guard-ui/commit/5fe5c2ab09c4d6199d026c16c8e2417673fc892c) añade guardas explícitas de presencia de propiedades y actualiza pin CI; dos archivos, sin cambio de política, firma, contrato ni migración. CI 45720496147 pendiente de adjudicación. Último PASS ba2e68f; AWS KMS sigue propuesto, no aprovisionado.
