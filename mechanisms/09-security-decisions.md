@@ -41,4 +41,4 @@ The new candidate reports matching V3 execution-event evidence separately from t
 
 The exact WETH zero-approval candidate records a distinct pre-forward context including the token, spender, prior observed allowance, block and intent. Native value is zero and gas is excluded. The receipt explicitly does not verify revocation or chain completion. Default-disabled; integrated synthetic CI PASS.
 
-The next candidate uses the WETH receipt context to check the exact transaction call, the matching event and separate current allowance. CI pending; pre-forward receipts remain distinct from execution evidence.
+The next candidate uses the WETH receipt context to check the exact transaction call, the matching event and separate current allowance. Synthetic CI PASS; pre-forward receipts remain distinct from execution evidence.

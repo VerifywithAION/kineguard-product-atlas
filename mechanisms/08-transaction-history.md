@@ -43,4 +43,4 @@ The candidate checks the exact registered code and policy at the transaction blo
 
 ## WETH exact zero-approval evidence
 
-The next candidate associates a unique saved WETH ALLOW receipt with the exact reported zero-value call and verifies agreement of the registered runtime and unique Approval(owner, spender, 0) event at the transaction block. It separately observes current allowance at a fresh shared finalized anchor. A later approval can restore permission; missing or conflicting evidence is not zero. Integrated synthetic CI pending; no independent cryptographic finality, causal admission proof or settlement.
+The next candidate associates a unique saved WETH ALLOW receipt with the exact reported zero-value call and verifies agreement of the registered runtime and unique Approval(owner, spender, 0) event at the transaction block. It separately observes current allowance at a fresh shared finalized anchor. A later approval can restore permission; missing or conflicting evidence is not zero. Integrated synthetic CI PASS; no independent cryptographic finality, causal admission proof or settlement.
