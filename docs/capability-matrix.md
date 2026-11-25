@@ -41,3 +41,5 @@ Agent Access update: pending challenge invalidation PASS at `9581471` / CI 45691
 Agent Access update: shared laboratory browser-cap accounting/readback candidate `a78207d` / CI 45694513194 pending; capped agent issuance remains blocked. No live capacity.
 
 Agent Access update: cross-mechanism and shared laboratory browser/readback accounting PASS at `a78207d`. Bidirectional shared cap candidate `eaff457` / CI 45698689165 pending; no live capacity.
+
+Agent Access update: receipt preimage preservation and independent historical integrity candidate `a1d9150` / CI 45699228431 pending; no executable signature or current eligibility.

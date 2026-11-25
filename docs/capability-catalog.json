@@ -589,6 +589,9 @@
     "shared_admission_status": "SUCCESS_LAB_BROWSER_AND_READBACK_17_EVM_22_RPC_284_INTEGRATED",
     "bidirectional_cap_commit": "eaff45768167a38ab8716201bd2a88ae115efa2a",
     "bidirectional_cap_ci": "45698689165",
-    "bidirectional_cap_status": "QUEUED_AT_PUBLICATION"
+    "bidirectional_cap_status": "IN_PROGRESS_AT_PUBLICATION",
+    "receipt_integrity_commit": "a1d9150408c58b963b994b7f9bc1dd838ce6bf8f",
+    "receipt_integrity_ci": "45699228431",
+    "receipt_integrity_status": "IN_PROGRESS_AT_PUBLICATION"
   }
 }
