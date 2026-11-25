@@ -59,3 +59,5 @@ La delegación de lectura acotada se ha probado en CI sintético. La autorizaci�
 **Adjudicación:** CI de decisión durable falló en TypeScript (dos conversiones numéricas no tipadas); E2E no ejecutado. Reparación de validación estricta de datos PostgreSQL publicada en `fd357af`, CI 45690781711 pendiente. No PASS de decisión durable. Última integración calificada `aa2a836`. [Mecanismo](../../../../mechanisms/07-agent-access.md).
 
 **Actualización:** reparación de decisión durable supera TypeScript y build; E2E pendiente. Candidato de invalidación persistente de desafíos de doble firma pendientes tras asociación exitosa o revocación explícita, migración 036 y CI 45691992645 pendientes. No equivale a revocación on-chain ni autoridad monetaria. [Mecanismo](../../../../mechanisms/07-agent-access.md).
+
+**Resultado confirmado:** CI 45690781711 SUCCESS, decisión durable y reserva sintética concurrente PASS, 17/17 EVM, 22/22 RPC y 284/284 integración. Sin firma ejecutable ni capacidad real. Sucesor de invalidación de desafíos pendiente.

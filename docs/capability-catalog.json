@@ -549,7 +549,7 @@
   "integration_checkpoint": "docs/integration-evidence-2026-11-25.md",
   "integration_candidate": {
     "date": "2026-11-25",
-    "last_qualified_ci": "45681534607",
+    "last_qualified_ci": "45690781711",
     "successor_ci": "45671320044",
     "successor_status": "COMPILATION_FAILED",
     "production_certified": false,
@@ -559,7 +559,7 @@
     "proposal_preview_commit": "bd1578940ac27fcd1d03dbaca61a0da428a81e9b",
     "proposal_preview_ci": "45675346255",
     "proposal_preview_status": "SUCCESS_HTTP_UI_16_EVM_284_INTEGRATED",
-    "last_qualified_commit": "aa2a83652e9349b259c0a2a6b9f4db82dc465cf4",
+    "last_qualified_commit": "fd357af0dca01cc29c2b9b93966e745698e63e93",
     "key_association_commit": "3346389b15193c42d06274564646abda5e47d0b9",
     "key_association_ci": "45676448439",
     "key_association_status": "SUCCESS_DUAL_PROOF_16_EVM_284_INTEGRATED",
@@ -577,7 +577,7 @@
     "lab_decision_status": "FAILED_TYPESCRIPT_E2E_NOT_RUN",
     "lab_decision_repair_commit": "fd357af0dca01cc29c2b9b93966e745698e63e93",
     "lab_decision_repair_ci": "45690781711",
-    "lab_decision_repair_status": "TYPESCRIPT_AND_BUILD_PASS_E2E_IN_PROGRESS",
+    "lab_decision_repair_status": "SUCCESS_DURABLE_LAB_DECISION_17_EVM_22_RPC_284_INTEGRATED",
     "key_challenge_invalidation_commit": "95814714c7a817e996192d81453a980d7ad7a449",
     "key_challenge_invalidation_ci": "45691992645",
     "key_challenge_invalidation_status": "QUEUED_AT_PUBLICATION"

@@ -33,3 +33,5 @@ Agent Access update: account-bound laboratory grant observation PASS at `aa2a836
 Agent Access update: durable lab decision candidate `869b325` failed TypeScript; E2E skipped. Strict stored-value repair `fd357af` pending CI 45690781711. Last qualified account observation remains `aa2a836`; no live authority.
 
 Agent Access update: durable lab decision repair TypeScript/build PASS, E2E pending. Pending key-challenge invalidation candidate `9581471` / CI 45691992645 pending; no live authority.
+
+Agent Access qualification: durable laboratory decision and concurrent synthetic reservation PASS at `fd357af` / CI 45690781711; no executable signature or live capacity. Challenge invalidation successor pending.
