@@ -31,3 +31,6 @@ Images are exactly shared between language versions. Do not claim universal EOA 
 - Spanish hiring and stage-gated capital: docs/es/investor/scale-plan.md
 - Product evidence boundary: docs/beta-status.md
 - Funding scenarios and job roles are hypothetical, not existing hires or actual investment.
+
+## Integrated candidate evidence
+- [November 25 evidence checkpoint](docs/integration-evidence-2026-11-25.md): nine mechanisms, Admin, exact CI results and remaining release gates.

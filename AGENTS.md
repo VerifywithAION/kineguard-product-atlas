@@ -26,3 +26,7 @@ See [structured catalog](docs/capability-catalog.json), [ES architecture](docs/e
 - [Scale plan English](docs/en/investor/scale-plan.md) / [Español](docs/es/investor/scale-plan.md).
 - As of 2026-11-24, funding, hiring, pricing and customer targets are PROPOSED, not facts or signed commitments.
 - Read docs/beta-status.md before claiming any production enforcement; never disclose KINE internal policy engine, customer data or private source.
+
+## Integrated candidate evidence
+
+Read [the November 25 checkpoint](docs/integration-evidence-2026-11-25.md) before making claims about the nine controls or Admin. Distinguish the successful snapshot from the successor compilation failure. Public-site menus remain a separate evidence class.

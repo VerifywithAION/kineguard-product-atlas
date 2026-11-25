@@ -6,6 +6,8 @@
 - [Screenshot SHA-256 and provenance](screenshot-manifest.md)
 - [Public file release scope](publication-manifest.md)
 - [Source authorities / Notion references](../docs/source-authorities.md)
-- [Full repository SHA-256 manifest](sha256-manifest.txt)
+- [Historical publication SHA-256 snapshot](sha256-manifest.txt) (not regenerated for subsequent documentation commits)
 
 Source links may require connected Notion or private repo permissions; do not confuse an inaccessible private evidence trace with a publicly independently reproduced proof.
+
+- [November 25 integrated evidence checkpoint](../docs/integration-evidence-2026-11-25.md)

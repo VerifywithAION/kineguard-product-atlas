@@ -22,3 +22,5 @@
 ## Publication class
 
 `PUBLIC DOCUMENTATION / EXPLICIT EVIDENCE BOUNDARIES`. No claim of general EOA protection, production-ready nine mechanisms, customer beta certification, on-chain audit, universal wallet veto or mainnet guarantee.
+
+Subsequent documentation updates are tracked by Git commit and tree identity. The original SHA-256 manifest is a historical publication snapshot, not a current-tree attestation. No binary screenshot re-verification is asserted by the November 25 reconciliation.

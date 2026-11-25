@@ -30,3 +30,7 @@ Bilingual controls, README navigation, beta status and evidence ledger updated w
 Updated the mechanism matrix, evidence ledger and bilingual agent permissions to reflect synthetic WETH revocation/readback evidence and the incomplete local-EVM agent grant qualification. No new customer-facing release, physical revocation, deployment or monetary delegation is claimed.
 
 The original bounded agent contract subsequently passed 12/12 local EVM tests and 284/284 integrated checks. The next candidate adds an independently signed per-operation governance decision; its new CI and live signer/policy integration are not certified. No customer-facing release or live authority is announced.
+
+## Documentation reconciliation — 2026-11-25
+
+Reviewed 100 returned private PR #18 commit entries and exact CI logs. All nine mechanism pages, Admin evidence, catalog, bilingual controls and navigation, and claim boundaries reconciled. Last qualified: 12/12 local EVM and 284/284 integrated synthetic checks; successor signed-decision candidate compilation FAIL. No new deployment or live execution certification. [Checkpoint](docs/integration-evidence-2026-11-25.md).

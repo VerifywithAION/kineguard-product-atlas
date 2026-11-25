@@ -45,3 +45,5 @@
 - [Manual técnico y recorrido de uso](chrome-extension/index.md)
 - [Matriz de wallets y ecosistemas](chrome-extension/wallet-coverage.md)
 - [Pruebas y capturas](chrome-extension/proofs-and-screenshots.md)
+
+- [Corte consolidado de integración — 25 nov 2026](../integration-evidence-2026-11-25.md)

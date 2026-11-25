@@ -45,3 +45,5 @@
 - [Technical and user manual](chrome-extension/index.md)
 - [Wallet and ecosystem matrix](chrome-extension/wallet-coverage.md)
 - [Proofs and screenshots](chrome-extension/proofs-and-screenshots.md)
+
+- [Consolidated integration checkpoint — Nov 25, 2026](../integration-evidence-2026-11-25.md)
