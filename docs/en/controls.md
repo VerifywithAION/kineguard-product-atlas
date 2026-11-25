@@ -8,13 +8,13 @@ KINEGuard 1.0 aims to make all nine controls usable through **My Account → Por
 |---|---|
 | Spending Limits | CI: persistent Sepolia per-transfer limit, immediate tightening, delayed increase and pre-provider block. Exact reviewed-state validation and single-use durable admission: CI PASS. Opt-in conservative cumulative admission cap: CI PASS. Counted amount, remaining admission capacity and cap-change receipt readback: CI PASS after repair. Rolling window and independent settlement remain pending. |
 | Protected Funds | Historical native-ETH V3 contract identity matched byte for byte; current economic readback not certified. Observed EOA balance is not governed funds. |
-| Browser Protection | Historical physical Chrome/MetaMask/Sepolia proof and integrated CI of bounded forwarding; physical candidate acceptance pending. |
+| Browser Protection | Historical physical Chrome/MetaMask/Sepolia proof and integrated CI of bounded forwarding; reviewed argument isolation implemented, CI pending. Physical candidate acceptance pending. |
 | Emergency Controls | CI for covered browser pause and recovery; historical V3 pending-action veto. No universal freeze. |
 | Recipient Rules | CI for recipient denial on covered native Sepolia transfers; no global rule. |
 | App Approvals | Inspection of known token/spender pairs; effective revocation not certified. |
 | Agent Access | CI for origin restrictions and scoped read delegation; no delegated monetary authority. |
-| Transaction History | CI for exact Sepolia hash and receipt lookup via one RPC. Candidate association between reported hash and durable decision compares sender, recipient, amount and native calldata: CI PASS. Additional two-RPC agreement, block membership and fresh shared finalized anchor check implemented, CI pending. No causal proof, complete indexing or independent finality. |
-| Security Decisions | CI for persistent pre-provider receipts and account-scoped readback. Provider-reported result hash capture: CI PASS; remains an unverified observation, not proof of signing, broadcast or on-chain finality. |
+| Transaction History | CI for exact Sepolia hash and receipt lookup via one RPC. Candidate association between reported hash and durable decision compares sender, recipient, amount and native calldata: CI PASS. Additional two-RPC agreement, block membership and fresh shared finalized anchor check: CI PASS. Additional explicit reviewed nonce comparison implemented, CI pending. No causal proof, complete indexing or independent finality. |
+| Security Decisions | CI for persistent pre-provider receipts and account-scoped readback. Provider-reported result hash capture: CI PASS. Optional explicit request nonce persistence implemented, CI pending; remains an unverified observation, not proof of signing, broadcast or on-chain finality. |
 
 **Illustrative example:** a 0.001 ETH limit could reject a covered 0.002 ETH request before MetaMask. This is not a new transaction. A configuration changed in another tab must be reviewed again before confirming a change; software does not acquire signing authority.
 

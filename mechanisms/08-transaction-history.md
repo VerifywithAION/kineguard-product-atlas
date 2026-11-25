@@ -29,4 +29,6 @@ Single-RPC exact transaction lookup is verified in synthetic integrated CI. A su
 
 ## Two-provider readback
 
-The next candidate checks the same native transaction and receipt through two distinct configured RPC endpoints, including nonce, transaction index, inclusion in the reported block and a shared finalized anchor no older than 15 minutes. Anchor agreement is rechecked at completion. A disagreement or unavailable endpoint leaves the original basic observation unqualified. Candidate CI pending; no cryptographic finality, causal attribution or automatic settlement is claimed.
+The next candidate checks the same native transaction and receipt through two distinct configured RPC endpoints, including nonce, transaction index, inclusion in the reported block and a shared finalized anchor no older than 15 minutes. Anchor agreement is rechecked at completion. A disagreement or unavailable endpoint leaves the original basic observation unqualified. Integrated synthetic CI passed the positive agreement and nine negative cases; no cryptographic finality, causal attribution or automatic settlement is claimed.
+
+Explicit reviewed nonce comparison is implemented in the next candidate (CI pending). An absent nonce remains unbound; a mismatch or competing admission with the same explicit nonce prevents the candidate association. This is not causal proof.

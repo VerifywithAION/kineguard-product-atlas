@@ -33,4 +33,6 @@ The latest documented Hostinger Current baseline is `c557df35a4a4e2551d621f6a792
 
 | Reported transaction hash and native-field candidate association | LAB / CI VERIFIED | Exact capability-bound unverified result report; unique owner-scoped ALLOW and single-RPC native-field comparison only; no causal proof, finality or reservation release |
 
-| Two-provider native transaction observation | IMPLEMENTED / CI PENDING | Exact fields, block membership, matching fresh finalized anchors and owner recheck; discrepancy leaves only unqualified basic observation; no release or independent finality |
+| Two-provider native transaction observation | LAB / CI VERIFIED | Exact fields, block membership, matching fresh finalized anchors and owner recheck; discrepancy leaves only unqualified basic observation; no release or independent finality |
+
+| Reviewed request isolation and explicit nonce | IMPLEMENTED / CI PENDING | Snapshot of native transaction arguments; optional explicit nonce in durable decision and association check; no automatic nonce assignment, causal execution or reservation release |

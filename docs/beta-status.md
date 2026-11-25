@@ -43,4 +43,8 @@ The subsequent candidate persists a syntactically valid provider-result transact
 
 ### Two-provider transaction observation
 
-The next candidate adds two distinct configured RPC endpoints for a matched native-transfer candidate. It checks transaction/receipt fields, nonce and transaction index, block membership, and identical fresh finalized anchors before and after readback. If the stronger observation cannot be established, the basic single-RPC observation remains explicitly unqualified. Nine synthetic negative cases are included; CI pending. Agreement between providers is not independently verified cryptographic finality, causal execution proof or settlement authority. No reservation is released.
+The next candidate adds two distinct configured RPC endpoints for a matched native-transfer candidate. It checks transaction/receipt fields, nonce and transaction index, block membership, and identical fresh finalized anchors before and after readback. If the stronger observation cannot be established, the basic single-RPC observation remains explicitly unqualified. Integrated synthetic CI passed the positive agreement and all nine negative cases. Agreement between providers is not independently verified cryptographic finality, causal execution proof or settlement authority. No reservation is released.
+
+### Reviewed transaction integrity
+
+The next candidate isolates native transaction arguments before asynchronous policy review, so caller mutation of the original object does not change the forwarded arguments. An explicitly supplied valid nonce is included in the durable decision and compared with the observed transaction. Missing nonce remains explicitly unbound; mismatching or competing explicit nonce evidence does not qualify a candidate association. No nonce is automatically assigned, no signing authority or settlement is granted. CI pending.

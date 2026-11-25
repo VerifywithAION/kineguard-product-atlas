@@ -22,3 +22,7 @@ This is not universal RPC interception. The merged customer-policy binding, prov
 - Is the result supported by a reproducible runtime proof, rather than an interface label?
 
 **Read more:** [architecture](../docs/architecture.md) · [evidence and proofs](../docs/evidence-and-proofs.md) · [capability matrix](../docs/capability-matrix.md) · [main README](../README.md).
+
+## Reviewed argument integrity
+
+The next candidate snapshots native transfer arguments before asynchronous review and forwards the isolated arguments. An explicit nonce, when supplied, is validated and recorded; malformed explicit nonces fail closed. CI pending. This is not a trusted wallet execution boundary outside the covered browser route.
