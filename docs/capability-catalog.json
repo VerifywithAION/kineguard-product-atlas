@@ -549,7 +549,7 @@
   "integration_checkpoint": "docs/integration-evidence-2026-11-25.md",
   "integration_candidate": {
     "date": "2026-11-25",
-    "last_qualified_ci": "45708932605",
+    "last_qualified_ci": "45711379065",
     "successor_ci": "45671320044",
     "successor_status": "COMPILATION_FAILED",
     "production_certified": false,
@@ -559,7 +559,7 @@
     "proposal_preview_commit": "bd1578940ac27fcd1d03dbaca61a0da428a81e9b",
     "proposal_preview_ci": "45675346255",
     "proposal_preview_status": "SUCCESS_HTTP_UI_16_EVM_284_INTEGRATED",
-    "last_qualified_commit": "737f52a798996ba9d244a72dcc8b68f6d85486dc",
+    "last_qualified_commit": "2843072554693cce1d0719a73540105b46f52782",
     "key_association_commit": "3346389b15193c42d06274564646abda5e47d0b9",
     "key_association_ci": "45676448439",
     "key_association_status": "SUCCESS_DUAL_PROOF_16_EVM_284_INTEGRATED",
@@ -607,6 +607,9 @@
     "deployment_rpc_inspection_status": "FAILED_E2E_HTTP_400_EXPECTED_503",
     "deployment_rpc_repair_commit": "2843072554693cce1d0719a73540105b46f52782",
     "deployment_rpc_repair_ci": "45711379065",
-    "deployment_rpc_repair_status": "IN_PROGRESS_AT_PUBLICATION"
+    "deployment_rpc_repair_status": "SUCCESS_TWO_RPC_INSPECTION_QUARANTINE_ONLY_284_INTEGRATED",
+    "authorizer_key_proof_commit": "c5c6d0d6d6a141d8d11e1b5614c927f4f98c8bc2",
+    "authorizer_key_proof_ci": "45715112656",
+    "authorizer_key_proof_status": "IN_PROGRESS_IDENTITY_ONLY"
   }
 }

@@ -79,3 +79,5 @@ La delegación de lectura acotada se ha probado en CI sintético. La autorizaci�
 **Actualización:** candidato de inspección de registro en cuarentena mediante dos RPC configurados por servidor, sin promover autoridad ni certificar finalidad. CI 45709491820 pendiente; posible discrepancia HTTP 400/503 ante evidencia RPC alterada. Registro anterior también pendiente. Sin firma ni ejecución real.
 
 **Actualización:** registro Admin y lectura de cuarentena PASS, CI 45708932605. Inspección RPC CI 45709491820 FAIL por HTTP 400 en vez de 503; evidencia alterada rechazada. Reparación puntual `2843072`, CI 45711379065 pendiente. Sin registro live, autoridad ni firma productiva.
+
+**Actualización:** inspección RPC de creación contractual en cuarentena PASS, CI 45711379065. Candidato de prueba de control de clave del firmante externo vinculada a registro, política y sesión de operador, migración 039, CI 45715112656 pendiente. No custodia productiva, permiso ejecutable ni registro live certificado.

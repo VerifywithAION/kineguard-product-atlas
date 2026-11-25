@@ -53,3 +53,5 @@ Agent Access update: direct deployment provenance 30/30 PASS at `90753b9`. Opera
 Agent Access update: read-only quarantine deployment RPC inspection candidate `ea476bb` / CI 45709491820 pending; possible provider-error HTTP mapping gap, no live registration or authority.
 
 Agent Access update: operator quarantine registry PASS at `737f52a`; RPC inspection failed HTTP classification. Repair `2843072` / CI 45711379065 pending. No live authority.
+
+Agent Access update: quarantine deployment RPC inspection PASS at `2843072`. External authorizer key-control candidate `c5c6d0d` / CI 45715112656 pending; identity only, no production custody or authority.
