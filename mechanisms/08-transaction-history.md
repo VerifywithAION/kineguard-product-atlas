@@ -39,4 +39,4 @@ The next candidate compares an observed zero-value V3 transaction's target and e
 
 ## V3 execution-event evidence
 
-The candidate checks the exact registered code and policy at the transaction block, decodes the unique immediate execution event, and reconstructs its action identifier from the mined contract nonce and timestamp. Both configured RPCs must report the same matching event. Missing, duplicated, removed or inconsistent event evidence leaves outflow unestablished. CI pending; not a proof of independent finality or settlement.
+The candidate checks the exact registered code and policy at the transaction block, decodes the unique immediate execution event, and reconstructs its action identifier from the mined contract nonce and timestamp. Both configured RPCs must report the same matching event. Missing, duplicated, removed or inconsistent event evidence leaves outflow unestablished. Integrated synthetic CI PASS; not a proof of independent finality or settlement.

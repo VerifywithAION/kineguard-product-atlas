@@ -37,4 +37,4 @@ The V3 owner-return durable context passed synthetic HTTP readback checks. The c
 
 The next candidate reuses the validated V3 receipt context for exact transaction call association; synthetic CI PASS. The receipt remains distinct from on-chain execution evidence.
 
-The new candidate reports matching V3 execution-event evidence separately from the pre-forward receipt and simulated action ID. CI pending. No causal admission proof or automatic economic release.
+The new candidate reports matching V3 execution-event evidence separately from the pre-forward receipt and simulated action ID. Integrated synthetic CI PASS. No causal admission proof or automatic economic release.

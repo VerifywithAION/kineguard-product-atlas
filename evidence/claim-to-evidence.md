@@ -51,4 +51,8 @@ The latest documented Hostinger Current baseline is `c557df35a4a4e2551d621f6a792
 
 | V3 exact transaction call / admission receipt association | LAB / CI VERIFIED (synthetic) | Unique reported hash, exact contract target, outer zero and canonical calldata; two-RPC comparison and customer history link; requested amount only, no causal proof or reservation release |
 
-| V3 matching immediate execution event | IMPLEMENTED / CI PENDING | Exact registered code, policy identity, mined event and reconstructed action ID from both configured RPCs; reported outflow only, no causal proof or settlement |
+| V3 matching immediate execution event | LAB / CI VERIFIED (synthetic) | Exact registered code, policy identity, mined event and reconstructed action ID from both configured RPCs; reported outflow only, no causal proof or settlement |
+
+| Populated 028–032 delta migration compatibility | LAB / CI VERIFIED (synthetic PG16) | Existing rows preserved, legacy defaults and negative constraints verified; not production backup or upgrade |
+
+| Admin customer-governance counts and navigation | IMPLEMENTED / CI PENDING | Authenticated aggregate database counts, distinct operator session, no raw customer identities, explicit unavailable state; hosted acceptance pending |
