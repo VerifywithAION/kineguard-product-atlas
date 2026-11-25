@@ -41,4 +41,6 @@ The latest documented Hostinger Current baseline is `c557df35a4a4e2551d621f6a792
 
 | Configurable wallet-signed agent read grant | LAB / CI VERIFIED (bounded) | Owner selects signed bounded read count and lifetime, server enforces consumption and revocation, accurate status readback; no delegated spending or signing authority |
 
-| Associated V3 native test funding customer flow | IMPLEMENTED / CI PENDING | Explicit bounded Sepolia native transfer to fixed observed contract after matching fresh read association, existing policy enforcement and owner approval; UI fixture and synthetic provider test, no actual funding or withdrawal claim |
+| Associated V3 native test funding customer flow | LAB / CI VERIFIED (UI fixture composition) | Explicit bounded Sepolia native transfer to fixed observed contract after matching fresh read association, existing policy enforcement and owner approval; UI fixture and synthetic provider test, no actual funding or withdrawal claim |
+
+| V3 immediate owner return simulation | IMPLEMENTED / CI PENDING | Exact pinned dual-RPC eth_call for frozen owner-return call, independently reconstructed action ID and signed read scope recheck; no transaction, withdrawal authorization or protected-funds certification |
