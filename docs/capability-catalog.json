@@ -613,6 +613,9 @@
     "authorizer_key_proof_status": "FAILED_TYPESCRIPT_4_TS2769_E2E_SKIPPED",
     "authorizer_key_proof_repair_commit": "ba2e68f1d44bf833c4e725662fbc1b150267d53b",
     "authorizer_key_proof_repair_ci": "45716035102",
-    "authorizer_key_proof_repair_status": "SUCCESS_CI_ONLY_IDENTITY_PROOF_NO_EXECUTABLE_AUTHORITY"
+    "authorizer_key_proof_repair_status": "SUCCESS_CI_ONLY_IDENTITY_PROOF_NO_EXECUTABLE_AUTHORITY",
+    "external_signer_transport_commit": "2d939f1a8180dbc015bcf5a0c9141c83be535482",
+    "external_signer_transport_ci": "45718586693",
+    "external_signer_transport_status": "CI_PENDING_IDENTITY_TRANSPORT_ONLY_NO_CUSTODY_CERTIFICATION"
   }
 }

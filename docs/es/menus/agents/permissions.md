@@ -86,3 +86,6 @@ La delegación de lectura acotada se ha probado en CI sintético. La autorizaci�
 
 
 **Actualización:** CI 45716035102 SUCCESS sobre `ba2e68f`; logs confirman `AGENT_EXTERNAL_AUTHORIZER_KEY_CONTROL` PASS, identidad sintética solamente, TypeScript y regresión integrada 284/284 PASS. Sin custodia protegida, permiso ejecutable, registro live ni ejecución Sepolia. Siguiente: custodia externa protegida y autorización ejecutable fail-closed en el mismo PR aislado; Human Acceptance y release pendientes.
+
+
+**Actualización:** candidato [2d939f1](https://github.com/VerifywithAION/aion-guard-ui/commit/2d939f1a8180dbc015bcf5a0c9141c83be535482) integra transporte de identidad externo configurable desde Admin, desafío EIP-191 persistido, verificación de firma y revalidación de registro/política. CI 45718586693 pendiente de adjudicación. No custodia HSM/KMS certificada ni permiso ejecutable; servicio externo real pendiente. Sin producción ni movimientos on-chain.
