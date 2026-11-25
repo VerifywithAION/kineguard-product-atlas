@@ -69,3 +69,5 @@ Bounded read delegation has synthetic CI evidence. The separate native monetary 
 **Update:** cross-mechanism and shared browser/readback accounting PASS (CI 45693990497 and 45694513194). Bidirectional admission candidate with second local contract and 2 wei cap, concurrent competition and persisted sum; CI 45698689165 pending. No live registry or executable signature.
 
 **Update:** candidate exact receipt preimage preservation and independent historical integrity verification, migration 037, seven receipts and seven planned negative controls; CI 45699228431 pending. No server authority authentication, current policy certification or executable signature. Historical receipts without original bytes are not reconstructed.
+
+**Update:** bidirectional admission and seven receipt/seven negative integrity controls PASS, CI 45699228431. Local EVM execution candidate binds persisted receipt, current policy/association, distinct synthetic signer, two events and balance; CI 45705150397 pending. Local reproduction, not original chain continuity, production signing or real funds.

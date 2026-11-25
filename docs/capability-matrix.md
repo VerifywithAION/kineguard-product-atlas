@@ -43,3 +43,5 @@ Agent Access update: shared laboratory browser-cap accounting/readback candidate
 Agent Access update: cross-mechanism and shared laboratory browser/readback accounting PASS at `a78207d`. Bidirectional shared cap candidate `eaff457` / CI 45698689165 pending; no live capacity.
 
 Agent Access update: receipt preimage preservation and independent historical integrity candidate `a1d9150` / CI 45699228431 pending; no executable signature or current eligibility.
+
+Agent Access update: bidirectional shared cap and historical receipt integrity PASS at `a1d9150`. Local EVM receipt execution bridge candidate `99f2ff8` / CI 45705150397 pending; no production signer or live execution.
