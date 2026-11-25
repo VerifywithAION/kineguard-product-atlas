@@ -25,4 +25,4 @@ This is not universal RPC interception. The merged customer-policy binding, prov
 
 ## Reviewed argument integrity
 
-The next candidate snapshots native transfer arguments before asynchronous review and forwards the isolated arguments. An explicit nonce, when supplied, is validated and recorded; malformed explicit nonces fail closed. CI pending. This is not a trusted wallet execution boundary outside the covered browser route.
+The next candidate snapshots native transfer arguments before asynchronous review and forwards the isolated arguments. An explicit nonce, when supplied, is validated and recorded; malformed explicit nonces fail closed. Integrated synthetic CI passed caller mutation and malformed nonce cases. This is not a trusted wallet execution boundary outside the covered browser route.
