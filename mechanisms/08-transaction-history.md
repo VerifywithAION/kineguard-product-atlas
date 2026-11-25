@@ -40,3 +40,7 @@ The next candidate compares an observed zero-value V3 transaction's target and e
 ## V3 execution-event evidence
 
 The candidate checks the exact registered code and policy at the transaction block, decodes the unique immediate execution event, and reconstructs its action identifier from the mined contract nonce and timestamp. Both configured RPCs must report the same matching event. Missing, duplicated, removed or inconsistent event evidence leaves outflow unestablished. Integrated synthetic CI PASS; not a proof of independent finality or settlement.
+
+## WETH exact zero-approval evidence
+
+The next candidate associates a unique saved WETH ALLOW receipt with the exact reported zero-value call and verifies agreement of the registered runtime and unique Approval(owner, spender, 0) event at the transaction block. It separately observes current allowance at a fresh shared finalized anchor. A later approval can restore permission; missing or conflicting evidence is not zero. Integrated synthetic CI pending; no independent cryptographic finality, causal admission proof or settlement.
