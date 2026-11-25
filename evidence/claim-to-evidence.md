@@ -43,4 +43,6 @@ The latest documented Hostinger Current baseline is `c557df35a4a4e2551d621f6a792
 
 | Associated V3 native test funding customer flow | LAB / CI VERIFIED (UI fixture composition) | Explicit bounded Sepolia native transfer to fixed observed contract after matching fresh read association, existing policy enforcement and owner approval; UI fixture and synthetic provider test, no actual funding or withdrawal claim |
 
-| V3 immediate owner return simulation | IMPLEMENTED / CI PENDING | Exact pinned dual-RPC eth_call for frozen owner-return call, independently reconstructed action ID and signed read scope recheck; no transaction, withdrawal authorization or protected-funds certification |
+| V3 immediate owner return simulation | LAB / CI VERIFIED (synthetic) | Exact pinned dual-RPC eth_call for frozen owner-return call, independently reconstructed action ID and signed read scope recheck; no transaction, withdrawal authorization or protected-funds certification |
+
+| Exact V3 owner return admission | IMPLEMENTED / CI PENDING | Default-disabled, session/capability/custody-bound single-use intent, exact zero-value outer call and internal economic amount; atomic durable admission and separate wallet approval; synthetic HTTP positive and browser negative coverage, no real withdrawal |

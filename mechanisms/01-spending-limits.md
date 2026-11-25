@@ -34,3 +34,7 @@ Single-use admission passed integrated synthetic tests. The new candidate adds a
 ## Owner economic readback — November 24, 2026
 
 The subsequent candidate exposes a timestamped count of covered unresolved admissions and remaining admission capacity in View Details, with active, prior and requested cumulative cap values in policy-change receipts. No zero balance is inferred from unavailable data. The values do not represent confirmed spending, gas expenditure or a protected on-chain balance; the readback releases no reservations. Initial CI stopped at a React lint error before functional tests. The receipt loading flow was repaired to reject obsolete record/refresh results, and integrated synthetic CI then passed the owner economic readback and receipt tests. Historical receipts that predate the cap retain their original evidence boundary.
+
+## Contract-governed owner return accounting
+
+The next candidate adds a bounded default-disabled V3 owner-return admission. The amount encoded inside the exact registered contract call is counted against the saved single-action and conservative cumulative admission limits; the outer value is zero. The separate actual on-chain V3 limits remain enforced by the contract. Unresolved admissions remain counted; no automatic release or settlement from simulation or provider hash. CI pending.

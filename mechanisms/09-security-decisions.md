@@ -28,3 +28,7 @@ Do not represent policy edits as denials, decision receipts as mined transaction
 Integrated synthetic CI verifies owner-scoped durable decisions and conservative admission readback. A subsequent candidate adds the provider-reported transaction hash to the exact capability-bound result report and displays it as unverified evidence. The matching single-RPC observation may support a candidate association, not proof that KINE caused execution. Integrated synthetic CI passed. Existing policy and pre-forward receipt boundaries remain unchanged. Two-provider transaction observation passed integrated synthetic CI; this cannot upgrade an unverified provider report into causal proof or release economic capacity.
 
 The subsequent candidate preserves an optional explicitly requested nonce in the pre-forward receipt and labels it as a reviewed request field, not a verified chain nonce. Integrated synthetic CI passed explicit nonce persistence and readback. Existing historical receipts remain unchanged.
+
+## V3 owner return decision context
+
+The next candidate preserves the exact contract call target, economic beneficiary, zero external value, internal amount and simulation context on the durable pre-forward receipt. The short-lived one-use intent is consumed with the admission. A simulation identifier is not a mined action ID; the receipt still does not verify signing, forwarding, chain completion or protected funds. CI pending.
