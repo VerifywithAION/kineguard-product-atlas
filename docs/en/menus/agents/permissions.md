@@ -75,3 +75,5 @@ Bounded read delegation has synthetic CI evidence. The separate native monetary 
 **Update:** persisted receipt → independent synthetic signer → local EVM execution PASS, CI 45705150397. Direct creation provenance candidate (transaction, constructor, value, CREATE address, receipt, block and runtime), 30 planned controls; CI 45707353028 pending. No live operator registration, independent finality or production signing.
 
 **Update:** direct deployment provenance 30/30 PASS, CI 45707353028. Durable operator quarantine registry candidate with Admin intake/revocation and customer readback, migration 038 and CI 45708932605 pending. No live deployment certification, finality or production signature; registry revocation is not on-chain revocation.
+
+**Update:** candidate two-configured-RPC quarantine deployment inspection, without authority promotion or independent finality certification. CI 45709491820 pending; possible HTTP 400/503 mismatch for altered RPC evidence. Previous registry CI pending. No signing or live execution.

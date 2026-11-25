@@ -601,6 +601,9 @@
     "direct_deployment_status": "SUCCESS_30_DIRECT_DEPLOYMENT_17_EVM_22_RPC_284_INTEGRATED",
     "operator_registry_commit": "737f52a798996ba9d244a72dcc8b68f6d85486dc",
     "operator_registry_ci": "45708932605",
-    "operator_registry_status": "IN_PROGRESS_QUARANTINE_ONLY"
+    "operator_registry_status": "IN_PROGRESS_QUARANTINE_ONLY",
+    "deployment_rpc_inspection_commit": "ea476bbde025b97bc50d7d9e1f88949cff2de5e4",
+    "deployment_rpc_inspection_ci": "45709491820",
+    "deployment_rpc_inspection_status": "IN_PROGRESS_HTTP_ERROR_MAPPING_GAP"
   }
 }

@@ -49,3 +49,5 @@ Agent Access update: bidirectional shared cap and historical receipt integrity P
 Agent Access update: receipt-to-local-EVM execution PASS at `99f2ff8`. Direct deployment provenance candidate `90753b9` / CI 45707353028 pending; no live registration, finality or authority.
 
 Agent Access update: direct deployment provenance 30/30 PASS at `90753b9`. Operator registry quarantine candidate `737f52a` / CI 45708932605 pending; no live registry qualification or authority.
+
+Agent Access update: read-only quarantine deployment RPC inspection candidate `ea476bb` / CI 45709491820 pending; possible provider-error HTTP mapping gap, no live registration or authority.
