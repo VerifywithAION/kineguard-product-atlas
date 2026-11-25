@@ -619,8 +619,10 @@
     "external_signer_transport_status": "FAILED_TYPESCRIPT_TS2339_E2E_NOT_RUN",
     "external_signer_transport_repair_commit": "5fe5c2ab09c4d6199d026c16c8e2417673fc892c",
     "external_signer_transport_repair_ci": "45720496147",
-    "external_signer_transport_repair_status": "CI_PENDING_NO_NEW_QUALIFICATION",
+    "external_signer_transport_repair_status": "SUCCESS_CI_ONLY_IDENTITY_TRANSPORT_NO_CUSTODY",
     "protected_custody_provider_candidate": "AWS_KMS_ECC_SECG_P256K1_PROPOSED_NOT_PROVISIONED",
-    "protected_custody_status": "DESIGN_ONLY_OWNER_AND_LIVE_QUALIFICATION_PENDING"
+    "protected_custody_status": "ISOLATED_KMS_IDENTITY_ADAPTER_CI_PENDING_LIVE_CUSTODY_UNQUALIFIED",
+    "protected_custody_adapter_commit": "6b51df517ba1acdeef6021ce1502f484c4e65e57",
+    "protected_custody_adapter_ci": "45723049642"
   }
 }

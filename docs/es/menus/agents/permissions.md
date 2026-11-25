@@ -95,3 +95,6 @@ La delegación de lectura acotada se ha probado en CI sintético. La autorizaci�
 
 
 **Reparación TypeScript:** CI 45718586693 FAIL, siete TS2339 por unión de respuestas del desafío; E2E no ejecutado. [5fe5c2a](https://github.com/VerifywithAION/aion-guard-ui/commit/5fe5c2ab09c4d6199d026c16c8e2417673fc892c) añade guardas explícitas de presencia de propiedades y actualiza pin CI; dos archivos, sin cambio de política, firma, contrato ni migración. CI 45720496147 pendiente de adjudicación. Último PASS ba2e68f; AWS KMS sigue propuesto, no aprovisionado.
+
+
+**Actualización:** CI 45720496147 SUCCESS, transporte externo de identidad sintético PASS, 284/284. [Candidato 6b51df5](https://github.com/VerifywithAION/aion-guard-ui/commit/6b51df517ba1acdeef6021ce1502f484c4e65e57) incorpora servicio aislado AWS KMS para identidad EIP-191, clave ARN/dirección fijada, metadatos, DER/low-s/recuperación y caducidad. 25 pruebas escritas con proveedor simulado; CI 45723049642 pendiente de adjudicación. No llamadas AWS reales, custodia certificada, IAM/CloudTrail calificados, autorización ejecutable ni cambios producción.
