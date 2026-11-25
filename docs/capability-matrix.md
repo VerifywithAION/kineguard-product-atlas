@@ -23,3 +23,5 @@ Agent Access update (2026-11-25): signed-decision contract 16/16 local EVM and a
 
 
 **CI closure (same day):** [45676448439](https://github.com/VerifywithAION/aion-guard-ui/actions/runs/45676448439) on `3346389` completed SUCCESS. Final logs confirm `AGENT_KEY_DUAL_PROOF_ASSOCIATION` and `AGENT_NATIVE_POLICY_PROPOSAL_PREVIEW` RUNTIME_PASS, 16 local EVM tests and 284/284 combined integrated checks. Key control is verified within the synthetic account/session challenge flow, not software identity, actual funded contract authority or production acceptance. Migration 034 remains unqualified for populated production upgrades. The registered-observation successor is still pending.
+
+Agent Access update: 22/22 registered-grant synthetic observation PASS at `cc70c8a`; 16/16 EVM and 284/284 integrated. Compiled-runtime provenance candidate `08a57db` pending CI; no deployed authority. See [mechanism](../mechanisms/07-agent-access.md).

@@ -49,3 +49,5 @@ Bounded read delegation has synthetic CI evidence. The separate native monetary 
 **Update:** saved-policy budget evaluation passed synthetic HTTP/UI CI (16/16 EVM, 284/284 integrated). Dual-key association E2E-05 stage passed; complete run pending. Internal registered-contract dual-RPC observation qualifier awaits CI, with no customer API or authority. [Mechanism](../../../../mechanisms/07-agent-access.md).
 
 **CI closure:** dual EOA key association runtime PASS, integrated 284/284 and local EVM 16/16. No monetary authority or software identity; migration 034 synthetic only, not a production upgrade.
+
+**Update:** synthetic RPC contract observation 22/22 PASS, 16/16 EVM and 284/284 integrated. New compiled-runtime reconstruction candidate with nine immutables and local EVM comparison awaits CI. Not live contract registration or spending authority. [Mechanism](../../../../mechanisms/07-agent-access.md).
