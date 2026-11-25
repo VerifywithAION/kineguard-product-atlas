@@ -101,3 +101,6 @@ The next candidate links App Approvals to Transaction History and compares exact
 The new undeployed contract isolates explicitly funded native ETH principal from existing EOA and V3 funds. Immutable owner, distinct guardian and agent, fixed recipient, nonrenewable budget (maximum 0.001 ETH), per-action cap and expiry (maximum 30 minutes). Owner or guardian may permanently revoke; only owner may recover after expiry or revocation. No arbitrary calldata, renewal or upgrade. The policy hash is a label until account and policy integration is verified. Original local EVM revision passed 12/12 and 284/284 combined integrated checks. The successor signed-decision candidate failed Solidity compilation; its runtime and downstream regression did not execute. No deployment, funding, live authority or customer integration. Existing read grants do not grant spending authority.
 
 [November 25 consolidated integration checkpoint](integration-evidence-2026-11-25.md).
+
+
+November 25 repair: the signed-decision candidate compilation refactor is under [CI 45674576412](https://github.com/VerifywithAION/aion-guard-ui/actions/runs/45674576412); no new EVM or integrated PASS is certified yet. See the consolidated evidence checkpoint and Agent Access mechanism page. No release.

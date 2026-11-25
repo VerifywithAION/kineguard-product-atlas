@@ -54,3 +54,6 @@ No unqualified use of the term *receipt* should conflate these. Session-local ev
 - Existing read-only agent grants are not signing or spending permissions. Human Acceptance and production qualification remain pending.
 
 [Consolidated evidence checkpoint](integration-evidence-2026-11-25.md): exact successful and failed CI, nine mechanisms and Admin.
+
+
+November 25 repair: the signed-decision candidate compilation refactor is under [CI 45674576412](https://github.com/VerifywithAION/aion-guard-ui/actions/runs/45674576412); no new EVM or integrated PASS is certified yet. See the consolidated evidence checkpoint and Agent Access mechanism page. No release.

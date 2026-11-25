@@ -552,6 +552,9 @@
     "last_qualified_ci": "45665413574",
     "successor_ci": "45671320044",
     "successor_status": "COMPILATION_FAILED",
-    "production_certified": false
+    "production_certified": false,
+    "repair_ci": "45674576412",
+    "repair_commit": "55e22278ee33c98c410b19dae4d7434162949f9d",
+    "repair_status": "IN_PROGRESS_AT_PUBLICATION"
   }
 }

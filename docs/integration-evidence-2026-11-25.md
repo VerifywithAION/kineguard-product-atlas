@@ -32,3 +32,8 @@ The original agent contract passed 12/12 tests. Its successor requires independe
 Se contrastaron las 100 entradas de commits del PR integrado con los resultados exactos de CI. La revisión aprobada obtuvo 12/12 pruebas contractuales locales y 284/284 comprobaciones integradas sintéticas. La revisión posterior de firma individual falló al compilar sin ejecutar nuevas pruebas EVM. Los nueve mecanismos tienen evidencia acotada de integración o histórica, y Admin evidencia sintética adicional. No se certifica ejecución completa en producción. Aceptación humana, calificación RPC, migración, custodia del firmante, integración monetaria y video pendientes. Código privado, credenciales, datos de clientes y logs crudos excluidos.
 
 [Capability matrix](capability-matrix.md) · [Beta status](beta-status.md) · [ES controls](es/controls.md) · [EN controls](en/controls.md) · [Claim evidence](../evidence/claim-to-evidence.md)
+
+
+## Signed-decision candidate repair — November 25, 2026
+
+The Solidity compilation failure prompted a narrow refactor of the private candidate: digest construction and signature validation are isolated from the execution function, with the same public interface, checks and test suite. No compiler settings or test assertions changed. [Repair commit 55e2227](https://github.com/VerifywithAION/aion-guard-ui/commit/55e22278ee33c98c410b19dae4d7434162949f9d); [CI 45674576412](https://github.com/VerifywithAION/aion-guard-ui/actions/runs/45674576412) in progress at publication. This is a source repair, not a new EVM PASS. The earlier 12/12 and 284/284 evidence remains scoped to the last qualified snapshot. No deployment, signing service, production authority or actual spending is certified.

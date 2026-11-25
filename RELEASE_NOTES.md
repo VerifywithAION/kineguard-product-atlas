@@ -34,3 +34,6 @@ The original bounded agent contract subsequently passed 12/12 local EVM tests an
 ## Documentation reconciliation — 2026-11-25
 
 Reviewed 100 returned private PR #18 commit entries and exact CI logs. All nine mechanism pages, Admin evidence, catalog, bilingual controls and navigation, and claim boundaries reconciled. Last qualified: 12/12 local EVM and 284/284 integrated synthetic checks; successor signed-decision candidate compilation FAIL. No new deployment or live execution certification. [Checkpoint](docs/integration-evidence-2026-11-25.md).
+
+
+November 25 repair: the signed-decision candidate compilation refactor is under [CI 45674576412](https://github.com/VerifywithAION/aion-guard-ui/actions/runs/45674576412); no new EVM or integrated PASS is certified yet. See the consolidated evidence checkpoint and Agent Access mechanism page. No release.
