@@ -43,3 +43,5 @@ La delegación de lectura acotada se ha probado en CI sintético. La autorizaci�
 [← Volver al menú](index.md)
 
 **Candidato de cuenta:** la reparación contractual aprobó la etapa EVM local; regresión integrada pendiente. Nuevo formulario de presupuesto nativo evalúa política guardada, destinatario, pausa y capacidad de admisión. Resultado favorable NO AUTORIZADO; sin firma, reserva, recibo duradero o ejecución. CI del formulario pendiente. [Mecanismo](../../../../mechanisms/07-agent-access.md).
+
+**Actualización del candidato:** contrato con decisión firmada 16/16 EVM local y 284/284 integración sintética PASS. Nueva asociación de clave EOA del agente mediante consentimiento del propietario y firma del agente, persistencia, caducidad y revocación, pendiente de CI. No prueba identidad del software, no registra contrato ni concede gasto. [Mecanismo](../../../../mechanisms/07-agent-access.md).

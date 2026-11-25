@@ -549,15 +549,19 @@
   "integration_checkpoint": "docs/integration-evidence-2026-11-25.md",
   "integration_candidate": {
     "date": "2026-11-25",
-    "last_qualified_ci": "45665413574",
+    "last_qualified_ci": "45674576412",
     "successor_ci": "45671320044",
     "successor_status": "COMPILATION_FAILED",
     "production_certified": false,
     "repair_ci": "45674576412",
     "repair_commit": "55e22278ee33c98c410b19dae4d7434162949f9d",
-    "repair_status": "LOCAL_EVM_STAGE_PASS_INTEGRATED_PENDING",
+    "repair_status": "SUCCESS_16_LOCAL_EVM_284_INTEGRATED",
     "proposal_preview_commit": "bd1578940ac27fcd1d03dbaca61a0da428a81e9b",
     "proposal_preview_ci": "45675346255",
-    "proposal_preview_status": "IN_PROGRESS_AT_PUBLICATION"
+    "proposal_preview_status": "IN_PROGRESS_AT_PUBLICATION",
+    "last_qualified_commit": "55e22278ee33c98c410b19dae4d7434162949f9d",
+    "key_association_commit": "3346389b15193c42d06274564646abda5e47d0b9",
+    "key_association_ci": "45676448439",
+    "key_association_status": "IN_PROGRESS_AT_PUBLICATION"
   }
 }
