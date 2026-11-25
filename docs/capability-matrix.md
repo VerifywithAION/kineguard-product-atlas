@@ -47,3 +47,5 @@ Agent Access update: receipt preimage preservation and independent historical in
 Agent Access update: bidirectional shared cap and historical receipt integrity PASS at `a1d9150`. Local EVM receipt execution bridge candidate `99f2ff8` / CI 45705150397 pending; no production signer or live execution.
 
 Agent Access update: receipt-to-local-EVM execution PASS at `99f2ff8`. Direct deployment provenance candidate `90753b9` / CI 45707353028 pending; no live registration, finality or authority.
+
+Agent Access update: direct deployment provenance 30/30 PASS at `90753b9`. Operator registry quarantine candidate `737f52a` / CI 45708932605 pending; no live registry qualification or authority.

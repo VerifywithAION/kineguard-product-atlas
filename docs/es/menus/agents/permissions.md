@@ -73,3 +73,5 @@ La delegación de lectura acotada se ha probado en CI sintético. La autorizaci�
 **Actualización:** admisión bidireccional e integridad de siete recibos/siete negativos PASS, CI 45699228431. Candidato de ejecución EVM local con recibo persistido, revalidación de política/asociación, firmante independiente sintético, dos eventos y saldo; CI 45705150397 pendiente. Reproducción local, no continuidad de cadena original, firma productiva ni fondos reales.
 
 **Actualización:** puente recibo → firma independiente sintética → ejecución EVM local PASS, CI 45705150397. Candidato de procedencia de creación directa (transacción, constructor, valor, dirección CREATE, recibo, bloque y runtime), 30 controles previstos; CI 45707353028 pendiente. No registro operator-trusted real, finalidad independiente ni firma productiva.
+
+**Actualización:** procedencia contractual 30/30 PASS, CI 45707353028. Candidato de registro durable en cuarentena con admisión/revocación Admin y lectura cliente, migración 038 y CI 45708932605 pendiente. No certifica despliegue real, finalidad ni firma productiva; revocación del registro no es revocación on-chain.
