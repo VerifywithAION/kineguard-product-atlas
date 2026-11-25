@@ -81,3 +81,5 @@ Bounded read delegation has synthetic CI evidence. The separate native monetary 
 **Update:** Admin quarantine registry and account readback PASS, CI 45708932605. RPC inspection CI 45709491820 FAIL due to HTTP 400 instead of 503; altered evidence rejected. Targeted repair `2843072`, CI 45711379065 pending. No live registry, authority or production signing.
 
 **Update:** quarantined creation RPC inspection PASS, CI 45711379065. External authorizer key-control candidate bound to registry, policy and operator session, migration 039, CI 45715112656 pending. No production custody, executable permit or certified live registry.
+
+**Update:** CI 45715112656 FAIL on four PostgreSQL timestamp TypeScript TS2769 errors; E2E skipped. Strict timestamp repair `ba2e68f`, CI 45716035102 pending. No newly qualified authorizer identity, production custody or executable permit.

@@ -610,6 +610,9 @@
     "deployment_rpc_repair_status": "SUCCESS_TWO_RPC_INSPECTION_QUARANTINE_ONLY_284_INTEGRATED",
     "authorizer_key_proof_commit": "c5c6d0d6d6a141d8d11e1b5614c927f4f98c8bc2",
     "authorizer_key_proof_ci": "45715112656",
-    "authorizer_key_proof_status": "IN_PROGRESS_IDENTITY_ONLY"
+    "authorizer_key_proof_status": "FAILED_TYPESCRIPT_4_TS2769_E2E_SKIPPED",
+    "authorizer_key_proof_repair_commit": "ba2e68f1d44bf833c4e725662fbc1b150267d53b",
+    "authorizer_key_proof_repair_ci": "45716035102",
+    "authorizer_key_proof_repair_status": "QUEUED_AT_PUBLICATION"
   }
 }

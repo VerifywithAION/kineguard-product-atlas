@@ -55,3 +55,5 @@ Agent Access update: read-only quarantine deployment RPC inspection candidate `e
 Agent Access update: operator quarantine registry PASS at `737f52a`; RPC inspection failed HTTP classification. Repair `2843072` / CI 45711379065 pending. No live authority.
 
 Agent Access update: quarantine deployment RPC inspection PASS at `2843072`. External authorizer key-control candidate `c5c6d0d` / CI 45715112656 pending; identity only, no production custody or authority.
+
+Agent Access update: external authorizer key-control candidate failed TypeScript (4 TS2769, E2E skipped); repair `ba2e68f` / CI 45716035102 pending. Last qualified `2843072`; no new authority.
