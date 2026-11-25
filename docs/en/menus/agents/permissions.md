@@ -65,3 +65,5 @@ Bounded read delegation has synthetic CI evidence. The separate native monetary 
 **Update:** two pending challenge invalidations PASS, 17/17 EVM, 22/22 RPC and 284/284 integrated. New signed-request denial tests after pause, recipient/origin deny and cap change await CI; no shared accounting or live authority. [Mechanism](../../../../mechanisms/07-agent-access.md).
 
 **Update:** shared conservative laboratory accounting candidate counts synthetic agent reservations toward browser cap and policy/proposal readback, with explicit breakdown. Outside lab browser-only accounting retained. Capped agent admission still fail-closed pending qualification; CI pending. No executable signature or real funds.
+
+**Update:** cross-mechanism and shared browser/readback accounting PASS (CI 45693990497 and 45694513194). Bidirectional admission candidate with second local contract and 2 wei cap, concurrent competition and persisted sum; CI 45698689165 pending. No live registry or executable signature.

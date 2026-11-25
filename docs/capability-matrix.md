@@ -39,3 +39,5 @@ Agent Access qualification: durable laboratory decision and concurrent synthetic
 Agent Access update: pending challenge invalidation PASS at `9581471` / CI 45691992645. Cross-mechanism denial candidate `c1e3b33` / CI 45693990497 pending; no live authority or shared cap qualification.
 
 Agent Access update: shared laboratory browser-cap accounting/readback candidate `a78207d` / CI 45694513194 pending; capped agent issuance remains blocked. No live capacity.
+
+Agent Access update: cross-mechanism and shared laboratory browser/readback accounting PASS at `a78207d`. Bidirectional shared cap candidate `eaff457` / CI 45698689165 pending; no live capacity.

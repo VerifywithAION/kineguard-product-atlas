@@ -65,3 +65,5 @@ La delegación de lectura acotada se ha probado en CI sintético. La autorizaci�
 **Actualización:** invalidación de dos desafíos pendientes PASS, 17/17 EVM, 22/22 RPC y 284/284 integración. Nuevas pruebas de bloqueo de solicitudes firmadas tras pausa, deny de destinatario/origen y cambio de cap pendientes de CI; sin contabilidad compartida ni autoridad real. [Mecanismo](../../../../mechanisms/07-agent-access.md).
 
 **Actualización:** candidato de contabilidad conservadora compartida de laboratorio: reservas sintéticas del agente cuentan para cap navegador y readback/propuesta, con desglose explícito. Fuera del laboratorio se conserva cálculo navegador-only. Admisión del agente bajo cap sigue bloqueada hasta nueva calificación; CI pendiente. Sin firma ejecutable ni fondos reales.
+
+**Actualización:** gobernanza cruzada y contabilidad compartida navegador/readback PASS (CI 45693990497 y 45694513194). Candidato de admisión bidireccional con segundo contrato local y cap de 2 wei, competencia concurrente y suma persistida; CI 45698689165 pendiente. Sin registro real ni firma ejecutable.

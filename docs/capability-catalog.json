@@ -549,7 +549,7 @@
   "integration_checkpoint": "docs/integration-evidence-2026-11-25.md",
   "integration_candidate": {
     "date": "2026-11-25",
-    "last_qualified_ci": "45691992645",
+    "last_qualified_ci": "45694513194",
     "successor_ci": "45671320044",
     "successor_status": "COMPILATION_FAILED",
     "production_certified": false,
@@ -559,7 +559,7 @@
     "proposal_preview_commit": "bd1578940ac27fcd1d03dbaca61a0da428a81e9b",
     "proposal_preview_ci": "45675346255",
     "proposal_preview_status": "SUCCESS_HTTP_UI_16_EVM_284_INTEGRATED",
-    "last_qualified_commit": "95814714c7a817e996192d81453a980d7ad7a449",
+    "last_qualified_commit": "a78207d85089833df167d1c39d1397620af869e8",
     "key_association_commit": "3346389b15193c42d06274564646abda5e47d0b9",
     "key_association_ci": "45676448439",
     "key_association_status": "SUCCESS_DUAL_PROOF_16_EVM_284_INTEGRATED",
@@ -583,9 +583,12 @@
     "key_challenge_invalidation_status": "SUCCESS_2_STALE_DUAL_PROOFS_17_EVM_22_RPC_284_INTEGRATED",
     "cross_mechanism_denial_commit": "c1e3b33113a35587404c73c9a464029ad5ad114f",
     "cross_mechanism_denial_ci": "45693990497",
-    "cross_mechanism_denial_status": "QUEUED_AT_PUBLICATION",
+    "cross_mechanism_denial_status": "SUCCESS_CROSS_MECHANISM_AND_CAP_CHANGE",
     "shared_admission_commit": "a78207d85089833df167d1c39d1397620af869e8",
     "shared_admission_ci": "45694513194",
-    "shared_admission_status": "IN_PROGRESS_LAB_BROWSER_AND_READBACK_ONLY"
+    "shared_admission_status": "SUCCESS_LAB_BROWSER_AND_READBACK_17_EVM_22_RPC_284_INTEGRATED",
+    "bidirectional_cap_commit": "eaff45768167a38ab8716201bd2a88ae115efa2a",
+    "bidirectional_cap_ci": "45698689165",
+    "bidirectional_cap_status": "QUEUED_AT_PUBLICATION"
   }
 }
