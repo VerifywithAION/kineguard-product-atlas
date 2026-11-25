@@ -621,7 +621,8 @@
     "external_signer_transport_repair_ci": "45720496147",
     "external_signer_transport_repair_status": "SUCCESS_CI_ONLY_IDENTITY_TRANSPORT_NO_CUSTODY",
     "protected_custody_provider_candidate": "AWS_KMS_ECC_SECG_P256K1_PROPOSED_NOT_PROVISIONED",
-    "protected_custody_status": "ISOLATED_KMS_IDENTITY_ADAPTER_CI_PENDING_LIVE_CUSTODY_UNQUALIFIED",
+    "protected_custody_status": "KMS_SYNTHETIC_CRYPTO_STEP_PASS_FULL_CI_PENDING_LIVE_CUSTODY_UNQUALIFIED",
+    "protected_custody_package_status": "ACCEPTANCE_SPEC_ONLY_NOT_BUILT",
     "protected_custody_adapter_commit": "6b51df517ba1acdeef6021ce1502f484c4e65e57",
     "protected_custody_adapter_ci": "45723049642"
   }

@@ -98,3 +98,6 @@ La delegación de lectura acotada se ha probado en CI sintético. La autorizaci�
 
 
 **Actualización:** CI 45720496147 SUCCESS, transporte externo de identidad sintético PASS, 284/284. [Candidato 6b51df5](https://github.com/VerifywithAION/aion-guard-ui/commit/6b51df517ba1acdeef6021ce1502f484c4e65e57) incorpora servicio aislado AWS KMS para identidad EIP-191, clave ARN/dirección fijada, metadatos, DER/low-s/recuperación y caducidad. 25 pruebas escritas con proveedor simulado; CI 45723049642 pendiente de adjudicación. No llamadas AWS reales, custodia certificada, IAM/CloudTrail calificados, autorización ejecutable ni cambios producción.
+
+
+**Evidencia parcial:** CI 45723049642, paso de criptografía KMS sintética SUCCESS, TypeScript y lint SUCCESS; CI completo pendiente. Se definió aceptación del paquete Lambda Node.js 22 independiente, viem 2.49.3 (lock existente), SDK KMS v3 fijado y lock completo, SHA256/inventario/importación del ZIP, simulación de transporte SDK real sin AWS, IAM solo ARN exacto con DescribeKey/GetPublicKey y Sign condicionado a ECDSA_SHA_256/DIGEST, auditoría y calificación de clave de laboratorio autorizada. KMS no valida por sí mismo la política económica. Sin paquete construido, recursos AWS, cargos, claves ni transacciones. Último PASS integral 5fe5c2a.
