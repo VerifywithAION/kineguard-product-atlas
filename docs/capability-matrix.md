@@ -45,3 +45,5 @@ Agent Access update: cross-mechanism and shared laboratory browser/readback acco
 Agent Access update: receipt preimage preservation and independent historical integrity candidate `a1d9150` / CI 45699228431 pending; no executable signature or current eligibility.
 
 Agent Access update: bidirectional shared cap and historical receipt integrity PASS at `a1d9150`. Local EVM receipt execution bridge candidate `99f2ff8` / CI 45705150397 pending; no production signer or live execution.
+
+Agent Access update: receipt-to-local-EVM execution PASS at `99f2ff8`. Direct deployment provenance candidate `90753b9` / CI 45707353028 pending; no live registration, finality or authority.
