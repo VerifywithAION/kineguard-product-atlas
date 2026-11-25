@@ -53,3 +53,5 @@ Bounded read delegation has synthetic CI evidence. The separate native monetary 
 **Update:** synthetic RPC contract observation 22/22 PASS, 16/16 EVM and 284/284 integrated. New compiled-runtime reconstruction candidate with nine immutables and local EVM comparison awaits CI. Not live contract registration or spending authority. [Mechanism](../../../../mechanisms/07-agent-access.md).
 
 **Update:** compiled provenance 18/18 controls within 17/17 EVM, 22/22 synthetic RPC and 284/284 integrated PASS. New account contract observation in View Details uses a sealed local fixture, current dual-key proof and policy binding; CI pending. No live registry or monetary authority outside the lab. [Mechanism](../../../../mechanisms/07-agent-access.md).
+
+**Update:** laboratory account-bound contract observation PASS, 17/17 EVM, 22/22 RPC and 284/284 integrated. Agent-signed decision, durable receipt and atomic synthetic reservation candidate awaits CI; no spending authority or operation outside laboratory. Configured shared cap blocks reservation until cross-path accounting is integrated. [Mechanism](../../../../mechanisms/07-agent-access.md).
