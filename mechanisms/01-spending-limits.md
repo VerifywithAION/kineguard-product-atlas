@@ -37,4 +37,4 @@ The subsequent candidate exposes a timestamped count of covered unresolved admis
 
 ## Contract-governed owner return accounting
 
-The next candidate adds a bounded default-disabled V3 owner-return admission. The amount encoded inside the exact registered contract call is counted against the saved single-action and conservative cumulative admission limits; the outer value is zero. The separate actual on-chain V3 limits remain enforced by the contract. Unresolved admissions remain counted; no automatic release or settlement from simulation or provider hash. Synthetic HTTP admission passed CI; composed positive browser test pending.
+The next candidate adds a bounded default-disabled V3 owner-return admission. The amount encoded inside the exact registered contract call is counted against the saved single-action and conservative cumulative admission limits; the outer value is zero. The separate actual on-chain V3 limits remain enforced by the contract. Unresolved admissions remain counted; no automatic release or settlement from simulation or provider hash. Synthetic HTTP admission and composed positive browser test passed CI.

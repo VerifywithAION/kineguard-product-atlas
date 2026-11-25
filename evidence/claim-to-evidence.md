@@ -47,4 +47,6 @@ The latest documented Hostinger Current baseline is `c557df35a4a4e2551d621f6a792
 
 | Exact V3 owner return admission | LAB / CI VERIFIED (HTTP positive, extension negative) | Default-disabled, session/capability/custody-bound single-use intent, exact zero-value outer call and internal economic amount; atomic durable admission and separate wallet approval; synthetic HTTP positive and browser negative coverage, no real withdrawal |
 
-| Composed V3 owner return through customer UI and MV3 | TEST ADDED / CI PENDING | Real authenticated server and database with synthetic RPC/provider; cancel creates no intent, exact one forward after durable receipt, consumed-intent replay no additional forward; no actual withdrawal or settlement |
+| Composed V3 owner return through customer UI and MV3 | LAB / CI VERIFIED (synthetic) | Real authenticated server and database with synthetic RPC/provider; cancel creates no intent, exact one forward after durable receipt, consumed-intent replay no additional forward; no actual withdrawal or settlement |
+
+| V3 exact transaction call / admission receipt association | IMPLEMENTED / CI PENDING | Unique reported hash, exact contract target, outer zero and canonical calldata; two-RPC comparison and customer history link; requested amount only, no causal proof or reservation release |

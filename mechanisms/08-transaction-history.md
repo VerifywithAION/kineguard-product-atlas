@@ -32,3 +32,7 @@ Single-RPC exact transaction lookup is verified in synthetic integrated CI. A su
 The next candidate checks the same native transaction and receipt through two distinct configured RPC endpoints, including nonce, transaction index, inclusion in the reported block and a shared finalized anchor no older than 15 minutes. Anchor agreement is rechecked at completion. A disagreement or unavailable endpoint leaves the original basic observation unqualified. Integrated synthetic CI passed the positive agreement and nine negative cases; no cryptographic finality, causal attribution or automatic settlement is claimed.
 
 Explicit reviewed nonce comparison passed integrated synthetic match/mismatch tests. An absent nonce remains unbound; a mismatch or competing admission with the same explicit nonce prevents the candidate association. This is not causal proof.
+
+## Exact V3 return association
+
+The next candidate compares an observed zero-value V3 transaction's target and exact calldata against a unique saved ALLOW receipt and its extension-reported hash. The same two-RPC comparison is reused. The displayed internal amount is the requested return, not a verified contract outflow or mined action ID. CI pending; no causal execution or reservation release.

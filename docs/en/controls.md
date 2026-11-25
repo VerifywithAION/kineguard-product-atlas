@@ -7,7 +7,7 @@ KINEGuard 1.0 aims to make all nine controls usable through **My Account → Por
 | Control | Verified progress and scope |
 |---|---|
 | Spending Limits | CI: persistent Sepolia per-transfer limit, immediate tightening, delayed increase and pre-provider block. Exact reviewed-state validation and single-use durable admission: CI PASS. Opt-in conservative cumulative admission cap: CI PASS. Counted amount, remaining admission capacity and cap-change receipt readback: CI PASS after repair. Rolling window and independent settlement remain pending. |
-| Protected Funds | Historical native-ETH V3 contract identity matched byte for byte; current economic readback not certified. Observed EOA balance is not governed funds. Voluntary test funding of the associated V3 contract through the browser policy and explicit MetaMask approval: composition CI PASS with V3 fixture responses and synthetic provider; no protected-funds or withdrawal claim. Two-RPC immediate owner return simulation with exact contract action ID reconstruction: synthetic CI PASS. Contract return admission with a one-use intent, internal economic amount and separate consent passed synthetic HTTP admission and missing-intent extension rejection; composed positive browser test pending CI. Disabled by default, no physical withdrawal certified. |
+| Protected Funds | Historical native-ETH V3 contract identity matched byte for byte; current economic readback not certified. Observed EOA balance is not governed funds. Voluntary test funding of the associated V3 contract through the browser policy and explicit MetaMask approval: composition CI PASS with V3 fixture responses and synthetic provider; no protected-funds or withdrawal claim. Two-RPC immediate owner return simulation with exact contract action ID reconstruction: synthetic CI PASS. Contract return admission with a one-use intent, internal economic amount and separate consent passed synthetic HTTP admission and missing-intent extension rejection; composed positive UI/MV3/server test: synthetic CI PASS. Disabled by default, no physical withdrawal certified. |
 | Browser Protection | Historical physical Chrome/MetaMask/Sepolia proof and integrated CI of bounded forwarding; reviewed argument isolation: CI PASS. Physical candidate acceptance pending. |
 | Emergency Controls | CI for covered browser pause and recovery; historical V3 pending-action veto. No universal freeze. |
 | Recipient Rules | CI for recipient denial on covered native Sepolia transfers; no global rule. |
@@ -79,3 +79,5 @@ Flow: select wallet/record, verify source, read state, explore control, compare 
 ![Wallet Controls](../../assets/screenshots/local-controlled/customer-spending-limits.png)
 
 [Architecture](architecture.md)
+
+V3 return hash lookup now includes a candidate association with exact call fields and the admission receipt (CI pending); the requested internal amount is not verified contract outflow. No settlement or reservation release.
