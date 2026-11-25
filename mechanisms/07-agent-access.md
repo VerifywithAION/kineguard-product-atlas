@@ -22,3 +22,7 @@ No implied universal on-chain delegation or autonomous spending authority. A das
 - Is the result supported by a reproducible runtime proof, rather than an interface label?
 
 **Read more:** [architecture](../docs/architecture.md) · [evidence and proofs](../docs/evidence-and-proofs.md) · [capability matrix](../docs/capability-matrix.md) · [main README](../README.md).
+
+## Owner-selected read budget and lifetime
+
+The next candidate binds an explicit read count (1–10) and duration (1–30 minutes) to the wallet-signed challenge and durable server grant. Exhaustion, revocation, expiry and changes to wallet/agent/policy scope affect eligibility. The owner sees the saved budget, usage and status. Existing grants retain their previous bounds. The bearer token authorizes metadata reads only, not signing, spending, transactions or verified agent identity. CI pending; no autonomous monetary delegation claim.

@@ -37,4 +37,6 @@ The latest documented Hostinger Current baseline is `c557df35a4a4e2551d621f6a792
 
 | Reviewed request isolation and explicit nonce | LAB / CI VERIFIED (bounded) | Snapshot of native transaction arguments; optional explicit nonce in durable decision and association check; no automatic nonce assignment, causal execution or reservation release |
 
-| Exact-pair allowance observation | IMPLEMENTED / CI PENDING | Owner-scoped native RPC read of token/spender allowance at pinned finalized block; exact raw amount and code hash; no standard or spender safety certification, no revoke |
+| Exact-pair allowance observation | LAB / CI VERIFIED (bounded) | Owner-scoped native RPC read of token/spender allowance at pinned finalized block; exact raw amount and code hash; no standard or spender safety certification, no revoke |
+
+| Configurable wallet-signed agent read grant | IMPLEMENTED / CI PENDING | Owner selects signed bounded read count and lifetime, server enforces consumption and revocation, accurate status readback; no delegated spending or signing authority |

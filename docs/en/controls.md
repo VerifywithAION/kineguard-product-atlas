@@ -11,8 +11,8 @@ KINEGuard 1.0 aims to make all nine controls usable through **My Account → Por
 | Browser Protection | Historical physical Chrome/MetaMask/Sepolia proof and integrated CI of bounded forwarding; reviewed argument isolation: CI PASS. Physical candidate acceptance pending. |
 | Emergency Controls | CI for covered browser pause and recovery; historical V3 pending-action veto. No universal freeze. |
 | Recipient Rules | CI for recipient denial on covered native Sepolia transfers; no global rule. |
-| App Approvals | Inspection of known token/spender pairs; new authenticated exact-pair Sepolia lookup pinned to a finalized block implemented, CI pending. Does not verify token standard or spender safety. Effective revocation not certified. |
-| Agent Access | CI for origin restrictions and scoped read delegation; no delegated monetary authority. |
+| App Approvals | Inspection of known token/spender pairs; authenticated exact-pair Sepolia lookup pinned to a finalized block: synthetic CI PASS. Does not verify token standard or spender safety. Effective revocation not certified. |
+| Agent Access | CI for origin restrictions and scoped read delegation; owner-selected signed budget of 1–10 reads and lifetime of 1–30 minutes implemented, CI pending. No delegated monetary authority. |
 | Transaction History | CI for exact Sepolia hash and receipt lookup via one RPC. Candidate association between reported hash and durable decision compares sender, recipient, amount and native calldata: CI PASS. Additional two-RPC agreement, block membership and fresh shared finalized anchor check: CI PASS. Additional explicit reviewed nonce comparison: CI PASS for match and mismatch. No causal proof, complete indexing or independent finality. |
 | Security Decisions | CI for persistent pre-provider receipts and account-scoped readback. Provider-reported result hash capture: CI PASS. Optional explicit request nonce persistence: CI PASS; remains an unverified observation, not proof of signing, broadcast or on-chain finality. |
 
