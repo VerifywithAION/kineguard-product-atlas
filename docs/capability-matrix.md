@@ -18,3 +18,5 @@ Classes describe scoped evidence, not production enforcement. Public-site menus 
 Cross-cutting Admin: authenticated synthetic database counts, operator isolation, custody and RPC inspection passed; hosted owner acceptance pending.
 
 No row is LIVE VERIFIED. [Consolidated checkpoint](integration-evidence-2026-11-25.md) · [Evidence ledger](evidence-and-proofs.md) · [Beta boundaries](beta-status.md).
+
+Agent Access update (2026-11-25): signed-decision contract 16/16 local EVM and account-owned proposal preview HTTP/UI PASS; combined 284/284 at qualified bd15789. Dual-key association E2E-05 stage PASS, full run pending. Internal registered-contract observation candidate pending CI; no live monetary authority. See [mechanism](../mechanisms/07-agent-access.md).

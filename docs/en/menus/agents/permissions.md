@@ -45,3 +45,5 @@ Bounded read delegation has synthetic CI evidence. The separate native monetary 
 **Account candidate:** repaired contract passed local EVM stage; integrated regression pending. Native-budget form evaluates saved policy, recipient, pause and admission capacity. Favorable evaluation is NOT AUTHORIZED; no signature, reservation, durable receipt or execution. Form CI pending. [Mechanism](../../../../mechanisms/07-agent-access.md).
 
 **Candidate update:** signed-decision contract 16/16 local EVM and 284/284 synthetic integrated PASS. New owner-and-agent signed EOA key association with persistence, expiry and revocation awaits CI. It does not establish software identity, register a contract or grant spending. [Mechanism](../../../../mechanisms/07-agent-access.md).
+
+**Update:** saved-policy budget evaluation passed synthetic HTTP/UI CI (16/16 EVM, 284/284 integrated). Dual-key association E2E-05 stage passed; complete run pending. Internal registered-contract dual-RPC observation qualifier awaits CI, with no customer API or authority. [Mechanism](../../../../mechanisms/07-agent-access.md).
