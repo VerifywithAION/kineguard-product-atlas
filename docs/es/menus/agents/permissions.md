@@ -110,3 +110,6 @@ La delegación de lectura acotada se ha probado en CI sintético. La autorizaci�
 
 
 **Actualización:** CI 45733534998 SUCCESS, ZIP candidato publicado, SDK simulado y 25/25 desde extracción, regresión 284/284. Artefacto GitHub 15078007469, 12,184,073 bytes, digest externo de GitHub no equivale al hash ZIP interno; no descarga independiente. [Candidato a5a588f](https://github.com/VerifywithAION/aion-guard-ui/commit/a5a588f5bdad4c813722b3a1759b574fccf2410a) congela lock exacto de 21,401 bytes, 37 paquetes, comparado byte a byte con evidencia CI, npm ci sin resolución variable, auditoría alta/crítica y repetición ZIP sobre mismo árbol. CI 45735052563 en ejecución. Sin reproducibilidad independiente ni auditoría aprobada todavía, recursos AWS, gastos, custodia real o producción. Último PASS integral 4251403.
+
+
+**Actualización:** CI 45735052563 FAIL en paso 8 después de validar lock e instalar 37 paquetes. Criptografía previa PASS; auditoría/ZIP congelado no calificados, sin artefactos nuevos. Causa exacta no establecida, JSON de auditoría no publicado. Intervención diagnóstica bloqueada antes de publicación; HEAD a5a588f intacto. Preservar diagnóstico en próximo gate sin flexibilizar auditoría. Sin AWS ni producción.
