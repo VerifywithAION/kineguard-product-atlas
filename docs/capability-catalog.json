@@ -629,7 +629,7 @@
     "protected_custody_package_artifact": "15078007469",
     "protected_custody_qualified_artifact": "15080281591",
     "protected_custody_qualified_zip_sha256": "f7b2bbf4900a5e2d97d80303ec2ac768112c4bbe83be66e20c05ece941f20e7c",
-    "protected_custody_qualification_gate": "DIAGNOSTIC_CI_SUCCESS_ARTIFACT_PROVENANCE_VERIFIED_LIVE_READ_ONLY_PENDING",
+    "protected_custody_qualification_gate": "LIVE_READY_NO_SIGN_PASS_OWNER_REPORT_SIGN_AUTHORIZATION_AND_AUDIT_PENDING",
     "canonical_identity_compatibility_commit": "91d5a749adb3b696076c9fc08192203f4a462b31",
     "canonical_identity_compatibility_ci": "45743506909",
     "canonical_identity_compatibility_status": "SUCCESS_CI_6_OF_6_SYNTHETIC_ONLY",
