@@ -113,3 +113,6 @@ La delegación de lectura acotada se ha probado en CI sintético. La autorizaci�
 
 
 **Actualización:** CI 45735052563 FAIL en paso 8 después de validar lock e instalar 37 paquetes. Criptografía previa PASS; auditoría/ZIP congelado no calificados, sin artefactos nuevos. Causa exacta no establecida, JSON de auditoría no publicado. Intervención diagnóstica bloqueada antes de publicación; HEAD a5a588f intacto. Preservar diagnóstico en próximo gate sin flexibilizar auditoría. Sin AWS ni producción.
+
+
+**Actualización:** dependencia ws 8.18.3 confirmada en Lambda, afectada por CVE-2026-48779 (alta 7.5, [aviso](https://github.com/advisories/GHSA-96hv-2xvq-fx4p)); aplicación raíz ya fija 8.21.3. [Candidato 9c30c5a](https://github.com/VerifywithAION/aion-guard-ui/commit/9c30c5af5d63173bcc247b5cbf15caa6fdaa6b44) replica override y metadatos exactos del lock raíz, únicamente ws cambia entre 37 entradas. Tres archivos con pins, auditoría intacta. CI 45738219718 pendiente. Causa exacta del fallo previo y explotabilidad no confirmadas; paquete congelado y custodia real aún no calificados. Sin AWS ni producción.
