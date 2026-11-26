@@ -104,3 +104,6 @@ La delegación de lectura acotada se ha probado en CI sintético. La autorizaci�
 
 
 **Actualización:** CI 45723049642 FAIL integral en concurrencia económica (503 en lugar de 200), pese a KMS 25/25, TypeScript, build y transporte PASS. Inversión de locks sesión/cuenta/wallet identificada en fuente; deadlock hipótesis no confirmado por SQLSTATE. [Reparación 5f63346](https://github.com/VerifywithAION/aion-guard-ui/commit/5f633466ebd3a708ca8a7c616031bafe5879fd8e) alinea orden sesión → cuenta → wallet y mantiene exactamente un ganador, cap y recibos; añade diagnóstico de ruta y pins. CI 45725404805 pendiente de adjudicación. No cambios KMS/contrato/migración, paquete no construido, custodia real pendiente. Último PASS integral 5fe5c2a.
+
+
+**Actualización:** CI 45725404805 SUCCESS, KMS 25/25, concurrencia económica PASS y 284/284. [Candidato 4251403](https://github.com/VerifywithAION/aion-guard-ui/commit/4251403a6dd20b26c6f2d15d4367546c9ec2a42c) implementa pipeline aislado ZIP, viem 2.49.3 y SDK KMS 3.1178.0, lock inicial, npm ci, extracción, transporte SDK simulado, inventario y SHA256. CI 45733534998 pendiente. DNS npm local bloqueado; lock debe revisarse y congelarse después de generarlo en CI. Sin ZIP verificado todavía, recursos AWS, gastos ni producción. Último PASS integral 5f63346.

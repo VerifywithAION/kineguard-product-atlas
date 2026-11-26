@@ -621,11 +621,13 @@
     "external_signer_transport_repair_ci": "45720496147",
     "external_signer_transport_repair_status": "SUCCESS_CI_ONLY_IDENTITY_TRANSPORT_NO_CUSTODY",
     "protected_custody_provider_candidate": "AWS_KMS_ECC_SECG_P256K1_PROPOSED_NOT_PROVISIONED",
-    "protected_custody_status": "KMS_SYNTHETIC_25_OF_25_PASS_FULL_CI_FAILED_SHARED_ADMISSION_RACE",
+    "protected_custody_status": "KMS_SYNTHETIC_25_OF_25_AND_FULL_REGRESSION_PASS_LIVE_CUSTODY_UNQUALIFIED",
     "shared_admission_lock_order_repair_commit": "5f633466ebd3a708ca8a7c616031bafe5879fd8e",
     "shared_admission_lock_order_repair_ci": "45725404805",
-    "shared_admission_lock_order_repair_status": "CI_PENDING_DEADLOCK_HYPOTHESIS_NOT_CONFIRMED",
-    "protected_custody_package_status": "ACCEPTANCE_SPEC_ONLY_NOT_BUILT",
+    "shared_admission_lock_order_repair_status": "SUCCESS_CI_ONLY_SHARED_CAP_RACE_SQLSTATE_UNOBSERVED",
+    "protected_custody_package_status": "CANDIDATE_PIPELINE_IMPLEMENTED_CI_PENDING_LOCK_NOT_FROZEN",
+    "protected_custody_package_commit": "4251403a6dd20b26c6f2d15d4367546c9ec2a42c",
+    "protected_custody_package_ci": "45733534998",
     "protected_custody_adapter_commit": "6b51df517ba1acdeef6021ce1502f484c4e65e57",
     "protected_custody_adapter_ci": "45723049642"
   }
